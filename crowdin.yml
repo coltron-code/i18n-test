@@ -1,5 +1,5 @@
 project_id: '515022'
-api_token_env: 1a0363e024d4a367a53bf684014e0a110abbe05bc1e54f964e5e9d48d1bd39157dd1d77ebf73422b
+api_token_env: 47b3fdab6bd18668c122f548aa55c17a208a28891d12531a89d40507953b76d450650cd58398e902
 preserve_hierarchy: true
 files:
   # JSON translation files
@@ -10,4 +10,4 @@ files:
     translation: /i18n/%two_letters_code%/docusaurus-plugin-content-docs/current/**/%original_file_name%
   # Blog Markdown files
   - source: /blog/**/*
-    translation: /i18n/%two_letters_code%/docusaurus-plugin-content-blog/**/%original_file_name%
+    translation: /i18n/%two_letters_code%/docusaurus-plugin-content-blog/**/%original_file_name%cro
