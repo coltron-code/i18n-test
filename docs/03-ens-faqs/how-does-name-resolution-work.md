@@ -1,10 +1,9 @@
 ---
-sidebar_position: 1
-title: Setting Primary Name
-id: Primary Names
+title: How does name resolution work?
+id:  Name resolution explained
 ---
 
-# How do I set a Primary Name for my wallet?
+# How does name resolution work?
 
 The Primary record is your _reverse record_ responsible for resolving your wallet address to your ENS name, effectively helping DApps and other services display your ENS name based on your wallet address_._
 

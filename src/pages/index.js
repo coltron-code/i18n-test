@@ -23,7 +23,7 @@ function HomepageHeader() {
             className="button button--secondary button--lg"
             to="/docs/intro">
               <Translate description="Hero Banner Text">
-              Docusaurus Tutorial - 5min ⏱️
+              Coltron CTA Button
               </Translate>
           </Link>
         </div>
