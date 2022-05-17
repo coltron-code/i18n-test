@@ -10,7 +10,7 @@ const config = {
   tagline: 'Learn about your Web3 Username',
   url: 'https://learn.ens.domains',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
 

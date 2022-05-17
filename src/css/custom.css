@@ -9,7 +9,7 @@
   --ifm-color-primary: #2e8555;
   --ifm-color-primary-dark: #29784c;
   --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
+  --ifm-color-primary-darkest: #161717;
   --ifm-color-primary-light: #33925d;
   --ifm-color-primary-lighter: #359962;
   --ifm-color-primary-lightest: #3cad6e;
@@ -29,7 +29,7 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
-ody {
+body {
   margin: 0px;
   background: #f6f7fa;
 }
@@ -38,8 +38,13 @@ div[role="group"][tabindex] {
   height: 100%;
 }
 
+hero__title {
+  color: #000000;
+}
+
+
 @font-face {
-  font-family: "JakartaSans";
+  font-family: "Jakartans";
   src: url("../assets/webfonts/PlusJakartaSans-Regular.woff2") format("woff2"),
   url("../assets/webfonts/PlusJakartaSans-Regular.woff") format("woff");
   font-weight: normal;
