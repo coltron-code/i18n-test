@@ -1,5 +1,5 @@
 ---
-title:  Registering a Name
+title: Registering a Name
 id: Registering Names
 ---
 
