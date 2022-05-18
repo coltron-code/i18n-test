@@ -13,17 +13,17 @@ We recommend setting multiple addresses at once to save on gas fees. Adding or r
 
 In the ENS Manager, you can add a cryptocurrency address by copying and pasting your cryptocurrency address in the corresponding address field.
 
-<!-- ![](<../.gitbook/assets/image (12).png>) -->
+![Adding Cryptocurrencies to your address records](img/add-currency-1.png "Your wallet addresses are displayed in the corresponding currency fields.")
 
 If your coin type is not listed in the pre-existing fields, find the coin dropdown menu and select your currency. Click `ADD/EDIT RECORD`.
 
-<!-- ![](<../.gitbook/assets/image (18).png>) -->
+![Adding Cryptocurrencies to your address records](img/add-currency-2.png "Selecting the Add/Edit Link opens a dropdown menu.")
 
-<!-- ![](<../.gitbook/assets/image (8).png>) -->
+![Adding Cryptocurrencies to your address records](img/add-currency-3.png "Select the currency you would lke to add to your records.")
 
 When you have entered all of your desired cryptocurrency, or have made changes to your other records, scroll down to the bottom of the manager page.
 
-<!-- ![](<../.gitbook/assets/image (5).png>) -->
+![Adding Cryptocurrencies to your address records](img/add-currency-4.png "You can also edit your text records at this time to save gas fees.")
 
 **Important:** To permanently make these changes, you must select the "Confirm" button. This will change the on-chain data and will incur a gas fee.
 

@@ -9,22 +9,24 @@ id: Registering Names
 
 Go to the [ENS Manager App](https://app.ens.domains) and connect your wallet with the connect-button. Make sure that your wallet shows as _connected_ or the registration will likely not be successful.
 
-<!-- ![](https://clarity-so.s3.amazonaws.com/3b15b359-24c1-4156-ba53-e9882a65673f/rbuMH5tkxCjPCssRHDNiXY.png) -->
+![Connecting to the manager app. Step 1.](img/register-1.png "Connect your wallet by selecting the Connect button.")
 
 ### Connect your wallet
 
 Choose how to connect with your wallet. In case you're unsure if your wallet supports WalletConnect or not, a list is provided on WalletConnect's website [here](https://walletconnect.com/registry/wallets).
 
 
-<!-- ![](https://clarity-so.s3.amazonaws.com/3b15b359-24c1-4156-ba53-e9882a65673f/x5xZSV5Caqod3L8CeNe6vp.png) -->
+![Connecting to the manager app. Step 2](img/register-2.png "Connect using your wallet or the Wallet Connect service")
 
 ### Search for the ENS name you want
 
-<!-- ![](https://clarity-so.s3.amazonaws.com/3b15b359-24c1-4156-ba53-e9882a65673f/vuiFbtLAfvxdozSbKAHZH9.png) -->
+![Serching for an ENS Name](img/register-3.png "Search for an ENS Name to check availability.")
+
 
 Provided that the name you searched for is available, click on it to continue with the registration.
 
-<!-- ![](https://clarity-so.s3.amazonaws.com/3b15b359-24c1-4156-ba53-e9882a65673f/azco7vrfEwRAeKd9D2Qn1n.png) -->
+![Checking ENS Name availability](img/register-4.png "If the name is available it will display this on the right side of the screen.")
+
 
 ### Registering your ENS name
 
@@ -45,16 +47,15 @@ It's a good idea to:
 Once you're ready click "Request to Register".
 
 
-<!-- ![](https://clarity-so.s3.amazonaws.com/3b15b359-24c1-4156-ba53-e9882a65673f/tNj4feydtXbDCqgawtdEyc.png) -->
+![Registering your ENS Name. Step 1](img/register-5.png "Select the number of years you want to register for.")
 
 Check that the cost of the transaction is what you expect it to be and confirm the transaction in your wallet.
 
 #### Step 2: Wait 1 minute
 
-After the Step 1 transaction completes there's a 1 minute waiting period in order to prevent front-running.\
+After the Step 1 transaction completes there's a 1 minute waiting period in order to prevent front-running.
 
-
-<!-- ![](https://clarity-so.s3.amazonaws.com/3b15b359-24c1-4156-ba53-e9882a65673f/4pHmMNYLTa8SjVRzMdNbPE.png) -->
+![Registering your ENS Name. Step 2](img/register-6.png "Wait one minute after you request to register.")
 
 #### Step 3: Register
 
@@ -63,9 +64,9 @@ After you've waited 1 minute and Step 2 has completed it's time to actually _Reg
 It might be a good idea to double-check that gas costs are still low during this time. Once you're ready to proceed click the Register button and confirm the transaction in your wallet.\
 
 
-<!-- ![](https://clarity-so.s3.amazonaws.com/3b15b359-24c1-4156-ba53-e9882a65673f/c8un12SvDjjJGGMdNJfNsr.png) -->
+![Registering your ENS Name. Step 3](img/register-7.png "After waiting one minutes, select Register, and approve the transaction in your wallet.")
 
 Congratulations! If all transactions went through successfully you should now be the proud owner of your very own ENS name!
 
-<!-- ![](https://clarity-so.s3.amazonaws.com/3b15b359-24c1-4156-ba53-e9882a65673f/sYCmSsG2tdJVkN3R373x6v.png) -->
+![Your name is registered](img/register-8.png "After the transaction is approved on the blockchain, it is now your new ENS Name!")
  
