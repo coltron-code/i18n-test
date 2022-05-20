@@ -11,21 +11,22 @@ Whenever you make a transaction on the Ethereum blockchain there are fees incurr
 
 If set too low the transaction will stall, and will drop once the mempool is full, but you won't be charged for gas. This fee is burned as of [EIP-1559](https://notes.ethereum.org/@vbuterin/eip-1559-faq).
 
-<!-- ![](<../../.gitbook/assets/image (13).png>)\ -->
+![Adjusting max fee.](img/gas-1.png "Adjusting max gas fee in GWEI.")
+
 
 
 ### 2. Tip (or priority fee)
 
 A tip or priority fee is paid to incentivize miners to include your transaction in a block as soon as possible.
 
-<!-- ![](https://clarity-so.s3.amazonaws.com/3b15b359-24c1-4156-ba53-e9882a65673f/szDJa4aw24o2GhCni8jEYV.png) -->
+![Adjusting priority fee.](img/gas-2.png "Adjusting the priority fee in GWEI")
 
 ### 3. Gas limit
 
 The upper limit on how much gas is allowed to be used, if set too low the transaction will fail and you'll be charged for the gas used up until that point.\
 
 
-<!-- ![](https://clarity-so.s3.amazonaws.com/3b15b359-24c1-4156-ba53-e9882a65673f/jV1zsJoKxoLvRFwSJ7Ajea.png) -->
+![Setting gas limit.](img/gas-3.png "Setting the upper limit of how much gas can be used.")
 
 ### Always review transactions
 
@@ -35,15 +36,14 @@ Ethereum gas fees fluctuate constantly and in order to use Ethereum economically
 
 There are times when you may need to adjust gas fee settings manually, take time to learn how to do this in the wallet you use so as to avoid making (costly) mistakes later.\
 
-<!-- 
-![](https://clarity-so.s3.amazonaws.com/3b15b359-24c1-4156-ba53-e9882a65673f/mi6agxdYoTemmrNFGMtJ1f.png) -->
+![Review your transaction.](img/gas-4.png "Always review your transaction settings.")
 
 #### Make sure the gas fee isn't excessive 
 
-<!-- ![](https://clarity-so.s3.amazonaws.com/3b15b359-24c1-4156-ba53-e9882a65673f/g7sfcKaXnKh9TVQuu53Qpu.png) -->
+![Check your gas fees.](img/gas-5.png "Check your gas fees.")
 
 #### Make sure the total amount of the transaction is what you expect 
 
-<!-- ![](https://clarity-so.s3.amazonaws.com/3b15b359-24c1-4156-ba53-e9882a65673f/sSXhjSHXkt8Xd46Bk4V9vJ.png) -->
+![Check transaction total.](img/gas-6.png "Check the total amount of your transaction.")
 
 If the fees and the value of the transaction is what you expect it to be, then confirm the transaction.

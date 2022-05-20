@@ -13,7 +13,7 @@ Over 21 days, the premium price will decline until the premium fee is $0. The pr
 
 In the user interface of the [ENS App](https://app.ens.domains), clicking on the line chart for an ENS name in premium will give a price estimate for the specific date and time chosen. You will need enough Ether to pay the premium fee plus the yearly registration fee.
 
-<!-- ![](<../../.gitbook/assets/image (17).png>) -->
+![Manager app displaying premium decay.](img/premium-auction-1.png "Chart of premium decay period.")
 
 ### Why have a premium auction at all?
 

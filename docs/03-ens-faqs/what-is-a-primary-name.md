@@ -11,7 +11,7 @@ The Primary ENS name is the reverse record that resolves a wallet address to an 
 
 Setting your Primary ENS Name record will allow dApps to find your ENS name when connecting with your Ethereum wallet. For example, an Ethereum wallet with a Primary ENS name will show primaryname_.eth_ when logged into Uniswap. On OpenSea, your profile will show your Primary ENS name on your profile page. This is because OpenSea integrates with ENS and reads the reverse record to find the .eth name.
 
-<!-- ![](<../../.gitbook/assets/image (16).png>) -->
+![Primary name on Opensea.io](img/primary-name-1.png "Opensea.io displaying a primary ENS Name.")
 
 Although it commonly is, the primary name does not need to be the same wallet as the ENS name owner or Registrant. As long as the Ethereum wallet is set as the ETH address record, that wallet can select the ENS name as its Primary name selection.
 
@@ -19,7 +19,8 @@ To select a Primary ENS name, head over to the [ENS App](https://app.ens.domains
 
 **Note:** A wallet address can only have one Primary name.
 
-<!-- ![](<../../.gitbook/assets/image (1).png>) -->
+![Primary name in the manager app.](img/primary-name-2.png "Manger app displaying the primary name.")
+
 
 ### Further Reading:
 

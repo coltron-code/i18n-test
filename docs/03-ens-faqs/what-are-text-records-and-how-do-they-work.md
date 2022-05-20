@@ -15,13 +15,13 @@ For technical data on the EIP that makes this possible, see: [EIP-634](https://e
 
 ### How can I add a text record?
 
-In the [ENS App](https://app.ens.domains), you can add a record by clicking the ‘+’ button in the ‘records’ tab:
+In the [ENS App](https://app.ens.domains), you can add a record by clicking the ‘Add/Edit’ link in the ‘records’ tab:
 
-<!-- ![](<../../.gitbook/assets/image (10).png>) -->
+![Add/Edit Records](img/text-records-1.png "Add/Edit your text records.")
 
 You should see some drop down boxes appear that will allow you to choose to add a “TEXT” record, the kind of text record (e.g. “URL”), and then enter the information for that record:
 
-<!-- ![](<../../.gitbook/assets/image (2).png>) -->
+![Add your text.](img/text-records-2.png "Add your text to the fields.")
 
 Once you’re ready, click "Confirm" to send the transaction, and once it’s mined you should see it appear below.
 
