@@ -1,9 +1,8 @@
-endi:
-  name: Endilie Yacop Sucipto
-  title: Maintainer of Docusaurus
+daylon:
+  name: daylon.eth
+  title: ENS DAO Newletter Editor
   url: https://github.com/endiliey
-  image_url: https://github.com/endiliey.png
-
+  image_url: '/img/author-daylon.png'
 yangshun:
   name: Yangshun Tay
   title: Front End Engineer @ Facebook

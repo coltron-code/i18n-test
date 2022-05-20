@@ -11,7 +11,7 @@ const config = {
   url: 'https://learn.ens.domains',
   baseUrl: '/',
   onBrokenLinks: 'ignore',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenMarkdownLinks: 'ignore',
   favicon: 'img/favicon.ico',
 
   // GitHub pages deployment config.
@@ -69,12 +69,11 @@ const config = {
         title: 'Learn Docs',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: '/img/ensLogov2.svg',
         },
         items: [
           {
-            type: 'doc',
-            docId: 'intro',
+            to: '/docs/category/getting-started',
             position: 'left',
             label: 'Learn Docs',
           },
@@ -89,7 +88,7 @@ const config = {
             position: 'left',
           },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/ensdomains',
             label: 'GitHub',
             position: 'right',
           },
@@ -103,11 +102,19 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Documents',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Learn Docs',
+                to: '/docs/category/getting-started',
+              },
+              {
+                label: 'Governance Docs',
+                to: 'https://docs.ens.domains/v/governance/',
+              },
+              {
+                label: 'ENS Technical Docs',
+                to: 'https://docs.ens.domains/',
               },
             ],
           },
@@ -115,16 +122,12 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                to: 'https://chat.ens.domains',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                to: 'https://twitter.com/ensdomains',
               },
             ],
           },
@@ -132,17 +135,17 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'ENS DAO Newsletter',
+                href: 'https://ensdaonews.substack.com/',
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/ensdomains',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Ethereum Name Service Documentation.`,
       },
       prism: {
         theme: lightCodeTheme,
