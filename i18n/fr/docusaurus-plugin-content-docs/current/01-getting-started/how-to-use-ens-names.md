@@ -1,7 +1,6 @@
 ---
-sidebar_position: 4
-title: ENS Name Use Cases
-id: What can I use and ENS name for
+title: What can I use an ENS name for?
+id: Using Your ENS Name
 ---
 
 # What can I use an ENS name for?
@@ -28,4 +27,4 @@ By coupling your decentralized ENS name with a service for hosting decentralized
 
 **URLs and e-mail.** Your ENS name can store your e-mail or website. This will provide resources for anyone who has access to your name the ability to contact you.
 
-**Custom Text Records.** our ENS name is also capable of storing custom records to can contain nearly anything you want to display or integrate into your own services.\
+**Custom Text Records.** our ENS name is also capable of storing custom records to can contain nearly anything you want to display or integrate into your own services.

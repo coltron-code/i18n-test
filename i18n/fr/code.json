@@ -7,7 +7,7 @@
     "message": "This page crashed.",
     "description": "The title of the fallback page when the page crashed"
   },
-  "tnomheme.ErrorPageContent.tryAgain": {
+  "theme.ErrorPageContent.tryAgain": {
     "message": "Try again",
     "description": "The label of the button to try again when the page crashed"
   },
