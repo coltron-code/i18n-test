@@ -10,5 +10,5 @@ files:
     translation: /i18n/%two_letters_code%/docusaurus-plugin-content-docs/current/**/%original_file_name%
   # Blog Markdown files
   - source: /blog/**/*
-    translation: /i18n/%two_letters_code%/docusaurus-plugin-content-blog/**/%original_file_name%cro 
-    translation: /i18n/%two_letters_code%/docusaurus-plugin-content-blog/**/%original_file_name%cro
+    translation: /i18n/%two_letters_code%/docusaurus-plugin-content-blog/**/%original_file_name%
+    translation: /i18n/%two_letters_code%/docusaurus-plugin-content-blog/**/%original_file_name%
