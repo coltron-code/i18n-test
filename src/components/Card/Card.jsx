@@ -11,13 +11,14 @@ const StyledCard = styled('div')`
   background-color: white;
   cursor: pointer;
   &:hover {
-    transform: translateY(-5px);
+    transform: translateY(-2px);
   }
 `;
 const StyledCardInner = styled('div')`
   padding: 24px 22px;
   display: grid;
-  gap: 5px;
+  gap: 5px;import { Button } from "@ensdomains/thorin"
+
 
   /* background-color: red; */
 `;

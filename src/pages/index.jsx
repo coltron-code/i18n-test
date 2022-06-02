@@ -6,6 +6,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Translate from '@docusaurus/Translate';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import styled from 'styled-components';
+import { Button, Textarea } from '@ensdomains/thorin';
 import styles from './index.module.css';
 import Card from '../components/Card/Card';
 
@@ -33,6 +34,7 @@ export default function Hojme() {
       description="Description will go into a meta tag in <head />"
     >
       <StyledContainer>
+        <Button> Putas</Button>
         <br />
         <br />
         <br />
@@ -44,6 +46,7 @@ export default function Hojme() {
           <Card title="Set your Primary Name" description="Associate an ENS name with your Ethereum wallet." />
         </StyledFaqCardGrid>
       </StyledContainer>
+      <Textarea />
 
       {/* <NavigationV2 /> */}
       <main>
