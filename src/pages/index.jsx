@@ -1,14 +1,13 @@
 import React from 'react';
-import clsx from 'clsx';
-import Layout from '@theme/Layout';
-import Link from '@docusaurus/Link';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import Translate from '@docusaurus/Translate';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import styled from 'styled-components';
-import { Button, Textarea } from '@ensdomains/thorin';
-import styles from './index.module.css';
 import Card from '../components/Card/Card';
+import './index.css';
+import Navigation from '../components/NavigationV2/Navigationv2';
+import Layout from '@theme/Layout';
+import discordGrey from '../assets/discordGrey.svg';
+import discussGrey from '../assets/discussGrey.svg';
+import twitterGrey from '../assets/twitterGrey.svg';
 
 const StyledFaqCardGrid = styled('div')`
   display: grid;
@@ -24,34 +23,76 @@ const StyledFaqCardGrid = styled('div')`
 const StyledContainer = styled('div')`
   width: 80%;
   margin: 0 auto;
+  height: 70vh;
+  display: grid; 
+  /* background: red; */
+  align-items: center;  
+`;
+const Footer = styled('div')`
+flex-shrink: 0;
+display: flex;
+align-items: center;
+justify-content: flex-end;
+padding: 20px 20px 20px 0;
+
+& > a {
+  margin-right: 10px;
+}
 `;
 
 export default function Hojme() {
-  const { siteConfig } = useDocusaurusContext();
+  // const { siteConfig } = useDocusaurusContext();
   return (
-    <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />"
-    >
+    <>
+      <Layout />
+      {/* <Navigation /> */}
+
       <StyledContainer>
-        <Button> Putas</Button>
-        <br />
-        <br />
-        <br />
-        <br />
+        <div className="main">
+          <div className="heros">
+            <div className="main-title">
+              ENS Learn Docs
+            </div>
+            <div className="subtitle">
+              ENS Learn Docs
+            </div>
+          </div>
+          <div className="faq-bar">
+            <div>Frequently Asked Questions</div>
+            <input placeholder="Hello from ens" type="text" />
+          </div>
+          <br />
 
-        <StyledFaqCardGrid>
-          <Card title="Set your Primary Name" description="Associate an ENS name with your Ethereum wallet." />
-          <Card title="Set your Primary Name" description="Associate an ENS name with your Ethereum wallet." />
-          <Card title="Set your Primary Name" description="Associate an ENS name with your Ethereum wallet." />
-        </StyledFaqCardGrid>
+          <StyledFaqCardGrid>
+            <Card title="Set your Primary Name" description="Associate an ENS name with your Ethereum wallet." />
+            <Card title="Set your Primary Name" description="Associate an ENS name with your Ethereum wallet." />
+            <Card title="Set your Primary Name" description="Associate an ENS name with your Ethereum wallet." />
+          </StyledFaqCardGrid>
+        </div>
       </StyledContainer>
-      <Textarea />
+      <main />
+      <Footer>
+        <a href="https://twitter.com/ensdomains">
+          <img
+            src={twitterGrey}
+            width="34"
+            css={{ marginTop: '2px' }}
+            alt="Twitter"
+          />
+        </a>
+        <a href="https://discuss.ens.domains/">
+          <img src={discussGrey} width="33" alt="Discuss" />
+        </a>
+        <a href="https://chat.ens.domains/">
+          <img
+            src={discordGrey}
+            width="30"
+            css={{ marginLeft: '4px' }}
+            alt="Discord"
+          />
+        </a>
+      </Footer>
 
-      {/* <NavigationV2 /> */}
-      <main>
-        <HomepageFeatures />
-      </main>
-    </Layout>
+    </>
   );
 }

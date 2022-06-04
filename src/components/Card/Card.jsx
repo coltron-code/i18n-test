@@ -17,16 +17,20 @@ const StyledCard = styled('div')`
 const StyledCardInner = styled('div')`
   padding: 24px 22px;
   display: grid;
-  gap: 5px;import { Button } from "@ensdomains/thorin"
+  gap: 5px;
 
 
   /* background-color: red; */
 `;
 const StyledCardTitle = styled('div')`
   font-size: 24px;
+  font-weight: 600;
+  color: #333333;
+
 `;
 const StyledCardDescription = styled('div')`
   font-size: 16px;
+  color: #717171
 `;
 const StyledCardImage = styled('img')`
  margin-left: auto;

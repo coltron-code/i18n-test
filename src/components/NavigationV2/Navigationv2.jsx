@@ -1,14 +1,15 @@
 import React, { useState } from 'react';
-import styled from 'styled-components';
+import styled from '@emotion/styled';
+import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
-// import Logo from ".s/Logov2"
 import { Button } from '@ensdomains/thorin';
+import Logo from './Logov2';
 
-import mq from './mediaQuery';
-// import LanguageSwitcher from "./LanguageSwitcherv2"
+import mq from '../../mediaQuery';
+// import LanguageSwitcher from './LanguageSwitcherv2';
 
-// import close from "../assets/close.svg"
-// import menu from "../assets/menu.svg"
+import close from '../../assets/close.svg';
+import menu from '../../assets/menu.svg';
 
 const Nav = styled('nav')`
   ${(p) => p.menuOpen
@@ -22,7 +23,7 @@ const Nav = styled('nav')`
   position: sticky;
   z-index: 100000;
   top: 0;
-  background: #f6f7fa;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(183, 120, 255, 0.062) 0%, rgba(183, 120, 255, 0) 100%), #F6F6F6;
 
   ${mq.medium`
       padding: 60px 60px 10px 60px;
@@ -105,15 +106,8 @@ const MobileLinks = styled('ul')`
 const Launch = styled(Button)`
   padding: 13px 30px !important;
   font-family: JakartaSans;
-`;
+  background: linear-gradient(323.31deg, #DE82FF -15.56%, #7F6AFF 108.43%);
 
-const Separator = styled('div')`
-  width: 1px;
-  height: 48px;
-  background: #717171;
-  opacity: 0.3;
-  margin-right: 20px;
-  margin-left: 16px;
 `;
 
 const NavLink = styled('a')`
@@ -143,14 +137,14 @@ const NavLink = styled('a')`
 `;
 
 export default function Navigation() {
-  // const { t } = useTranslation()
+  const { t } = useTranslation();
   // const location = useLocation();
   // const pathname = location.pathname;
   const [menuOpen, setMenuOpen] = useState(false);
   return (
     <Nav menuOpen={menuOpen}>
       <Link to="/">
-        {/* <Logo /> */}
+        <Logo />
       </Link>
 
       <div className="mobile-nav">
@@ -161,13 +155,13 @@ export default function Navigation() {
         >
           {!menuOpen ? (
             <img
-              src="menu"
+              src={menu}
               width="36"
               css={menuOpen ? { opacity: '1' } : { opacity: '0.3' }}
               alt={menu}
             />
           ) : (
-            <img src="close" width="36" alt="Close" />
+            <img src={close} width="36" alt="Close" />
           )}
         </button>
       </div>
@@ -176,12 +170,8 @@ export default function Navigation() {
         <NavLink href="/governance" active>
           Governance
         </NavLink>
-        <NavLink href="https://chat.ens.domains/">Community</NavLink>
-        <NavLink href="/about">Team</NavLink>
-        <NavLink href="/jobs">Jobs</NavLink>
-        <NavLink href="https://docs.ens.domains/">Docs</NavLink>
+        <NavLink href="https://chat.ens.domains/">Developers</NavLink>
 
-        <Separator />
         {/* <LanguageSwitcher /> */}
         <a href="https://app.ens.domains">
           <Launch style={{ opacity: 1 }} text={t('nav.launch')} />
@@ -206,7 +196,7 @@ export default function Navigation() {
         </li>
         <li>
           <a href="https://app.ens.domains">
-            <Launch text={t('nav.launch')} />
+            <Launch text="Get Support" />
           </a>
         </li>
       </MobileLinks>

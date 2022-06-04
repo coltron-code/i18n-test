@@ -33,6 +33,7 @@
 }
 
 body {
+  font-family: JakartaSans !important;
   margin: 0px;
   background: radial-gradient(50% 50% at 50% 50%, rgba(183, 120, 255, 0.062) 0%, rgba(183, 120, 255, 0) 100%), #F6F6F6;
 }
@@ -76,4 +77,99 @@ div[role="group"][tabindex] {
   src: url("../assets/webfonts/PlusJakartaSans-Bold.woff2") format("woff2"),
     url("../assets/webfonts/PlusJakartaSans-Bold.woff") format("woff");
   font-weight: bold;
+}
+
+.menu__list .menu__list {
+  flex: 0 0 100%;
+  margin-top: 0;
+  background: rgba(0, 0, 0, 0.05);
+  border-bottom: 1px solid rgba(128, 128, 128, 0.301);
+  border-left: 1px solid rgba(128, 128, 128, 0.301);
+  border-right: 1px solid rgba(128, 128, 128, 0.301);
+
+  flex: 0 0 100%;
+  padding-left: 0;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+
+}
+
+.menu__list-item-collapsible {
+  background: white;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+
+  margin-top: 1rem;
+  /* border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem; */
+
+}
+
+.menu__list-item-collapsible a {
+  border: none !important;
+}
+
+
+.menu__list-item:not(:first-child) {
+  margin-top: 0;
+}
+
+.menu__link {
+  padding: 1rem;
+  /* border-bottom: 1px solid gray; */
+  /* background-color: red; */
+}
+
+.menu__link:first-child {
+  /* background: red; */
+}
+
+.menu__list .menu__list {
+  flex: 0 0 100%;
+  padding-left: 0;
+  /* border-radius: 1rem; */
+}
+
+
+
+.menu__list-item {
+  /* background: white; */
+  /* border-bottom: 1px solid rgba(128, 128, 128, 0.158); */
+  /* border-radius: 1rem; */
+
+
+}
+
+
+
+.clean-btn {
+  border-radius: 0 !important;
+}
+
+
+
+.theme-doc-sidebar-container {
+  /* width: 500px !important; */
+  /* background-color: red; */
+}
+
+.sidebar_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocSidebar-Desktop-styles-module {
+  /* width: 100% !important; */
+  /* background-color: red; */
+}
+
+
+.padding--lg {
+  padding: 1rem !important
+}
+
+
+.padding--lg img {
+  display: none !important;
+
+}
+
+.padding--lg h2 {
+  color: red;
+  font-weight: 500;
 }
