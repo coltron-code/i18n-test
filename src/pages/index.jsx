@@ -1,6 +1,7 @@
 import React from 'react';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 import Card from '../components/Card/Card';
 import './index.css';
 import Navigation from '../components/NavigationV2/Navigationv2';
@@ -23,7 +24,7 @@ const StyledFaqCardGrid = styled('div')`
 const StyledContainer = styled('div')`
   width: 80%;
   margin: 0 auto;
-  height:82vh;
+  height:80vh;
   display: grid; 
   /* background: red; */
   align-items: center;  
@@ -40,11 +41,16 @@ padding: 20px 20px 20px 0;
 }
 `;
 
+const listItems = [
+  { title: 'What can I use an ENS name for?', description: 'An ENS Name is an way to remember you cryptocurrency addresses', url: '/docs/getting-started/Using%20Your%20ENS%20Name' },
+  { title: 'Registering a Name', description: 'Go to the ENS Manager App and connect your wallet with the connect-button.', url: '/docs/getting-started/Registering%20Names' },
+  { title: 'Setting your Profile Avatar', description: 'If you don’t already have an ENS name, you can register an ENS name or import a DNS domain name you already own at app.ens.domains. You can set an NFT avatar for either kind of ENS name.', url: '/docs/getting-started/Setting%20Avatar' },
+];
+
 export default function Hojme() {
   // const { siteConfig } = useDocusaurusContext();
   return (
-    <>
-      <Layout />
+    <Layout>
       {/* <Navigation /> */}
 
       <StyledContainer>
@@ -64,9 +70,15 @@ export default function Hojme() {
           <br />
 
           <StyledFaqCardGrid>
-            <Card title="Set your Primary Name" description="Associate an ENS name with your Ethereum wallet." />
-            <Card title="Set your Primary Name" description="Associate an ENS name with your Ethereum wallet." />
-            <Card title="Set your Primary Name" description="Associate an ENS name with your Ethereum wallet." />
+            {listItems.map((item) => (
+              <Link to={item.url}>
+                <Card
+                  title={item.title}
+                  description={item.description}
+                />
+              </Link>
+            ))}
+
           </StyledFaqCardGrid>
         </div>
       </StyledContainer>
@@ -92,7 +104,6 @@ export default function Hojme() {
           />
         </a>
       </Footer>
-
-    </>
+    </Layout>
   );
 }

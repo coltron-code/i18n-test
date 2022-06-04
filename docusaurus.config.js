@@ -75,23 +75,18 @@ const config = {
           {
             to: '/docs/category/getting-started',
             position: 'right',
-            label: 'Learn Docs',
+            label: 'Docs',
           },
-          // {
-          //   to: 'https://docs.ens.domains/v/governance/',
-          //   label: 'Governance Docs',
-          //   position: 'right',
-          // },
-          // {
-          //   to: 'https://docs.ens.domains/',
-          //   label: 'Technical Docs',
-          //   position: 'right',
-          // },
-          // {
-          //   href: 'https://github.com/ensdomains',
-          //   label: 'GitHub',
-          //   position: 'right',
-          // },
+          {
+            to: '/docs/category/getting-started',
+            position: 'right',
+            label: 'Governance',
+          },
+          {
+            to: '/docs/category/getting-started',
+            position: 'right',
+            label: 'Developers',
+          },
           {
             type: 'localeDropdown',
             position: 'right',

@@ -56,3 +56,7 @@
 .heros {
     /* padding: 2rem 0; */
 }
+
+.pagination-nav__link {
+    border-radius: 1rem;
+}
