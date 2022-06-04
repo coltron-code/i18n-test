@@ -189,4 +189,32 @@ div[role="group"][tabindex] {
   background: radial-gradient(50% 50% at 50% 50%, rgba(183, 120, 255, 0.062) 0%, rgba(183, 120, 255, 0) 100%), #F6F6F6;
   /* box-shadow: 0px 3px 24px rgb(0 0 0 / 3%); */
   box-shadow: none;
+  height: fit-content;
+  /* padding: 5rem 0; */
+}
+
+.navbar__logo {
+  height: fit-content;
+}
+
+.navbar__logo:hover {
+  transition: .4s;
+  filter: brightness(1.1);
+}
+
+.navbar__logo img {
+  position: relative;
+  height: 50px;
+}
+
+.dropdown {
+  box-shadow: 0px 3px 24px rgba(0, 0, 0, 0.03);
+  border-radius: 16px;
+  /* Color / White */
+  font-weight: normal !important;
+  background: #FFFFFF;
+  /* Border / Default */
+
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  border-radius: 10px;
 }

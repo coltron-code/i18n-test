@@ -28,9 +28,7 @@
     /* identical to box height */
     text-align: center;
     letter-spacing: -0.01em;
-    padding: 1rem 0;
-    /* DAO Gradient */
-    background: linear-gradient(323.31deg, #DE82FF -15.56%, #7F6AFF 108.43%);
+    background: linear-gradient(30.31deg, #DE82FF -15.56%, #7F6AFF 108.43%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;

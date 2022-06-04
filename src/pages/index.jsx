@@ -23,7 +23,7 @@ const StyledFaqCardGrid = styled('div')`
 const StyledContainer = styled('div')`
   width: 80%;
   margin: 0 auto;
-  height: 70vh;
+  height:82vh;
   display: grid; 
   /* background: red; */
   align-items: center;  
@@ -54,12 +54,12 @@ export default function Hojme() {
               ENS Learn Docs
             </div>
             <div className="subtitle">
-              ENS Learn Docs
+              Learn about your web3 identity.
             </div>
           </div>
           <div className="faq-bar">
             <div>Frequently Asked Questions</div>
-            <input placeholder="Hello from ens" type="text" />
+            <input placeholder="Algolia Docsearch Will be here" type="text" />
           </div>
           <br />
 
