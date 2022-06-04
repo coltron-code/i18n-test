@@ -74,23 +74,18 @@ const config = {
         items: [
           {
             to: '/docs/category/getting-started',
-            position: 'left',
-            label: 'Learn Docs',
-          },
-          {
-            to: 'https://docs.ens.domains/v/governance/',
-            label: 'Governance Docs',
-            position: 'left',
-          },
-          {
-            to: 'https://docs.ens.domains/',
-            label: 'Technical Docs',
-            position: 'left',
-          },
-          {
-            href: 'https://github.com/ensdomains',
-            label: 'GitHub',
             position: 'right',
+            label: 'Docs',
+          },
+          {
+            to: '/docs/category/getting-started',
+            position: 'right',
+            label: 'Governance',
+          },
+          {
+            to: '/docs/category/getting-started',
+            position: 'right',
+            label: 'Developers',
           },
           {
             type: 'localeDropdown',
@@ -98,63 +93,15 @@ const config = {
           },
         ],
       },
-      footer: {
-        style: 'dark',
-        links: [
-          {
-            title: 'Documents',
-            items: [
-              {
-                label: 'Learn Docs',
-                to: '/docs/category/getting-started',
-              },
-              {
-                label: 'Governance Docs',
-                to: 'https://docs.ens.domains/v/governance/',
-              },
-              {
-                label: 'ENS Technical Docs',
-                to: 'https://docs.ens.domains/',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Discord',
-                to: 'https://chat.ens.domains',
-              },
-              {
-                label: 'Twitter',
-                to: 'https://twitter.com/ensdomains',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'ENS DAO Newsletter',
-                href: 'https://ensdaonews.substack.com/',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/ensdomains',
-              },
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} Ethereum Name Service Documentation.`,
-      },
-      prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
-      },
+
+      // prism: {
+      //   theme: lightCodeTheme,
+      //   darkTheme: darkCodeTheme,
+      // },
     }),
   plugins: [
 
-  ]
+  ],
 };
 
 module.exports = config;

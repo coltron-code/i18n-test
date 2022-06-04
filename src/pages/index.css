@@ -1,0 +1,62 @@
+/* @font-face {
+    font-family: "My Font Name";
+    src: url("assets/myfontname.ttf") format("truetype");
+} */
+
+
+.faq-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.faq-bar input {
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.09);
+    box-shadow: 0px 3px 24px rgba(0, 0, 0, 0.03);
+    border-radius: 16px;
+    width: 300px;
+    padding: 1rem;
+}
+
+
+.main-title {
+    font-weight: 830;
+    font-size: 50px;
+    line-height: 68px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: -0.01em;
+    background: linear-gradient(30.31deg, #DE82FF -15.56%, #7F6AFF 108.43%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+
+.subtitle {
+    padding: 1rem 0;
+
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    /* identical to box height, or 30px */
+
+    text-align: center;
+    letter-spacing: -0.01em;
+
+    /* Text / Medium */
+
+    color: #717171;
+}
+
+
+.heros {
+    /* padding: 2rem 0; */
+}
+
+.pagination-nav__link {
+    border-radius: 1rem;
+}
