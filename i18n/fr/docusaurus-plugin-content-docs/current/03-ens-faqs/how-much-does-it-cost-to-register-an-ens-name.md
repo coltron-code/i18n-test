@@ -24,7 +24,7 @@ Three and four character names have "premium" pricing to reflect the small numbe
 Our app will provide an estimated the cost based upon current gas fees. Your actual registration cost may be higher or lower due to the fluctuating gas prices.
 
 
-![Total = (Yearly Registration Cost \* Years) + Gas.](img/register-costs-1.png "Total = (Yearly Registration Cost \* Years) + Gas.")
+![Total = (Yearly Registration Cost \* Years) + Gas.](./img/register-costs-1.png "Total = (Yearly Registration Cost \* Years) + Gas.")
 
 
 The price displayed is a conservative estimate to ensure the user has the necessary amount of Ether in their wallet. Actual gas prices will vary and are often lower. Check your wallet settings to ensure you are paying the optimal amount.

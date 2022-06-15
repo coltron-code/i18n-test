@@ -7,7 +7,7 @@ id: Name Transfer
 
 To transfer the ownership of an ENS name to another wallet, connect to the ENS App. The wallet that is listed as the Registrant is the **owner** of the ENS name. In the screenshot below, (1) indicates the Registrant.
 
-![Editing ENS Records and rransfering the name.](img/transfer-1.png "In the manager app, you can change the registrant to transfer the name.")
+![Editing ENS Records and rransfering the name.](./img/transfer-1.png "In the manager app, you can change the registrant to transfer the name.")
 
 While logged into the ENS App with the Registrant wallet, you will be able to click “Transfer”, and type in a wallet address to transfer the ENS name ownership to.
 

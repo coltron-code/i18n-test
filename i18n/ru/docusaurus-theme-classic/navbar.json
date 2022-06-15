@@ -1,30 +1,18 @@
 {
   "title": {
-    "message": "Home",
+    "message": "Learn Docs",
     "description": "The title in the navbar"
   },
-  "item.label.Tutorial": {
-    "message": "Tutorial",
-    "description": "Navbar item with label Tutorial"
+  "item.label.Docs": {
+    "message": "Docs",
+    "description": "Navbar item with label Docs"
   },
-  "item.label.Blog": {
-    "message": "Blog",
-    "description": "Navbar item with label Blog"
+  "item.label.Governance": {
+    "message": "Governance",
+    "description": "Navbar item with label Governance"
   },
-  "item.label.GitHub": {
-    "message": "GitHub",
-    "description": "Navbar item with label GitHub"
-  },
-  "item.label.Learn Docs": {
-    "message": "Learn Docs",
-    "description": "Navbar item with label Learn Docs"
-  },
-  "item.label.Governance Docs": {
-    "message": "Governance Docs",
-    "description": "Navbar item with label Governance Docs"
-  },
-  "item.label.Technical Docs": {
-    "message": "Technical Docs",
-    "description": "Navbar item with label Technical Docs"
+  "item.label.Developers": {
+    "message": "Developers",
+    "description": "Navbar item with label Developers"
   }
 }

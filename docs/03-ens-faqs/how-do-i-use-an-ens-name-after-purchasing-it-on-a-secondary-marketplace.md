@@ -7,7 +7,7 @@ id:  Steps after secondary purchase.
 
 After purchasing your ENS name on a secondary market like OpenSea or Rarible, you should next head over to the [ENS App](https://app.ens.domains). Once connecting your wallet there, you can update the records for your ENS name. You may notice that only the Registrant has changed to your wallet address. By clicking “Set,” you will update the Controller record. Updating ENS name records will update the state of the blockchain, so this will incur gas.
 
-![Editing the controller.](img/second-market-1.png "The controller highlighted in the manager app.")
+![Editing the controller.](./img/second-market-1.png "The controller highlighted in the manager app.")
 
 
 After setting the Controller, you can update the ETH Address record. Any cryptocurrency (ERC20) or NFTs(ERC721) sent to your ENS name will arrive at the Ethereum address saved there.
@@ -16,6 +16,6 @@ After setting the Controller, you can update the ETH Address record. Any cryptoc
 
 Your ENS name can store payment addresses for more than just Ethereum. The currencies you can add, includes BTC, LTC, DOGE, and _many_ more.
 
-![Editing the currency record.](img/second-market-2.png "Editing the currency record.")
+![Editing the currency record.](./img/second-market-2.png "Editing the currency record.")
 
 

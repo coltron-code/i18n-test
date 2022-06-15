@@ -5,12 +5,12 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'User Documentation',
-    // Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    // Svg: require('@site/static/./img/undraw_docusaurus_mountain.svg').default,
     description: <>Learn about how to use your Web3 Username.</>,
   },
   {
     title: 'DAO Governance',
-    // Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    // Svg: require('@site/static/./img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
         The ENS DAO governs the revenue generated from all ENS Name sales. Read
@@ -20,7 +20,7 @@ const FeatureList = [
   },
   {
     title: 'Develop with ENS',
-    // Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    // Svg: require('@site/static/./img/undraw_docusaurus_react.svg').default,
     description: (
       <>
         Integrating ENS Names into your dApp is made easy with simple technical

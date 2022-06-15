@@ -13,17 +13,17 @@ id: Добавить адреса Crpyto
 
 В ENS Manager, вы можете добавить криптовалютный адрес, скопировав и вставив ваш криптовалютный адрес в соответствующее поле адреса.
 
-![Adding Cryptocurrencies to your address records](img/add-currency-1.png "Your wallet addresses are displayed in the corresponding currency fields.")
+![Adding Cryptocurrencies to your address records](./img/add-currency-1.png "Your wallet addresses are displayed in the corresponding currency fields.")
 
 Если ваш тип монет не указан в существующих полях, найдите выпадающее меню и выберите валюту. Click `ADD/EDIT RECORD`.
 
-![Adding Cryptocurrencies to your address records](img/add-currency-2.png "Selecting the Add/Edit Link opens a dropdown menu.")
+![Adding Cryptocurrencies to your address records](./img/add-currency-2.png "Selecting the Add/Edit Link opens a dropdown menu.")
 
-![Adding Cryptocurrencies to your address records](img/add-currency-3.png "Select the currency you would lke to add to your records.")
+![Adding Cryptocurrencies to your address records](./img/add-currency-3.png "Select the currency you would lke to add to your records.")
 
 Когда вы ввели все ваши желаемые криптовалюты, или внесли изменения в другие записи, прокрутите внизу страницы менеджера.
 
-![Adding Cryptocurrencies to your address records](img/add-currency-4.png "You can also edit your text records at this time to save gas fees.")
+![Adding Cryptocurrencies to your address records](./img/add-currency-4.png "You can also edit your text records at this time to save gas fees.")
 
 **Важно:** Чтобы навсегда внести эти изменения, вы должны выбрать кнопку "Подтвердить". Это изменит данные в цепи и повлечет за собой сборы за газ.
 
