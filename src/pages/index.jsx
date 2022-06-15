@@ -71,13 +71,12 @@ export default function Hojme() {
   return (
     <>
       <Head>
-        <link rel="preconnect" href="https://QWNMGLV92L-dsn.algolia.net" crossOrigin />
+        <link rel="preconnect" href="https://YOUR_APP_ID-dsn.algolia.net" crossOrigin />
       </Head>
       <Layout>
         {/* <Navigation /> */}
 
         <StyledContainer>
-          <Search />
           <div className="main">
             <div className="heros">
               <div className="main-title">ENS Learn Docs</div>
@@ -85,7 +84,9 @@ export default function Hojme() {
             </div>
             <div className="faq-bar">
               <div>Frequently Asked Questions</div>
-              <input placeholder="Algolia Docsearch Will be here" type="text" />
+              <Search />
+
+              {/* <input placeholder="Algolia Docsearch Will be here" type="text" /> */}
             </div>
             <br />
 
