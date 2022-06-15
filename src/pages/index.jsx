@@ -1,16 +1,16 @@
-import React from 'react';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
-import styled from 'styled-components';
-import { Link } from 'react-router-dom';
-import Card from '../components/Card/Card';
-import './index.css';
-import Navigation from '../components/NavigationV2/Navigationv2';
-import Layout from '@theme/Layout';
-import discordGrey from '../assets/discordGrey.svg';
-import discussGrey from '../assets/discussGrey.svg';
-import twitterGrey from '../assets/twitterGrey.svg';
+import React from "react";
+import HomepageFeatures from "@site/src/components/HomepageFeatures";
+import styled from "styled-components";
+import { Link } from "react-router-dom";
+import Card from "../components/Card/Card";
+import "./index.css";
+import Navigation from "../components/NavigationV2/Navigationv2";
+import Layout from "@theme/Layout";
+import discordGrey from "../assets/discordGrey.svg";
+import discussGrey from "../assets/discussGrey.svg";
+import twitterGrey from "../assets/twitterGrey.svg";
 
-const StyledFaqCardGrid = styled('div')`
+const StyledFaqCardGrid = styled("div")`
   display: grid;
   /* grid-template-rows: minmax(220px, 1fr ); */
   /* grid-template-columns: minmax(0, 3fr) minmax(0, 3fr) minmax(0, 3fr); */
@@ -21,30 +21,45 @@ const StyledFaqCardGrid = styled('div')`
   justify-items: center;
   align-items: center;
 `;
-const StyledContainer = styled('div')`
+const StyledContainer = styled("div")`
   width: 80%;
   margin: 0 auto;
-  height:80vh;
-  display: grid; 
+  height: 80vh;
+  display: grid;
   /* background: red; */
-  align-items: center;  
+  align-items: center;
 `;
-const Footer = styled('div')`
-flex-shrink: 0;
-display: flex;
-align-items: center;
-justify-content: flex-end;
-padding: 20px 20px 20px 0;
+const Footer = styled("div")`
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 20px 20px 20px 0;
 
-& > a {
-  margin-right: 10px;
-}
+  & > a {
+    margin-right: 10px;
+  }
 `;
 
 const listItems = [
-  { title: 'What can I use an ENS name for?', description: 'An ENS Name is an way to remember you cryptocurrency addresses', url: '/docs/getting-started/Using%20Your%20ENS%20Name' },
-  { title: 'Registering a Name', description: 'Go to the ENS Manager App and connect your wallet with the connect-button.', url: '/docs/getting-started/Registering%20Names' },
-  { title: 'Setting your Profile Avatar', description: 'If you don’t already have an ENS name, you can register an ENS name or import a DNS domain name you already own at app.ens.domains. You can set an NFT avatar for either kind of ENS name.', url: '/docs/getting-started/Setting%20Avatar' },
+  {
+    title: "What can I use an ENS name for?",
+    description:
+      "An ENS Name is an way to remember you cryptocurrency addresses",
+    url: "/docs/getting-started/Using%20Your%20ENS%20Name",
+  },
+  {
+    title: "Registering a Name",
+    description:
+      "Go to the ENS Manager App and connect your wallet with the connect-button.",
+    url: "/docs/getting-started/Registering%20Names",
+  },
+  {
+    title: "Setting your Profile Avatar",
+    description:
+      "If you don’t already have an ENS name, you can register an ENS name or import a DNS domain name you already own at app.ens.domains. You can set an NFT avatar for either kind of ENS name.",
+    url: "/docs/getting-started/Setting%20Avatar",
+  },
 ];
 
 export default function Hojme() {
@@ -56,12 +71,8 @@ export default function Hojme() {
       <StyledContainer>
         <div className="main">
           <div className="heros">
-            <div className="main-title">
-              ENS Learn Docs
-            </div>
-            <div className="subtitle">
-              Learn about your web3 identity.
-            </div>
+            <div className="main-title">ENS Learn Docs</div>
+            <div className="subtitle">Learn about your web3 identity.</div>
           </div>
           <div className="faq-bar">
             <div>Frequently Asked Questions</div>
@@ -72,13 +83,9 @@ export default function Hojme() {
           <StyledFaqCardGrid>
             {listItems.map((item) => (
               <Link to={item.url}>
-                <Card
-                  title={item.title}
-                  description={item.description}
-                />
+                <Card title={item.title} description={item.description} />
               </Link>
             ))}
-
           </StyledFaqCardGrid>
         </div>
       </StyledContainer>
@@ -88,7 +95,7 @@ export default function Hojme() {
           <img
             src={twitterGrey}
             width="34"
-            css={{ marginTop: '2px' }}
+            css={{ marginTop: "2px" }}
             alt="Twitter"
           />
         </a>
@@ -99,7 +106,7 @@ export default function Hojme() {
           <img
             src={discordGrey}
             width="30"
-            css={{ marginLeft: '4px' }}
+            css={{ marginLeft: "4px" }}
             alt="Discord"
           />
         </a>

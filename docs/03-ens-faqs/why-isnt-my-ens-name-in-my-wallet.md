@@ -7,7 +7,7 @@ id:  Why isn't my ENS Name in my wallet
 
 Please verify that your registration was successful please by checking your transaction history on [Etherscan.io](https://www.etherscan.io). Successful registrations will see two transactions: `Commit` **and** `Register with Config`. These transactions represent the Step 1 and Step 3 of the ENS registration process.
 
-![Commit and Register With Config Transactions](img/not-in-wallet-1.png "Ethercan showing the Commit and Register With Config Transactions")
+![Commit and Register With Config Transactions](./img/not-in-wallet-1.png "Ethercan showing the Commit and Register With Config Transactions")
 
 ## Troubleshooting Checklist
 
@@ -49,7 +49,7 @@ __
 
 One of the steps was missed or not completed. You must complete all the steps to register your ENS name fully.
 
-![Three Registration Steps.](img/not-in-wallet-2.png "The manager app displaying the Commit and Register transactions.")
+![Three Registration Steps.](./img/not-in-wallet-2.png "The manager app displaying the Commit and Register transactions.")
 
 **Corrective Action:** _You must complete all the steps to register your ENS name._ See <!--[registering-a-name.md](../../tutorials/registering-a-name.md "mention") --> to review the registration process. _Remember, you have seven days after the second transaction to complete Step 3._
 
