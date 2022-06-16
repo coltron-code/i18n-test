@@ -1,8 +1,8 @@
 {
-  "label": "ENS Tutorials",
+  "label": "Tutoriales ENS",
   "position": 2,
   "link": {
-    "type": "generated-index",
-    "description": "Tutorials and guides to use your ENS Name."
+    "type": "índice generado",
+    "description": "Tutoriales y guías para usar su nombre de ENS."
   }
 }

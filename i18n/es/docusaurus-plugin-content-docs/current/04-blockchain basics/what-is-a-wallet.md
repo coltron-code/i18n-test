@@ -1,25 +1,25 @@
 ---
-title: What is a wallet?
-id: What is a wallet
+title: '¿Qué es una cartera?'
+id: Qué es una cartera
 ---
 
-# What is a wallet?
+# ¿Qué es una cartera?
 
-Your wallet is effectively where your cryptocurrency is held and you interact with it, however, on a technological level, it only serves as a front-end to interact with the blockchain ledger, where your wallet—and funds—is actually stored.
+Su cartera es efectivamente donde se mantiene su criptomoneda y usted interactúa con ella, sin embargo, a nivel tecnológico, sólo sirve como un front-end para interactuar con el contador de cadena de bloques, donde tu monedero y los fondos están realmente almacenados.
 
-Your wallet front-end only _stores_ your private key which is used to interact with the blockchain by cryptographically signing messages to make transactions from it, ensuring that even though it's on the internet, that only you have access to it.
+El front-end de su cartera solo _almacena_ su clave privada que se utiliza para interactuar con la cadena de bloques firmando mensajes criptográficamente para hacer transacciones desde ella, The room was very comfortable and the staff were very helpful and friendly.
 
-There exists several types of cryptocurrency wallets, each with their own upsides and downsides.
+Existen varios tipos de carteras de criptomonedas, cada una con sus propios aspectos positivos y negativos.
 
-Some examples are:
+Algunos ejemplos son:
 
-* **Software wallets** that you can have on your phone, on your computer or even as an extension in your browser
-  * Metamask _The most popular browser extension wallet._
-  * Coinbase Wallet _The non-custodial phone wallet from the largest exchange in the U.S._
-* **Hardware wallets** which tries to isolate your private keys from your other devices as much as possible
-  * [Ledger ](https://ledger.com)_Notable for supporting iPhone._
-  * [Trezor ](https://trezor.io)_Notable for being open-source._
-  * [OneKey ](https://onekey.so)_Similar to Trezor, notable for being popular in Asia._
-* **Smart contract wallets**
+* **Carteras de software** que puede tener en su teléfono, en su computadora o incluso como una extensión en su navegador
+  * Metamask _La cartera de extensión de navegador más popular._
+  * Monedero Coinbase _El monedero telefónico no custodial del mayor intercambio de Estados Unidos_
+* **Carteras de hardware** que intentan aislar sus claves privadas de sus otros dispositivos tanto como sea posible
+  * [Ledger ](https://ledger.com)_Notable para soportar iPhone._
+  * [Trezor ](https://trezor.io)_Notable por ser de código abierto._
+  * [OneKey ](https://onekey.so)_Similar a Trezor, notable por ser popular en Asia._
+* **Carteras inteligentes**
   * [Argent](https://www.argent.xyz/)
-  * [Gnosis Safe](https://gnosis-safe.io/)
+  * [Gnosis seguro](https://gnosis-safe.io/)

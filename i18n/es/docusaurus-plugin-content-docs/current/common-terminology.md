@@ -1,87 +1,87 @@
 
-# Common Terminology
+# Terminología común
 
-This page contains a listing of some commonly used terminology throughout this documentation.
+Esta página contiene un listado de alguna terminología comúnmente usada a lo largo de esta documentación.
 
-### Address Records
+### Registros de dirección
 
-ENS Address Records store the public key or wallet addresses of other cryptocurrencies. dApps that integrate ENS can use your ENS name to resolve to these addresses. The practical use of this is
+Los registros de direcciones ENS almacenan la clave pública o direcciones de cartera de otras criptomonedas. dApps que integran ENS puede usar su nombre de ENS para resolver estas direcciones. El uso práctico de esto es
 
-### Blockchain
+### Cadena de bloques
 
-A blockchain is a public database that is updated and shared across many computers in a network. "Block" refers to data and state being stored in consecutive groups known as "blocks". "Chain" refers to the fact that each block cryptographically references its parent. In other words, blocks get chained together. The data in a block cannot change without changing all subsequent blocks, which would require the consensus of the entire network. Source:  [Ethereum.org](https://ethereum.org/en/developers/docs/intro-to-ethereum/)
+Un blockchain es una base de datos pública que se actualiza y se comparte a través de muchas computadoras de una red. "Bloqueo" se refiere a los datos y estado que se almacenan en grupos consecutivos conocidos como "bloques". "Chain" se refiere al hecho de que cada bloque hace referencia criptográficamente a su padre. En otras palabras, los bloques se encadenan juntos. Los datos en un bloque no pueden cambiar sin cambiar todos los bloques subsiguientes, lo que requeriría el consenso de toda la red. Fuente:  [Ethereum.org](https://ethereum.org/en/developers/docs/intro-to-ethereum/)
 
-### Content Records
+### Registros de contenido
 
-The content record may be set to contain the content hash of a decentralized website. A content hash is essentially the "address" to a decentralized, or [IPFS](https://docs.ipfs.io/concepts/how-ipfs-works/), website.
+El registro de contenido puede ser configurado para contener el hash de contenido de un sitio web descentralizado. Un hash de contenido es esencialmente la "dirección" a un sitio web descentralizado, o [IPFS](https://docs.ipfs.io/concepts/how-ipfs-works/).
 
-### Controller (_"Manager")_
+### Controlador (_"Manager")_
 
-The account that may edit the address, content and text records of a name. The Controller may be changed by the registrant ("owner") or the controller itself. The controller can not transfer name.
+La cuenta que puede editar la dirección, el contenido y los registros de texto de un nombre. El controlador puede ser cambiado por el registrador ("propietario") o el propio controlador. El controlador no puede transferir nombre.
 
-### Cryptocurrency
+### Criptomoneda
 
-Cryptocurrencies are a digital store of value that is securely verified by a network of computers that are validated using cryptography. Cryptocurrencies provide a transparent and secure way to represent value.
+Las criptomonedas son un almacén digital de valores que es verificado de forma segura por una red de ordenadores que se validan usando criptografía. Las criptomonedas proporcionan una forma transparente y segura de representar valor.
 
-### DNS Name
+### Nombre DNS
 
-A DNS (Domain Name System) Name is the standard URL's that most people are used to interfacing with on the Internet. The DNS system is commonly referenced when talking about the ENS (Ethereum Name Service) because ENS is the next evolution in address routing on the internet.
+Un nombre DNS (Sistema de nombres de dominio) es la URL estándar con la que la mayoría de la gente se utiliza para interconectar en Internet. The DNS system is commonly referenced when talking about the ES (Ethereum Name Service) because ENS is the next evolution in address routing on the internet.
 
-### ENS Name
+### Nombre ENS
 
-An ENS Name is a human-readable name that you can use to reference your Ethereum address, function as your decentralized identity, store metadata, and even direct payments cryptocurrencies outside of the Ethereum blockchain!
+Un nombre ENS es un nombre legible por el ser humano que puedes usar para referenciar tu dirección de Ethereum, función como tu identidad descentralizada, almacenar metadatos, e incluso pagos directos criptomonedas fuera de la blockchain de Ethereum!
 
 ### Gas
 
-Gas refers to the unit that measures the amount of computational effort required to execute specific operations on the Ethereum network.
+El gas se refiere a la unidad que mide la cantidad de esfuerzo computacional requerida para ejecutar operaciones específicas en la red Ethereum.
 
-Since each Ethereum transaction requires computational resources to execute, each transaction requires a fee. Gas refers to the fee required to conduct a transaction on Ethereum successfully. Source:[ ethereum.org](https://ethereum.org/en/developers/docs/gas/).
+Dado que cada transacción de Ethereum requiere recursos computacionales para ejecutar, cada transacción requiere un honorario. El gas se refiere a la cuota necesaria para realizar una transacción en Ethereum con éxito. Fuente:[ ethereum.org](https://ethereum.org/en/developers/docs/gas/).
 
-### Grace Period
+### Periodo de Gracia
 
-A Grace Period is the time frame after a name has officially expired. Grace periods last for 90 days. At this time the name may not be registered to allow for the previous registrant to renew the name. Name that are not renewed in the 90 day grace period will go to a premium auction.
+Un Period de Gracia es el periodo de tiempo después de que un nombre haya expirado oficialmente. Los períodos de gracia duran 90 días. En este momento el nombre no puede estar registrado para permitir que el registro anterior renueve el nombre. El nombre que no se renueve en el período de gracia de 90 días irá a una subasta de prima.
 
-### Premium Auction
+### Subasta Premium
 
-A premium auction is a unique timeframe after an ENS name has expired and left the grace period. Premium Auctions begin at a price of $1M USD and decrease to $0 USD over a 28 day period. The first person who pays for the name at it's decaying price is the winning bidder. When a name is purchased during a premium auction, the winning bidder will pay the premium price in addition to the yearly registration fees that are normally applicable.
+A premium auction is a unique time frame after an ENS name has expirated and left the grace period. Las subastas Premium comienzan a un precio de $1M USD y disminuyen a $0 USD en un período de 28 días. La primera persona que paga el nombre a su precio decreciente es la apuesta ganadora. Cuando un nombre es comprado durante una subasta premium, la oferta ganadora pagará el precio de la prima además de las cuotas anuales de inscripción que normalmente son aplicables.
 
-### Primary Name
+### Nombre primario
 
-A Primary ENS Name record (formerly, "Reverse Record") makes your Ethereum address point to an ENS name. This allows dApps to find and display your ENS name when you connect to them with your Ethereum account
+A Primary ENS Name record (formerly, "Reverse Record") makes your Ethereum address point to an ES name. Esto permite que dApps encuentre y muestre su nombre de ENS cuando se conecte a ellos con su cuenta de Ethereum
 
-### Registrant (_"Owner")_
+### Registro (_"Propietario")_
 
-The owner has total control over an ENS Name. The registrant may transfer the registration, set records, and assign a controller.
+The owner has total control over an ENS Name. El registrador puede transferir el registro, establecer registros y asignar un controlador.
 
-### Renewals
+### Renovaciones
 
-Renewals are completely yearly. Renewals allow for a healthy namespace that ensures a name will not be lost forever if an owner loses control of the name.
+Las renovaciones son completamente anuales. Las Renovaciones permiten un espacio de nombres saludable que asegura que un nombre no se perderá para siempre si un propietario pierde el control del nombre.
 
-**Note:** This action is not reserved to owners or controllers, _anyone_ can renew a name.
+**Nota:** Esta acción no está reservada a los propietarios o controladores, _cualquiera_ puede renovar un nombre.
 
 ### Resolver
 
-A resolver is a smart contract that holds records. Names are set by default to the [Public Resolver](https://etherscan.io/address/0x4976fb03c32e5b8cfe2b6ccb31c09ba78ebaba41) managed by the ENS team.
+Una solución es un contrato inteligente que posea registros. Los nombres se establecen por defecto al [Resolver público](https://etherscan.io/address/0x4976fb03c32e5b8cfe2b6ccb31c09ba78ebaba41) administrado por el equipo de ENS.
 
-### Reverse Record
+### Invertir registro
 
 The Reverse Record is the Ethereum wallet address that an ENS Name displays when searched or reference by a dApp.
 
-### Seed Phrase
+### Frase de semilla
 
-A Seed Phrase is a series of 12 or 24 words that can be used to access, retrieve, or recover your cryptocurrency address. You can think of your seed phrase as a password to your cryptocurrency address or wallet.
+Una frase de semilla es una serie de 12 o 24 palabras que se pueden utilizar para acceder, recuperar o recuperar su dirección de criptomonedas. Puede pensar en su frase de semilla como una contraseña a su dirección de criptomoneda o cartera.
 
-Never **** Share your seed phrase with anyone, take a screen shot of of your seed phrase, or store your seed phrase electronically. If you give your seed phrase away, you are giving them total control of your assets. If you lose y
+Nunca **** Comparte tu frase de semilla con nadie, toma una captura de pantalla de tu frase de semilla o almacena tu frase de semilla electrónicamente. Si le das tu frase de semilla, les estás dando el control total de tus activos. Si pierdes
 
-**Warning:** If you give your seed phrase away, you are giving up control of your assets. If you lose your seed phrase there is no way to recover your asset.
+**Advertencia:** Si le das la frase de semilla, está abandonando el control de sus activos. Si pierde su frase de semilla no hay forma de recuperar su activo.
 
-### Subdomain or Subname
+### Subdominio o subnombre
 
-A subdomain is any name that is a level below it's parent name. Similar to standard DNS web addresses, subdomains in the ENS naming system use dot-hierarchical. Subdomains may exist as ERC-1155 tokens that are fully controlled and managed by the owner of the subdomain.
+Un subdominio es cualquier nombre que sea un nivel inferior a su nombre padre. Similar a las direcciones web DNS estándar, los subdominios en el sistema de nomenclatura ENS usan puntos jerárquicos. Los subdominios pueden existir como fichas ERC-1155 completamente controladas y gestionadas por el propietario del subdominio.
 
-### Text Record
+### Registro de texto
 
-Text Records is any arbitrary text that you would like to attach to your ENS Name. These records can be addresses, descriptions, e-mails, keywords, or usernames that are stored as readable text metadata.
+Registros de texto es cualquier texto arbitrario que desee adjuntar a su nombre de ENS. Estos registros pueden ser direcciones, descripciones, correos electrónicos, palabras clave o nombres de usuario que se almacenan como metadatos de texto legibles.
 
 
 
