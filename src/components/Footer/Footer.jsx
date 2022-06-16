@@ -2,7 +2,6 @@ import React from 'react';
 import styled from 'styled-components';
 import discordGrey from '../../assets/discordGrey.svg';
 import discussGrey from '../../assets/discussGrey.svg';
-import { ReactComponent as twitterGrey } from '../../assets/twitterGrey.svg';
 
 const StyledFooter = styled('div')`    
   position: absolute;
@@ -24,7 +23,6 @@ function Footer() {
     <StyledFooter>
       <a href="https://twitter.com/ensdomains">
         <img
-          src={twitterGrey}
           width="34"
           css={{ marginTop: '2px' }}
           alt="Twitter"

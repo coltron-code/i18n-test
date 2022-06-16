@@ -3,7 +3,6 @@ import styled from 'styled-components';
 import Head from '@docusaurus/Head';
 import './index.css';
 import Layout from '@theme/Layout';
-import Footer from '../components/Footer/Footer';
 import Hero from '../components/Hero/Hero';
 import Faq from '../components/Faq/Faq';
 
