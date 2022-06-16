@@ -1,8 +1,8 @@
 {
-    "label": "ENS Multimedia",
+    "label": "NS متعدد الوسائط",
     "position": 4,
     "link": {
-        "type": "generated-index",
-        "description": "Podcasts and Articles about ENS"
+        "type": "تم إنشاء-فهرس",
+        "description": "Podcasts والمقالات حول ENS"
     }
 }

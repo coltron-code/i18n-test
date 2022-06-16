@@ -1,72 +1,72 @@
 ---
-title: Registering a Name
-id: Registering Names
+title: Регистрация имени
+id: Регистрация имен
 ---
 
-# Registering a Name
+# Регистрация имени
 
-### Go to the ENS Manager
+### Перейти к менеджеру ENS
 
-Go to the [ENS Manager App](https://app.ens.domains) and connect your wallet with the connect-button. Make sure that your wallet shows as _connected_ or the registration will likely not be successful.
+Перейдите в приложение [менеджера ENS](https://app.ens.domains) и подключите ваш кошелек с помощью кнопки подключения. Убедитесь, что ваш кошелек показывает как _подключен_ или регистрация скорее всего не будет успешной.
 
-![Connecting to the manager app. Step 1.](./img/register-1.png "Connect your wallet by selecting the Connect button.")
+![Подключение к приложению менеджера. Этап 1.](./img/register-1.png "Подключите ваш кошелек, выбрав кнопку «Подключить».")
 
-### Connect your wallet
+### Подключите ваш кошелек
 
-Choose how to connect with your wallet. In case you're unsure if your wallet supports WalletConnect or not, a list is provided on WalletConnect's website [here](https://walletconnect.com/registry/wallets).
-
-
-![Connecting to the manager app. Step 2](./img/register-2.png "Connect using your wallet or the Wallet Connect service")
-
-### Search for the ENS name you want
-
-![Serching for an ENS Name](./img/register-3.png "Search for an ENS Name to check availability.")
+Выберите способ подключения к вашему кошельку. Если вы не уверены, поддерживает ли ваш кошелек WalletConnect или нет, то на сайте WalletConnect's [здесь](https://walletconnect.com/registry/wallets).
 
 
-Provided that the name you searched for is available, click on it to continue with the registration.
+![Подключение к приложению менеджера. Шаг2](./img/register-2.png "Подключитесь через ваш кошелек или услугу Wallet Connect")
 
-![Checking ENS Name availability](./img/register-4.png "If the name is available it will display this on the right side of the screen.")
+### Искать нужное название ENS
 
-
-### Registering your ENS name
-
-Registering an ENS name is a process in three steps in order to prevent front-running, so that no one can steal your ENS name from under you while you're in the process of registering it.
-
-#### Step 1: Request to Register
-
-Clicking Request to Register initiates Step 1 of the 3-Step process. A 0ETH transaction is performed where your name is hashed with a secret key so that no one else can view which name you're trying to register. This step will incur gas fees, as well as the final Step 3.
-
-This key is stored in your browser's local storage, so make sure to avoid clearing your browser's local data before you've completed all three steps, or you'll be forced to repeat Step 1 again.\
+![Записывание для имени ENS](./img/register-3.png "Поиск по ENS Name, чтобы проверить доступность.")
 
 
-It's a good idea to:
+Если имя, которое вы искали, доступно, нажмите на него, чтобы продолжить регистрацию.
 
-* Consider registering your ENS name for more than 1 year in order to avoid having to pay gas fees for renewals every year.
-* Favourite the ENS name you're registering in case you forget it later.
-
-Once you're ready click "Request to Register".
+![Проверка доступности названия ENS](./img/register-4.png "Если имя доступно, оно отобразится в правой части экрана.")
 
 
-![Registering your ENS Name. Step 1](./img/register-5.png "Select the number of years you want to register for.")
+### Регистрация имени ENS
 
-Check that the cost of the transaction is what you expect it to be and confirm the transaction in your wallet.
+Регистрация имени ENS - это процесс в три шага для предотвращения перезапуска, так что никто не сможет украсть ваше имя от вас в процессе регистрации.
 
-#### Step 2: Wait 1 minute
+#### Шаг 1: Запрос на регистрацию
 
-After the Step 1 transaction completes there's a 1 minute waiting period in order to prevent front-running.
+Нажатие на запрос на регистрацию инициирует Шаг 1 процесса 3-Шага. 0ETH транзакция выполняется там, где ваше имя хэшируется секретным ключом, чтобы никто больше не мог видеть, какое имя вы пытаетесь зарегистрироваться. На этом этапе будут взиматься газовые сборы, а также финальный этап 3.
 
-![Registering your ENS Name. Step 2](./img/register-6.png "Wait one minute after you request to register.")
-
-#### Step 3: Register
-
-After you've waited 1 minute and Step 2 has completed it's time to actually _Register_ your ENS name. You have up to 7 days to do this from the time you finished your Step 1 transaction, but keep in mind that your ENS name isn't reserved for you until you _Register_ it.
-
-It might be a good idea to double-check that gas costs are still low during this time. Once you're ready to proceed click the Register button and confirm the transaction in your wallet.\
+Этот ключ хранится в локальном хранилище вашего браузера, поэтому не забывайте очищать локальные данные вашего браузера до того, как вы завершили все три шага, или вам придется повторить шаг 1. \
 
 
-![Registering your ENS Name. Step 3](./img/register-7.png "After waiting one minutes, select Register, and approve the transaction in your wallet.")
+Это хорошая идея:
 
-Congratulations! If all transactions went through successfully you should now be the proud owner of your very own ENS name!
+* Подумайте о том, чтобы зарегистрировать свое название ЭНС более чем на 1 год, чтобы избежать необходимости платить за обновление газа.
+* Избранное для регистрации имя ENS, если вы забудете его позднее.
 
-![Your name is registered](./img/register-8.png "After the transaction is approved on the blockchain, it is now your new ENS Name!")
+После того, как вы будете готовы нажать "Запрос на регистрацию".
+
+
+![Регистрация ENS Name. Шаг 1](./img/register-5.png "Выберите количество лет для регистрации.")
+
+Проверьте, что стоимость транзакции - это то, что вы ожидаете, и подтвердите транзакцию в вашем кошельке.
+
+#### Шаг 2: Ждать 1 минуту
+
+После того, как транзакция завершится 1 минутный период ожидания для предотвращения перезапуска.
+
+![Регистрация ENS Name. Шаг2](./img/register-6.png "Подождите 1 минуту после запроса на регистрацию.")
+
+#### Шаг 3: Регистрация
+
+После того, как вы подождите 1 минуту, и шаг 2 завершил свое время _зарегистрировать_ свое имя ENS. You have up to 7 days to do this from the time you finished your Step 1 transaction, but keep in mind that your ENS name isn't reserved for you until you _Register_ it.
+
+Возможно, было бы неплохо дважды проверить, что затраты на газ в это время все еще низки. Как только вы будете готовы продолжить, нажмите кнопку Регистрация и подтвердите транзакцию в вашем кошельке.\
+
+
+![Регистрация ENS Name. Шаг3](./img/register-7.png "После ожидания в течение одной минуты выберите "Зарегистрироваться" и подтвердите транзакцию в кошельке.")
+
+Поздравляем! Если все транзакции прошли успешно, то теперь Вы должны быть гордым владельцем Вашего собственного имя!
+
+![Ваше имя зарегистрировано](./img/register-8.png "После того, как транзакция будет одобрена на блокчейне, теперь это ваше новое имя ENS!")
  

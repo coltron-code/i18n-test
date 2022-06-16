@@ -1,8 +1,8 @@
 {
-    "label": "Blockchain Basics",
+    "label": "Основы блокчейна",
     "position": 4,
     "link": {
-        "type": "generated-index",
-        "description": "Learn about common blockchain topics"
+        "type": "сгенерированный индекс",
+        "description": "Узнайте о часто встречающихся блокчейн темах"
     }
 }

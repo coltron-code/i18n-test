@@ -1,15 +1,15 @@
 ---
-title: Renewals Explained
-id: Renewals
+title: Объявлено продление
+id: Обновления
 ---
 
-# Renewals
+# Обновления
 
-All .eth names expire, but can be renewed. Renewal fees are currently set to the same costs as the registration fees.
+Все .eth имена истекают, но могут быть продлены. В настоящее время плата за продление устанавливается на те же расходы, что и регистрационные сборы.
 
-* 5+ character .eth names: $5 in ETH per year.
-* 4 character .eth names: $160 in ETH per year.
-* 3 character .eth names $640 in ETH per year.
+* 5+ названий символов: $5 в ETH в год.
+* Названия 4 символа: 160 долларов США в ETH в год.
+* 3 символа знают $640 в ETH в год.
 
-**Note:** Any wallet can renew an ENS name. The wallet does not need to own the name in order to extend the registration period.
+**Примечание:** Любой кошелек может обновить имя ENS. Кошелек не должен иметь имя для продления периода регистрации.
 

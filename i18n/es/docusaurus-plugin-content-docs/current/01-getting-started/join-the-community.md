@@ -1,16 +1,16 @@
 ---
-title: Join the Community
-id: Community
+title: Únete a la comunidad
+id: Comunidad
 ---
 
-# Join the Community
+# Únete a la comunidad
 
-The Ethereum Name Service is a neutral, public protocol for the future of the internet and the ENS DAO is an inclusive and open community that supports the ENS protocol.
+El servicio Nombre de Ethereum es un servicio neutral, public protocol for the future of the internet and the ENS DAO is an inclusive and open community that supports the ENS protocol.
 
-To read about our organizational Structure view our [Governance Docs](https://docs.ens.domains/v/governance/).
+Para leer acerca de nuestra estructura organizacional, vea nuestros [documentos de gobernanza](https://docs.ens.domains/v/governance/).
 
-The minimum barrier of entry to our DAO is to become active in our [Discord](https://chat.ens.domains) and gain access to our[ governance forum](https://discuss.ens.domains).
+La barrera mínima de entrada a nuestro DAO es activarse en nuestro [Discord](https://chat.ens.domains) y obtener acceso a nuestro[ foro de gobernanza](https://discuss.ens.domains).
 
-To attain voting power and vote on governance proposals you must hold **$ENS** governance tokens.
+Para obtener el poder de votación y votar sobre propuestas de gobernanza, debes mantener **$ENS** tokens de gobernanza.
 
-To learn more about becoming involved in our community you can contact the ENS DAO [Community Working Group](https://discuss.ens.domains/t/community-working-group-dashboard/11031) which holds weekly onboarding calls every **Friday at 1:30pm EST** on [Google Meet](https://meet.google.com/gvg-bkdk-xaa).
+Para obtener más información sobre cómo participar en nuestra comunidad, puede ponerse en contacto con el [Grupo de Trabajo de la Comunidad](https://discuss.ens.domains/t/community-working-group-dashboard/11031) de ENS DAO, el cual realiza llamadas semanales de incorporación cada **viernes a las 13:30pm EST** en [Google Meet](https://meet.google.com/gvg-bkdk-xaa).

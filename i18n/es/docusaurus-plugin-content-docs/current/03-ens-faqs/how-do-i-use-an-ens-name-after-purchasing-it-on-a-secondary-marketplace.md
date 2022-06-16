@@ -1,21 +1,21 @@
 ---
-title: How do I use an ENS name after purchasing it on a secondary marketplace?
-id: Steps after secondary purchase.
+title: '¿Cómo utilizo un nombre de ENS después de comprarlo en un mercado secundario?'
+id: Pasos después de la compra secundaria.
 ---
 
-# How do I use an ENS name after purchasing it on a secondary marketplace?
+# ¿Cómo utilizo un nombre de ENS después de comprarlo en un mercado secundario?
 
-After purchasing your ENS name on a secondary market like OpenSea or Rarible, you should next head over to the [ENS App](https://app.ens.domains). Once connecting your wallet there, you can update the records for your ENS name. You may notice that only the Registrant has changed to your wallet address. By clicking “Set,” you will update the Controller record. Updating ENS name records will update the state of the blockchain, so this will incur gas.
+Después de comprar tu nombre de ENS en un mercado secundario como OpenSea o Rarible, deberías ir a la [aplicación ENS](https://app.ens.domains). Una vez que conecte su cartera allí, puede actualizar los registros de su nombre de ENS. Puede notar que sólo el Registro ha cambiado a su dirección de cartera. Al hacer clic en “Configurar”, actualizará el registro del Controlador. Actualizar registros de nombres de ENS actualizará el estado de la cadena de bloques, así que esto incurrirá en gas.
 
-![Editing the controller.](./img/second-market-1.png "The controller highlighted in the manager app.")
+![Editando el controlador.](./img/second-market-1.png "El controlador resaltado en la aplicación del administrador.")
 
 
-After setting the Controller, you can update the ETH Address record. Any cryptocurrency (ERC20) or NFTs(ERC721) sent to your ENS name will arrive at the Ethereum address saved there.
+Después de configurar el Controller, puede actualizar el registro de Dirección ETH. Cualquier criptomoneda (ERC20) o NFTs(ERC721) enviada a su nombre ENS llegará a la dirección de Ethereum guardada allí.
 
-**Important:** Without updating these records after purchase on a secondary market, cryptocurrency transactions sent to your .eth name will not arrive in your wallet(s) by default.
+**Importante:** Sin actualizar estos registros después de la compra en un mercado secundario, las transacciones de criptomonedas se enviaron a su . El nombre de la figura no llegará por defecto a su(s) cartera(s).
 
-Your ENS name can store payment addresses for more than just Ethereum. The currencies you can add, includes BTC, LTC, DOGE, and _many_ more.
+Your ENS name can store payment addresses for more than just Ethereum. Las monedas que puedes añadir, incluyen BTC, LTC, DOGE y _muchas_ más.
 
-![Editing the currency record.](./img/second-market-2.png "Editing the currency record.")
+![Editando el registro de moneda.](./img/second-market-2.png "Editando el registro de moneda.")
 
 

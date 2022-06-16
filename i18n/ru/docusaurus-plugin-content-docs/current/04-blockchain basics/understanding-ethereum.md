@@ -1,10 +1,10 @@
 ---
-title: Understanding Ethereum
-id: Understanding Ethereum
+title: Понимание Ethereum
+id: Понимание Ethereum
 ---
 
-# Understanding Ethereum
+# Понимание Ethereum
 
-Ethereum is a decentralized cryptocurrency blockchain that distinguishes itself by providing a Virtual Machine capable of running turing complete smart contracts, enabling technological advancements like decentralized finance and even the Ethereum Name Service itself — something which wasn't possible with the cryptocurrencies that preceded it.
+Ethereum - это децентрализованный блокчейн криптовалют, который отличает себя, предоставляя виртуальную машину, способную выполнять полные смарт-контракты, позволяет технологические достижения, такие как децентрализованные финансы, и даже сама Служба имен Ethereum — то, что было невозможно с предшествовавшими ей криптовалютами.
 
-More comprehensive information about Ethereum can be found in the [official Ethereum documentation](https://ethereum.org/en/what-is-ethereum/).
+Более подробную информацию об Ethereum можно найти в [официальной документации по Ethereum](https://ethereum.org/en/what-is-ethereum/).

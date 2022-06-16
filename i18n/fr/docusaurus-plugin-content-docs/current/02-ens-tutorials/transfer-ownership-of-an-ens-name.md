@@ -1,22 +1,22 @@
 ---
-title: Transfer Ownership of an ENS Name
-id: Name Transfer
+title: Transférer la propriété d'un nom ENS
+id: Transfert de nom
 ---
 
-# Transfer Ownership of an ENS Name
+# Transférer la propriété d'un nom ENS
 
-To transfer the ownership of an ENS name to another wallet, connect to the ENS App. The wallet that is listed as the Registrant is the **owner** of the ENS name. In the screenshot below, (1) indicates the Registrant.
+Pour transférer la propriété d'un nom ENS vers un autre portefeuille, connectez-vous à l'application ENS. Le portefeuille qui est listé comme le Registrant est le **propriétaire** du nom de l'ENS. Dans la capture d'écran ci-dessous, (1) indique le Inscrit.
 
-![Editing ENS Records and rransfering the name.](./img/transfer-1.png "In the manager app, you can change the registrant to transfer the name.")
+![Édition des enregistrements ENS et rançon du nom.](./img/transfer-1.png "Dans l'application manager, vous pouvez changer le nom de l'inscrit pour le transférer.")
 
-While logged into the ENS App with the Registrant wallet, you will be able to click “Transfer”, and type in a wallet address to transfer the ENS name ownership to.
+Lorsque vous êtes connecté à l'application ENS avec le portefeuille du déposant, vous pourrez cliquer sur « Transférer », et tapez une adresse de portefeuille pour transférer la propriété du nom de l'ENS.
 
-However, the Controller is the wallet that can update other records like the ETH Address (see #3 in the image above). Transferring the Registrant to a new wallet _does not automatically update_ the Controller address(see #2 in screenshot), and does not change the ETH payment address. These are separate transactions that will cost gas to update.
+Cependant, le contrôleur est le portefeuille qui peut mettre à jour d'autres enregistrements comme l'adresse ETH (voir #3 dans l'image ci-dessus). Transférer le Registrant vers un nouveau portefeuille _ne met pas automatiquement à jour_ l'adresse du contrôleur (voir #2 dans la capture d'écran), et ne modifie pas l'adresse de paiement ETH. Ce sont des transactions distinctes qui coûteront du gaz à mettre à jour.
 
-Some users may want to fully transfer a name to another wallet and have the same default records set up as if that new wallet registered the name. In order to do that, the Controller wallet should first update the ETH Address(see #3) to the new wallet address. Once that is changed, the Registrant wallet will need to update the Controller record to the same new wallet address. Finally, the Registrant should transfer ownership to the new wallet. In this way, the name is totally transferred to a new wallet, and that recipient does not have to do additional setup besides setting their Primary name. The order to this process does matter. If the for instance the Registrant is transferred to the new wallet first, only the new wallet can then update the Controller.
+Certains utilisateurs peuvent vouloir transférer complètement un nom vers un autre portefeuille et avoir les mêmes enregistrements par défaut configurés comme si ce nouveau portefeuille enregistrait le nom. Pour ce faire, le portefeuille du contrôleur doit d'abord mettre à jour l'adresse ETH (voir #3) à la nouvelle adresse du portefeuille. Une fois que cela a été modifié, le portefeuille du Registrant devra mettre à jour l'enregistrement du contrôleur à la même nouvelle adresse de portefeuille. Enfin, le Déposant devrait transférer la propriété au nouveau portefeuille. De cette façon, le nom est entièrement transféré vers un nouveau portefeuille, et que le destinataire n'a pas à faire de configuration supplémentaire en plus de définir son nom principal. La commande à ce processus est importante. Si par exemple le Déposant est transféré au nouveau portefeuille en premier, seul le nouveau portefeuille peut ensuite mettre à jour le Contrôleur.
 
 
-**Important:** Without updating the ETH Address, tokens sent to _othername.eth_ will still arrive in the original wallet, if only the Registrant has been changed!
+**Important :** Sans mise à jour de l'adresse ETH, les jetons envoyés à _autre nom. th_ arrivera toujours dans le portefeuille d'origine, si seulement le Déposant a été modifié !
 
 
 <!-- ### Further Reading:

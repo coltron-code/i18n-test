@@ -1,10 +1,10 @@
 ---
-title: Understanding Ethereum
-id: Understanding Ethereum
+title: Comprendre Ethereum
+id: Comprendre Ethereum
 ---
 
-# Understanding Ethereum
+# Comprendre Ethereum
 
-Ethereum is a decentralized cryptocurrency blockchain that distinguishes itself by providing a Virtual Machine capable of running turing complete smart contracts, enabling technological advancements like decentralized finance and even the Ethereum Name Service itself — something which wasn't possible with the cryptocurrencies that preceded it.
+Ethereum est une blockchain de crypto-monnaies décentralisée qui se distingue en fournissant une Machine Virtuelle capable d'exécuter des contrats intelligents complets, permettant des avancées technologiques telles que la finance décentralisée et même le service Ethereum Name — ce qui n'a pas été possible avec les cryptomonnaies qui l'ont précédé.
 
-More comprehensive information about Ethereum can be found in the [official Ethereum documentation](https://ethereum.org/en/what-is-ethereum/).
+Des informations plus détaillées sur Ethereum peuvent être trouvées dans la [documentation officielle d'Ethereum](https://ethereum.org/en/what-is-ethereum/).

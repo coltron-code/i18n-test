@@ -1,16 +1,16 @@
 ---
-title: How long will it take for my transaction to finish?
-id: How long do transactions take
+title: Combien de temps faut-il pour terminer ma transaction?
+id: Combien de temps prennent les transactions
 ---
 
-# How long will it take for my transaction to finish?
+# Combien de temps faut-il pour terminer ma transaction?
 
-### Ethereum Gas (Gwei) and Transactions
+### Gaz Ethereum (Gwei) et Transactions
 
-The time for Ethereum transactions to finish adding data to a block is dependent upon network usage. There's a fee charged for using the blockchain, which is the gas fee in gwei. One gwei is 0.000000001 ETH. When there are a lot of transactions happening on the blockchain, gas fees can increase due to competition for the validators to mine a transaction. In most cases, the transaction will eventually finish. However, the time frame would be dependent on when the miners add the data to the block. Setting too low of a maximum for a gas fee can cause a transaction to sit for too long; hours or days, or even not get mined at all.
+L'heure pour les transactions Ethereum de terminer l'ajout de données à un bloc dépend de l'utilisation du réseau. Il y a des frais facturés pour l'utilisation de la blockchain, qui sont les frais de gaz en gwei. Un gwei est de 0.000000001 ETH. Quand il y a beaucoup de transactions qui se passent sur la blockchain, les frais de gaz peuvent augmenter en raison de la concurrence pour les validateurs de miner une transaction. Dans la plupart des cas, la transaction se terminera à terme. Cependant, la période de temps serait dépendante du moment où les mineurs ajouteront les données au bloc. Définir un maximum trop bas pour un frais de gaz peut entraîner une transaction trop longue ; heures ou jours, ou même pas être miné du tout.
 
-### Looking for Stuck Transactions
+### Recherche de transactions bloquées
 
-When looking for the reason why a transaction might not have finished, the first place to look is on a blockchain explorer such as [Etherscan.io](https://etherscani.io). After searching for your wallet, you can see any pending transactions listed there. If you don't see any pending transactions, but you see them in your wallet software such as MetaMask, those transactions pending there have not been sent to the blockchain. They are stuck locally in the wallet software.
+Lors de la recherche de la raison pour laquelle une transaction pourrait ne pas être terminée, le premier endroit à regarder est sur un explorateur blockchain tel que [Etherscan. o](https://etherscani.io). Après la recherche de votre portefeuille, vous pouvez voir toutes les transactions en attente listées ici. Si vous ne voyez aucune transaction en attente, mais que vous les voyez dans votre logiciel de portefeuille tel que MetaMask, ces transactions en attente n'ont pas été envoyées à la blockchain. Ils sont bloqués localement dans le logiciel de portefeuille.
 
-On the other hand, if you do have pending transactions seen on the block explorer, you can clear them out by sending a 0 ETH transaction with the same nonce value to your own wallet. In this new transaction, you must set the gas price higher so that it will be picked up and the old transaction with the same nonce canceled. There's more reading from the [Etherscan documentation on how to replace a transaction. ](https://info.etherscan.com/how-to-replace-a-transaction/)
+Par contre, si vous avez des transactions en attente vues dans l'explorateur de blocs, vous pouvez les effacer en envoyant une transaction ETH 0 avec la même valeur nonce à votre propre portefeuille. Dans cette nouvelle transaction, vous devez définir le prix du gaz plus élevé afin qu'il soit ramassé et l'ancienne transaction avec la même nonce annulée. Il y a plus de lectures à partir de la documentation [Etherscan sur la façon de remplacer une transaction. ](https://info.etherscan.com/how-to-replace-a-transaction/)

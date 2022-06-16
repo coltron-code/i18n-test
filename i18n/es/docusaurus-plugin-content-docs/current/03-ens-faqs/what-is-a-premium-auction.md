@@ -1,26 +1,26 @@
 ---
-title: What is a premium auction?
-id: premium auction explained
+title: '¿Qué es una subasta de primas?'
+id: subasta premium explicada
 ---
 
-# What is a premium auction?
+# ¿Qué es una subasta de primas?
 
-### About premium auctions
+### Acerca de subastas premium
 
-An expired ENS name will first go into a 90 day grace period. After the grace period ends, anyone will be able to register the name again. However, names that have passed the grace period enter into a 21 day dutch auction starting with a premium price that is currently set at $100,000,000 USD.
+An expirated ENS name will first go into a 90 day grace period. Una vez finalizado el período de gracia, cualquiera podrá registrar el nombre de nuevo. Sin embargo, nombres que han pasado el período de gracia ingresan en una subasta de 21 días comenzando con un precio premium que actualmente se establece en $100, 00.000 USD.
 
-Over 21 days, the premium price will decline until the premium fee is $0. The premium price decreases using a non-linear decay. This means the premium falls from the very high start price quickly, and slows towards the end of the 21 day premium window. A name can be registered within the premium auction by choosing the time to buy.
+Durante 21 días, el precio de la prima caerá hasta que la tarifa de la prima sea de $0. El precio de la prima disminuye con una caída no lineal. Esto significa que la prima cae rápidamente del muy alto precio de inicio y se desciende hacia el final de la ventana de prima de 21 días. Un nombre puede ser registrado dentro de la subasta premium eligiendo el momento de comprar.
 
-In the user interface of the [ENS App](https://app.ens.domains), clicking on the line chart for an ENS name in premium will give a price estimate for the specific date and time chosen. You will need enough Ether to pay the premium fee plus the yearly registration fee.
+En la interfaz de usuario de la [aplicación ENS](https://app.ens.domains), click on the line chart for an ES name in premium will give a price estimate for the specific date and time electen. Necesitarás suficiente Ether para pagar la cuota de la prima más la cuota anual de inscripción.
 
-![Manager app displaying premium decay.](./img/premium-auction-1.png "Chart of premium decay period.")
+![Gestor de aplicaciones que muestran deterioro premium.](./img/premium-auction-1.png "Gráfico de período de declive premium.")
 
-### Why have a premium auction at all?
+### ¿Por qué tener una subasta de premios?
 
-With the increase in the popularity of ENS names, names available to be re-registered would be instantly bought by bots, and front-running miners, to snipe an ENS name before others could purchase it. The current starting price for the premium auction is $100,000,000 which decays to $0 over the 21 premium window. This declining premium is effectively a Dutch Auction.
+With the increase in the popularity of ENS names, names available to be re-registered would be instantly purchased by bots, y mineros de funcionamiento frontal, para cortar un nombre de ENS antes de que otros pudieran comprarlo. El precio inicial actual de la subasta es de $100.000.000 que cae a $0 sobre la ventana de premio. Esta reducción de la prima es en realidad una subasta holandesa.
 
-It's not expected that anyone would purchase a name at such a high price, but it prevents those running scripts from taking advantage of the auction mechanics.
+No se espera que nadie compre un nombre a un precio tan alto, pero evita que aquellos que ejecutan scripts aprovechen los mecanismos de subasta.
 
-### Further Reading:
+### Leyendo más:
 
-* [\[EP9\]\[Executable\] Change to Exponential Premium Price Oracle](https://docs.ens.domains/v/governance/governance-proposals/ep9-executable-change-to-exponential-premium-price-oracle)
+* [\[EP9\]\[Ejecutabla\] Cambiar a Oracle de Precio Premium Exponencial](https://docs.ens.domains/v/governance/governance-proposals/ep9-executable-change-to-exponential-premium-price-oracle)

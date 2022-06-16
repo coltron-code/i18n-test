@@ -2,7 +2,7 @@
   "label": "ENS Faqs",
   "position": 3,
   "link": {
-    "type": "generated-index",
-    "description": "Frequently Asked Questions about ENS Names."
+    "type": "index-généré",
+    "description": "Foire aux questions sur les noms de l'ENS."
   }
 }

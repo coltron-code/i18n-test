@@ -1,21 +1,21 @@
 ---
-title: How do I use an ENS name after purchasing it on a secondary marketplace?
-id: Steps after secondary purchase.
+title: Как использовать имя, присвоенное ENS после покупки на вторичном рынке?
+id: Шаги после вторичной покупки.
 ---
 
-# How do I use an ENS name after purchasing it on a secondary marketplace?
+# Как использовать имя, присвоенное ENS после покупки на вторичном рынке?
 
-After purchasing your ENS name on a secondary market like OpenSea or Rarible, you should next head over to the [ENS App](https://app.ens.domains). Once connecting your wallet there, you can update the records for your ENS name. You may notice that only the Registrant has changed to your wallet address. By clicking “Set,” you will update the Controller record. Updating ENS name records will update the state of the blockchain, so this will incur gas.
+После покупки названия ENS на вторичном рынке, как OpenSea или Rarible, вы должны перейти к [приложению ENS](https://app.ens.domains). После подключения вашего кошелька вы можете обновить записи для вашего ENS. Вы можете заметить, что только регистратор изменился на адрес вашего кошелька. Нажав на кнопку «Установить», вы обновите запись контроллера. Обновление записей о именах ENS обновит состояние блокчейна, поэтому это повлечет за собой газ.
 
-![Editing the controller.](./img/second-market-1.png "The controller highlighted in the manager app.")
+![Редактирование контроллера.](./img/second-market-1.png "Контроллер выделен в приложении менеджера.")
 
 
-After setting the Controller, you can update the ETH Address record. Any cryptocurrency (ERC20) or NFTs(ERC721) sent to your ENS name will arrive at the Ethereum address saved there.
+После установки контроллера вы можете обновить ETH-адрес. Любые криптовалюты (ERC20) или NFTs(ERC721), отправленные на ваше имя ENS, прибудут на Ethereum адрес, сохраненный там.
 
-**Important:** Without updating these records after purchase on a secondary market, cryptocurrency transactions sent to your .eth name will not arrive in your wallet(s) by default.
+**Важно:** Без обновления данных записей после покупки на вторичном рынке, операции с криптовалютами, отправленные на ваш . по умолчанию имя не прибудет в ваш кошелек(ы).
 
-Your ENS name can store payment addresses for more than just Ethereum. The currencies you can add, includes BTC, LTC, DOGE, and _many_ more.
+Ваше имя ENS может хранить адреса оплаты более чем для Ethereum. The currencies you can add, includes BTC, LTC, DOGE, and _many_ more.
 
-![Editing the currency record.](./img/second-market-2.png "Editing the currency record.")
+![Редактирование записи валюты.](./img/second-market-2.png "Редактирование записи валюты.")
 
 

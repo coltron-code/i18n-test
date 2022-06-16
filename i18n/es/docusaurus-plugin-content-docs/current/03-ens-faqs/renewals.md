@@ -1,15 +1,15 @@
 ---
-title: Renewals Explained
-id: Renewals
+title: Renovaciones explicadas
+id: Renovaciones
 ---
 
-# Renewals
+# Renovaciones
 
-All .eth names expire, but can be renewed. Renewal fees are currently set to the same costs as the registration fees.
+Todos los nombres .eth caducan, pero pueden ser renovados. Las tasas de renovación se fijan actualmente en los mismos costes que las tasas de inscripción.
 
-* 5+ character .eth names: $5 in ETH per year.
-* 4 character .eth names: $160 in ETH per year.
-* 3 character .eth names $640 in ETH per year.
+* 5+ nombres .eth personaje: $5 en ETH por año.
+* Nombres .eth 4 caracteres: $160 en ETH por año.
+* 3 carácteres nombres de $640 en ETH por año.
 
-**Note:** Any wallet can renew an ENS name. The wallet does not need to own the name in order to extend the registration period.
+**Nota:** Cualquier monedero puede renovar un nombre ENS. La cartera no necesita poseer el nombre para ampliar el período de registro.
 

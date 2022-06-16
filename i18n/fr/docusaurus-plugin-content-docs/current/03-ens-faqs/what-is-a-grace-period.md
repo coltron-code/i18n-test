@@ -1,16 +1,16 @@
 ---
-title: What is a grace period?
-id: Grace Periods
+title: Qu'est-ce qu'un délai de grâce?
+id: Périodes de grâce
 ---
 
-# What is a grace period?
+# Qu'est-ce qu'un délai de grâce?
 
-The **grace period** is the 90-day time-frame that is given after an ENS name expires. During this time the name cannot be transferred to a new Registrant (owner) and the records cannot be updated. The ENS name must first be renewed so that it leaves the grace period and has an expiration date into the future.
+La **période de grâce** est la période de 90 jours qui est donnée après l'expiration d'un nom de l'ENS. Pendant ce temps, le nom ne peut pas être transféré à un nouveau Déposant (propriétaire) et les dossiers ne peuvent pas être mis à jour. Le nom de l'ENS doit d'abord être renouvelé afin qu'il quitte le délai de grâce et ait une date d'expiration dans le futur.
 
-![Checking for name in grace period.](./img/grace-period-1.png "The manager app will display if a name is in grace period.")
+![Vérification du nom en période de grâce.](./img/grace-period-1.png "L'application du gestionnaire s'affichera si un nom est en période de grâce.")
 
-If the ENS name is not renewed before the grace period ends, the name will enter a premium Dutch auction for 21-days. At the end of 21 days the ENS name will not have a premium attached any longer and can be registered at the standard yearly fee. The premium auction currently starts at $100,000,000 USD and decreases with a non-linear decay over 21-days. If the name is purchased during the premium period, the purchaser will pay the premium auction price and the standard yearly fee.
+Si le nom de l'ENS n'est pas renouvelé avant la fin du délai de grâce, le nom entrera une vente aux enchères néerlandaise de prime pendant 21 jours. À la fin de 21 jours, le nom de l'ENS n'aura plus de prime attachée et pourra être enregistré aux frais annuels standard. La vente aux enchères de primes commence actuellement à 100 000 000 $ US et diminue avec une décomposition non linéaire en 21 jours. Si le nom est acheté pendant la période de prime, l'acheteur paiera le prix de vente de la prime et les frais annuels standard.
 
-![Grace Period Decay](./img/grace-period-2.png "Graphical representation of the premium period decay.")
+![Décomposition de la période de grâce](./img/grace-period-2.png "Représentation graphique du déclin de la période de primes.")
 
-### Further Reading:<!-- * \[What is a premium auction?\](what-is-a-premium-auction.md) -->
+### Lecture supplémentaire:<!-- * \[What is a premium auction?\](what-is-a-premium-auction.md) -->

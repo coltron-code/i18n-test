@@ -1,25 +1,25 @@
 ---
-title: How does name resolution work?
-id: Name resolution explained
+title: Comment fonctionne la résolution des noms ?
+id: Résolution du nom expliquée
 ---
 
-# How does name resolution work?
+# Comment fonctionne la résolution des noms ?
 
-The Primary record is your _reverse record_ responsible for resolving your wallet address to your ENS name, effectively helping DApps and other services display your ENS name based on your wallet address_._
+L'enregistrement primaire est votre _enregistrement inversé_ responsable de la résolution de l'adresse de votre portefeuille à votre nom ENS, aider efficacement DApps et d'autres services à afficher votre nom d'ENS en fonction de l'adresse de votre portefeuille_._
 
-The easiest way to understand it is to consider that name resolution works in two directions:
+La façon la plus simple de comprendre cela est de considérer que la résolution de nom fonctionne dans deux directions :
 
-### Forward resolution
+### Résolution de transfert
 
-* **Your ENS name ➞ Your wallet address,** or for a practical example: **cthulu.eth ➞ 0xa19A7ae868eDe64C6C5256A64BCD3bf3a9F2d615** _Determined by the ETH Address (forward) record set on your domain._
+* **Nom de votre ENS <unk> Adresse de votre portefeuille,** ou pour un exemple pratique : **cthulu. th <unk> 0xa19A7ae868eDe64C6C5256A64BCD3bf3a9F2d615** _Déterminé par l'adresse ETH (forward) record set sur votre domaine._
 
-### Reverse resolution
+### Résolution inversée
 
-* **Your wallet address ➞ Your ENS name,** or for a practical example: **0xa19A7ae868eDe64C6C5256A64BCD3bf3a9F2d615 ➞ cthulu.eth** _Determined by the Primary (reverse) record set in your wallet._
+* **Adresse de votre portefeuille <unk> Nom de votre ENS,** ou pour un exemple pratique: **0xa19A7ae868eDe64C6C5256A64BCD3bf3a9F2d615 <unk> cthulu. th** _Déterminé par l'enregistrement primaire (inversé) défini dans votre portefeuille._
 
-In order to set an ENS name as Primary in a wallet, it's therefore a requirement that the ENS name first resolves to that wallet address.
+Afin de définir un nom ENS comme primaire dans un portefeuille, Il est donc nécessaire que le nom de l'ENS se résout d'abord à cette adresse de portefeuille.
 
-In order to set your ENS name as Primary in your wallet:
+Afin de définir votre nom d'ENS comme Primaire dans votre portefeuille:
 
-1. Make sure the ETH-Address record points to the wallet address
-2. Connect your wallet to the [ENS Manager App](https://app.ens.domains) and set the ENS name as Primary.
+1. Assurez-vous que l'enregistrement de l'adresse ETH-Address pointe vers l'adresse du portefeuille
+2. Connectez votre portefeuille à l'app [ENS Manager](https://app.ens.domains) et définissez le nom de l'ENS comme Primary.

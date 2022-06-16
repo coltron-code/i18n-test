@@ -1,8 +1,8 @@
 {
-    "label": "Blockchain Basics",
+    "label": "Les Bases de la Blockchain",
     "position": 4,
     "link": {
-        "type": "generated-index",
-        "description": "Learn about common blockchain topics"
+        "type": "index-généré",
+        "description": "En savoir plus sur les sujets communs de la blockchain"
     }
 }

@@ -1,16 +1,16 @@
 ---
-title: Join the Community
-id: Community
+title: الانضمام إلى المجتمع
+id: المجتمع
 ---
 
-# Join the Community
+# الانضمام إلى المجتمع
 
-The Ethereum Name Service is a neutral, public protocol for the future of the internet and the ENS DAO is an inclusive and open community that supports the ENS protocol.
+خدمة اسم إيثيريوم محايدة، ويعتبر البروتوكول العام لمستقبل الإنترنت ونظام "نس داو" مجتمعاً شاملاً ومفتوحاً يدعم بروتوكول "نس داو".
 
-To read about our organizational Structure view our [Governance Docs](https://docs.ens.domains/v/governance/).
+للقراءة حول هيكلنا التنظيمي عرض [وثائق الحوكمة](https://docs.ens.domains/v/governance/) الخاصة بنا.
 
-The minimum barrier of entry to our DAO is to become active in our [Discord](https://chat.ens.domains) and gain access to our[ governance forum](https://discuss.ens.domains).
+الحد الأدنى لحاجز الدخول إلى DAO الخاص بنا هو أن تصبح نشطة في [ديسكورد](https://chat.ens.domains) وأن تحصل على الوصول إلى[ منتدى الحوكمة](https://discuss.ens.domains) الخاص بنا.
 
-To attain voting power and vote on governance proposals you must hold **$ENS** governance tokens.
+للحصول على قوة التصويت والتصويت على مقترحات الحكم، يجب عليك الاحتفاظ بـ **$ENS** رموز الحكم.
 
-To learn more about becoming involved in our community you can contact the ENS DAO [Community Working Group](https://discuss.ens.domains/t/community-working-group-dashboard/11031) which holds weekly onboarding calls every **Friday at 1:30pm EST** on [Google Meet](https://meet.google.com/gvg-bkdk-xaa).
+لمعرفة المزيد عن المشاركة في مجتمعنا يمكنك الاتصال بـ ENS DAO [فريق العمل المجتمعي](https://discuss.ens.domains/t/community-working-group-dashboard/11031) الذي يعقد مكالمات أونبواردينج أسبوعية كل **يوم جمعة الساعة 1:30 مساء** على [Google Meet](https://meet.google.com/gvg-bkdk-xaa).

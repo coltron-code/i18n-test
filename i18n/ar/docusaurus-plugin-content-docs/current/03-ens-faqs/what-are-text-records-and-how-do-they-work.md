@@ -1,57 +1,57 @@
 ---
-title: What are text records?
-id: Text Records
+title: ما هي السجلات النصية؟
+id: سجلات النص
 ---
 
-# What are text records and how do they work?
+# ما هي السجلات النصية وكيف تعمل ؟
 
-## Text Records
+## سجلات النص
 
-Text records allow you to attach and store publicly available and arbitrary text data to your Ethereum Name. Your text records are essentially user-controlled, human-readable metadata for applications to reference and use. Because your text records are created by you and stored on the Ethereum blockchain, they enable a self-sovereign and decentralized user profile. This means that your information and profile can begin to escape the centralized architecture of Web2.
+تسمح لك السجلات النصية بإرفاق وتخزين البيانات النصية المتاحة للجمهور والتعسفية إلى اسم الإيثيريوم الخاص بك. السجلات النصية الخاصة بك هي أساسا بيانات فوقية محكومة بالمستخدم وقابلة للقراءة للتطبيقات المرجعية والاستخدام. لأن السجلات النصية الخاصة بك يتم إنشاؤها من قبلك وتخزينها على بلوكشين إيثيريوم، فإنها تمكن ملف تعريف للمستخدم ذاتي السيادة واللامركزية. هذا يعني أن معلوماتك وملفاتك الشخصية يمكن أن تبدأ في الهروب من الهندسة المركزية للويب 2.
 
-With the [ENS Metadata Service](https://metadata.ens.domains/docs) these text records are not confined to the Ethereum Blockchain and can be referenced by DNS.
+مع [ENS خدمة البيانات الوصفية](https://metadata.ens.domains/docs) هذه السجلات النصية ليست محصورة في سلسلة كتل إيثيريوم ويمكن الرجوع إليها بواسطة DNS.
 
-For technical data on the EIP that makes this possible, see: [EIP-634](https://eips.ethereum.org/EIPS/eip-634).
+للاطلاع على البيانات التقنية على EIP التي تجعل ذلك ممكناً، انظر: [EIP-634](https://eips.ethereum.org/EIPS/eip-634).
 
-### How can I add a text record?
+### كيف يمكنني إضافة سجل نصي؟
 
-In the [ENS App](https://app.ens.domains), you can add a record by clicking the ‘Add/Edit’ link in the ‘records’ tab:
+في [ENS App](https://app.ens.domains)، يمكنك إضافة سجل بالنقر على رابط "Add/Edit" في علامة التبويب "السجلات":
 
-![Add/Edit Records](./img/text-records-1.png "Add/Edit your text records.")
+![إضافة/تعديل السجلات](./img/text-records-1.png "إضافة/تعديل السجلات النصية الخاصة بك.")
 
-You should see some drop down boxes appear that will allow you to choose to add a “TEXT” record, the kind of text record (e.g. “URL”), and then enter the information for that record:
+يجب أن ترى بعض المربعات المنسدلة التي ستسمح لك باختيار إضافة سجل "TEXT"، نوع السجل النصي (هـ ). "URL")، ثم أدخل المعلومات اللازمة لذلك السجل:
 
-![Add your text.](./img/text-records-2.png "Add your text to the fields.")
+![أضف النص الخاص بك.](./img/text-records-2.png "أضف النص الخاص بك إلى الحقول.")
 
-Once you’re ready, click "Confirm" to send the transaction, and once it’s mined you should see it appear below.
+بمجرد أن تكون مستعدا، انقر فوق "تأكيد" لإرسال المعاملة، وحالما يتم استخراجها، ستظهر أدناه.
 
-**Note:** Text records, like all ENS records, are publicly visible.
+**ملاحظة:** السجلات النصية ، مثل جميع سجلات ENS ، مرئية للجمهور.
 
 
-### Type of Text Fields.
+### نوع حقول النصوص.
 
-Although users can easily define new text records, there are several keys established on the ENS Domain Manager.
+وعلى الرغم من أن المستعملين يستطيعون بسهولة تحديد سجلات نصية جديدة، فإن هناك عدة مفاتيح أنشئت في مدير نطاقات ENS.
 
-#### Common Global Keys
+#### المفاتيح العالمية المشتركة
 
-Global Keys should only consist of lowercase letters, numbers, and hyphens.
+المفاتيح العالمية يجب أن تتكون فقط من أحرف صغيرة وأرقام ووصلات.
 
-* **Avatar** - An all lowercase URL to an image used as an avatar or logo. All lowercase.
-* **Description** - A description of the name.
-* **Display -** A canonical display name for the ENS name.
-* **E-mail -** An e-mail address
-* **Keywords -** A list of comma-separated keywords, ordered by most significant first.
-* **URL -** A website URL
+* **الصورة الرمزية** - رابط جميع الأحرف الصغيرة لصورة تستخدم كصورة رمزية أو شعار. كل الأحرف الدنيا.
+* **الوصف** - وصف للاسم.
+* **العرض -** اسم العرض الكنسي لاسم ENS.
+* **البريد الإلكتروني -** عنوان بريد إلكتروني
+* **الكلمات المفتاحية -** قائمة بالكلمات المفتاحية مفصولة بفاصلة، التي طلبها الأهم أولا.
+* **URL -** رابط الموقع
 
-#### Other Service Keys
+#### مفاتيح الخدمة الأخرى
 
-Service Keys must be made up of a reverse dot notation (see below examples), and contain at least one dot. A user can create their own service key adhering to this format.
+مفاتيح الخدمة يجب أن تتكون من علامة عكسية (انظر الأمثلة أدناه)، وأن تحتوي على نقطة واحدة على الأقل. يمكن للمستخدم إنشاء مفتاح الخدمة الخاص به الملتزم بهذا التنسيق.
 
 * **com.github** - A Github username.
-* **com.twitter** - A Twitter username.
-* **io.keybase -** A Keybase Username.
-* **org.telegram -** A Telegram Username.
+* **com.twitter** - اسم مستخدم تويتر.
+* **io.keybase -** اسم مستخدم قاعدة المفاتيح.
+* **org.telegram -** اسم مستخدم تيليجرام.
 
 
-**Note:** Usernames should **NOT** include the "@" symbol or contain the full URL to the user profile.
+**ملاحظة:** أسماء المستخدمين يجب أن **لا** تتضمن رمز "@" أو تحتوي على عنوان URL الكامل لملف المستخدم الشخصي.
 

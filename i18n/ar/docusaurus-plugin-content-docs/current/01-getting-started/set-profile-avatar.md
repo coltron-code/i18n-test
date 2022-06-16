@@ -1,86 +1,86 @@
 ---
-title: Setting your Profile Avatar
-id: Setting Avatar
+title: إعداد الصورة الرمزية لملفك الشخصي
+id: إعداد الصورة الرمزية
 ---
 
-# Setting your Profile Avatar
+# إعداد الصورة الرمزية لملفك الشخصي
 
-**WARNING**: Support in the ENS Manager right now is very manual! A redesign of the ENS manager will be released soon to make this much more manageable. For now, though, here is a guide.
+**تحذير**: الدعم في ادارة ENS الآن يدوي جدا! وستصدر قريباً إعادة تصميم لمدير نظام NS لجعل هذا الأمر أيسر بكثير. ولكن هذا دليل في الوقت الحالي.
 
-### Do you have an ENS name?
+### هل لديك اسم ENS؟
 
-If you don’t already have an ENS name, you can register an ENS name or import a DNS domain name you already own at [app.ens.domains](https://app.ens.domains). You can set an NFT avatar for either kind of ENS name.
+إذا لم يكن لديك بالفعل اسم ENS، يمكنك تسجيل اسم ENS أو استيراد اسم نطاق DNS الذي تملكه بالفعل في [تطبيق. ns.domains](https://app.ens.domains). يمكنك تعيين الصورة الرمزية NFT لأي نوع من اسم ENS.
 
-### Is your Primary ENS Name record set?
+### هل تم تعيين سجل اسم ENS الأساسي الخاص بك؟
 
-A primary name is a record of which ENS name you own that represents your wallet.
+الاسم الرئيسي هو سجل يحمل اسم ENS الذي تملكه والذي يمثل محفظتك.
 
-If you don’t have a primary name set, you can follow <!-- **Primary Name Guide Link ** --> as a guide.
+إذا لم يكن لديك اسم رئيسي محدد، فيمكنك المتابعة <!-- **Primary Name Guide Link ** --> كدليل.
 
-### Are you willing to spend ETH on gas fees?
+### هل أنت على استعداد لإنفاق ETH على رسوم الغاز؟
 
-You're probably aware of what gas fees on the Ethereum network are by now if not, you can<!-- \[read here\](/references/ethereum/what-are-gas-fees.md) -->, and since this transaction will be **on-chain**, it means that you **will have to spend ETH**. If you're ok with that, perfect! You can continue following the steps
+ربما أنت على علم بماهية رسوم الغاز على شبكة إيثيريوم الآن إن لم تكن كذلك، يمكنك<!-- \[read here\](/references/ethereum/what-are-gas-fees.md) -->، وبما أن هذه المعاملة ستكون **على السلسلة**، فهذا يعني أنك **سوف تضطر إلى إنفاق ETH**. إذا كنت مأخوذ بهذا الكمال! يمكنك متابعة الخطوات
 
-### Setting the Avatar record
+### تعيين سجل الصورة الرمزية
 
-Go to [app.ens.domains](https://app.ens.domains) and search for your ENS name to get to its records page. Make sure you Connect with the wallet that is the Controller of the ENS name. You should see an `ADD/EDIT RECORD` button. Click it, and scroll down until you find the Avatar Text Record.
+اذهب إلى [app.ens.domains](https://app.ens.domains) وابحث عن اسم ENS الخاص بك للوصول إلى صفحة سجلاته. تأكد من الاتصال مع المحفظة التي هي مراقب اسم ENS. يجب أن ترى زر `ADD/EDIT RECORD`. انقر عليه، ثم امسح للأسفل حتى تجد سجل نص الصورة الرمزية.
 
-![Setting your avatar record.](./img/set-avatar-1.png "Locate the avatar record to make a change.")
+![إعداد سجل الصورة الرمزية الخاص بك.](./img/set-avatar-1.png "حدد موقع سجل الصورة الرمزية لإجراء تغيير.")
 
-You can put an HTTPS link or IPFS hash to a file in this field, but if you’d like to put an **NFT that you own**, then you can input it **with this format**:
+يمكنك وضع رابط HTTPS أو تجزئة IPFS إلى ملف في هذا الحقل، ولكن إذا كنت ترغب في وضع **NFT الذي تملكه**، ثم يمكنك إدخاله **مع هذا التنسيق**:
 
 ```
-eip155:1/[NFT standard]:[contract address for NFT collection]/[token ID or the number it is in the collection]
+eip155:1/[NFT standard]:[العقد عنوان المجموعة NFT]/[الرمز المميز أو الرقم الموجود في المجموعة]
 ```
 
-You can find all of this information in the `Details` section of your NFT on OpenSea.
+يمكنك العثور على كل هذه المعلومات في قسم `التفاصيل` من NFT الخاص بك على OpenSea.
 
-![Setting your avatar record.](./img/set-avatar-2.png "Inspect the contract address and token id to build your avatar url.")
+![إعداد سجل الصورة الرمزية الخاص بك.](./img/set-avatar-2.png "افحص عنوان العقد ومعرف الرمز المميز لبناء رابط الصورة الرمزية الخاص بك.")
 
-Clicking the blue text across from `Contract Address` will take you to it's Etherscan page, where you can copy the full contract address.
+النقر على النص الأزرق عبر `عنوان العقد` سيأخذك إلى صفحة Etherssc، حيث يمكنك نسخ عنوان العقد كاملا.
 
-![Setting your avatar record.](./img/set-avatar-3.png "The contract address for your image can also be found on etherscan.io.")
+![إعداد سجل الصورة الرمزية الخاص بك.](./img/set-avatar-3.png "يمكن العثور على عنوان العقد لصورتك أيضاً على etherscan.io.")
 
-In this example, you would put all of this information like this:
+في هذا المثال ، ستضعون كل هذه المعلومات مثل هذا:
 
 ```
 eip155:1/erc721:0xb7F7F6C52F2e2fdb1963Eab30438024864c313F6/2430
 ```
 
-**Warning: The token standard cannot contain a hyphen, and must be all lowercase. So even though OpenSea may show it as "ERC-721", enter it as "erc721".**
+**تحذير: معيار الرمز المميز لا يمكن أن يحتوي على وصلة، ويجب أن يكون كل أحرف صغيرة. على الرغم من أن OpenSea قد تظهر كـ "ERC-721"، أدخلها كـ "erc721".**
 
-As mentioned at the start of the article, this will be much easier in the future. For now though, everything needs to be set and corrected manually, so be aware of the previous common mistakes, as well as others such as:
+وكما ذكر في بداية المادة، سيكون ذلك أيسر بكثير في المستقبل. غير أنه يلزم الآن تحديد كل شيء وتصويبه يدويا، ومن ثم ينبغي إدراك الأخطاء الشائعة السابقة، فضلا عن الأخطاء الأخرى مثل:
 
-* Setting the token standard to "erc721", even though it is actually "erc1155"
-* Using a cryptokitty as the NFT, which is **currently not supported**
-* Using any other NFT that doesn't use either NFT standard entirely. If you're unsure about this, you can always [ask in the discord](https://chat.ens.domains).
+* تعيين معيار الرمز المميز إلى "erc721"، على الرغم من أنه في الواقع "erc1155"
+* استخدام cryptokitty كـ NFT، وهو **غير مدعوم حاليا**
+* استخدام أي NFT آخر لا يستخدم أي من NFT القياسية بالكامل. إذا كنت غير متأكد من هذا، يمكنك دائماً [السؤال في الشقاق](https://chat.ens.domains).
 
-Click `Save` once your correctly formatted NFT has been entered into the text field. You will be prompted to approve a transaction in your wallet.. You will be prompted to approve a transaction in your wallet. Once that transaction shows that it is confirmed on Etherscan, your avatar is set!
+انقر فوق `حفظ` بمجرد إدخال NFT المنسقة بشكل صحيح في حقل النص. سيتم مطالبتك بالموافقة على معاملة في محفظتك.. سيتم مطالبتك بالموافقة على معاملة في محفظتك. بمجرد أن تظهر هذه المعاملة أنه يتم تأكيدها على Etherscan، يتم تعيين صورتك الرمزية!
 
-### Try it out!
+### جرب ذلك!
 
-Refresh the page in the ENS Manager app, and you should see your ENS name and avatar on the left-hand side. It may take a few seconds for your NFT avatar to show up, but we're working on reducing this in the future.
+قم بتحديث الصفحة في تطبيق مدير ENS، ويجب أن ترى اسم ENS والصورة الرمزية على الجانب الأيسر. قد يستغرق الأمر بضع ثوان لكي تظهر الصورة الرمزية لـ NFT، لكننا نعمل على تقليل هذا في المستقبل.
 
-![Setting your avatar record.](./img/set-avatar-4.png "If set properly, your avatar will be displayed in the manager app.")
+![إعداد سجل الصورة الرمزية الخاص بك.](./img/set-avatar-4.png "إذا تم تعيينه بشكل صحيح، سيتم عرض صورتك الرمزية في تطبيق المدير.")
 
-Next, head over to OpenSea and search for your name. Refresh the metadata (click the circular arrow button on the top right), wait a few minutes, and then reload the page. Your avatar should now be the background image for the NFT image of your ENS name!
+بعد ذلك، انتقل إلى OpenSea وابحث عن اسمك. قم بتحديث البيانات الوصفية (انقر فوق زر السهم الدائري في أعلى اليمين)، انتظر بضع دقائق، ثم أعد تحميل الصفحة. يجب أن تكون الصورة الرمزية الخاصة بك الآن صورة الخلفية لصورة NFT لاسم ENS الخاص بك!
 
-![Setting your avatar record.](./img/set-avatar-5.png "Your avatar will also display marketplaces in the image for you ENS Name.")
+![إعداد سجل الصورة الرمزية الخاص بك.](./img/set-avatar-5.png "ستعرض صورتك الرمزية أيضًا الأسواق في الصورة من أجلك اسم ENS.")
 
-Now go visit [app.uniswap.org](https://app.uniswap.org) and connect your wallet. Give it a few seconds, and your ENS name and avatar should show up!
+الآن اذهب إلى [app.uniswap.org](https://app.uniswap.org) و قم بتوصيل محفظتك. أعطاها بضع ثوانٍ، ويجب أن يظهر اسم NS والصورة الرمزية الخاصة بك!
 
-![Setting your avatar record.](./img/set-avatar-6.png "Your avatar on uniswap")
+![إعداد سجل الصورة الرمزية الخاص بك.](./img/set-avatar-6.png "صورتك الرمزية في غير المقايضة")
 
-Click on your name and you'll see it again.
+انقر فوق اسمك وسوف تراه مرة أخرى.
 
-![Setting your avatar record.](./img/set-avatar-6.png "Your avatar on uniswap.")
+![إعداد سجل الصورة الرمزية الخاص بك.](./img/set-avatar-6.png "صورتك الرمزية على uniswap.")
 
-Lastly, go to [app.1inch.io](https://app.1inch.io) and connect your wallet. Similarly to Uniswap, you'll be able to first see it on the top right.
+أخيرا، انتقل إلى [app.1inch.io](https://app.1inch.io) و قم بتوصيل محفظتك. كما هو الحال مع Uniswap، سوف تكون قادراً على رؤيته أولاً في أعلى اليمين.
 
-![Setting your avatar record.](./img/set-avatar-7.png "Your avatar on 1inch.")
+![إعداد سجل الصورة الرمزية الخاص بك.](./img/set-avatar-7.png "صورتك الرمزية على 1 نص.")
 
-Also, you'll be able to see it if you click your ENS name.
+وأيضا، ستتمكن من رؤيته إذا قمت بالنقر على اسم ENS الخاص بك.
 
-![Setting your avatar record.](./img/set-avatar-8.png "Your avatar on 1inch.")
+![إعداد سجل الصورة الرمزية الخاص بك.](./img/set-avatar-8.png "صورتك الرمزية على 1 نص.")
 
-That's it! Have fun with your newly set NFT avatar!
+هذا كل شيء! استمتع بالصورة الرمزية لـ NFT المعينة حديثاً!

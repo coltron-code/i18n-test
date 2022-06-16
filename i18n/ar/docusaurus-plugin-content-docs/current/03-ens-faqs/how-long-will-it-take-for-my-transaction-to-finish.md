@@ -1,16 +1,16 @@
 ---
-title: How long will it take for my transaction to finish?
-id: How long do transactions take
+title: كم من الوقت سيستغرق الانتهاء من معاملتي؟
+id: كم من الوقت تستغرق المعاملات
 ---
 
-# How long will it take for my transaction to finish?
+# كم من الوقت سيستغرق الانتهاء من معاملتي؟
 
-### Ethereum Gas (Gwei) and Transactions
+### غاز الإيثيريوم (Gwei) والمعاملات
 
-The time for Ethereum transactions to finish adding data to a block is dependent upon network usage. There's a fee charged for using the blockchain, which is the gas fee in gwei. One gwei is 0.000000001 ETH. When there are a lot of transactions happening on the blockchain, gas fees can increase due to competition for the validators to mine a transaction. In most cases, the transaction will eventually finish. However, the time frame would be dependent on when the miners add the data to the block. Setting too low of a maximum for a gas fee can cause a transaction to sit for too long; hours or days, or even not get mined at all.
+يعتمد وقت إتمام معاملات إيثيريوم لإضافة البيانات إلى كتلة على استخدام الشبكة. هناك رسوم تفرض على استخدام البلوكشين ، وهي رسوم الغاز بالجوي. غوي واحد هو 0.000000001 ETH. عندما يكون هناك الكثير من المعاملات التي تحدث على سلسلة الكتل، يمكن أن تزيد رسوم الغاز بسبب المنافسة على المصادقة لتعدين المعاملة. وفي معظم الحالات، ستنتهي الصفقة في نهاية المطاف. غير أن الإطار الزمني سيتوقف على الوقت الذي يضيف فيه عمال المناجم البيانات إلى الكتلة. ووضع حد أقصى أقصى لرسم الغاز يمكن أن يؤدي إلى بقاء الصفقة لفترة طويلة جدا؛ ساعات أو أيام، أو حتى لا يتم التعدين على الإطلاق.
 
-### Looking for Stuck Transactions
+### البحث عن معاملات عالقة
 
-When looking for the reason why a transaction might not have finished, the first place to look is on a blockchain explorer such as [Etherscan.io](https://etherscani.io). After searching for your wallet, you can see any pending transactions listed there. If you don't see any pending transactions, but you see them in your wallet software such as MetaMask, those transactions pending there have not been sent to the blockchain. They are stuck locally in the wallet software.
+عند البحث عن السبب الذي من أجله لم تكن المعاملة قد انتهت، أول مكان للبحث هو على مستكشف سلسلة الكتل مثل [Etherscan. o](https://etherscani.io). بعد البحث عن محفظتك، يمكنك رؤية أي معاملات معلقة مدرجة هناك. إذا كنت لا ترى أي معاملات معلقة، لكنك تراها في برنامج محفظتك مثل MetaMask، المعاملات التي لم يتم إرسالها إلى سلسلة الكتل. وهم معلقون محليا في برنامج المحفظة.
 
-On the other hand, if you do have pending transactions seen on the block explorer, you can clear them out by sending a 0 ETH transaction with the same nonce value to your own wallet. In this new transaction, you must set the gas price higher so that it will be picked up and the old transaction with the same nonce canceled. There's more reading from the [Etherscan documentation on how to replace a transaction. ](https://info.etherscan.com/how-to-replace-a-transaction/)
+من ناحية أخرى، إذا كان لديك معاملات معلقة مشاهدة على مستكشف البلوك، يمكنك إزالتها عن طريق إرسال معاملة ETH 0 بنفس القيمة غير المتكررة إلى محفظتك الخاصة. في هذه الصفقة الجديدة، يجب عليك تعيين سعر الغاز أعلى حتى يتم الحصول عليه وإلغاء المعاملة القديمة بنفس اللوحة. هناك المزيد من القراءة من [مستندات المسح الضوئي حول كيفية استبدال المعاملة. ](https://info.etherscan.com/how-to-replace-a-transaction/)

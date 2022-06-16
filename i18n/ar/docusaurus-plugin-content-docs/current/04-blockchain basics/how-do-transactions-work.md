@@ -1,16 +1,16 @@
 ---
-title: How do transactions work?
-id: Explaining Transactions
+title: كيف تعمل المعاملات؟
+id: شرح المعاملات
 ---
 
-# How do transactions work?
+# كيف تعمل المعاملات؟
 
-To make any change to the Ethereum blockchain, a transaction must be sent. A transaction is a cryptographically-signed message that specifies what change is to be made, and it is sent to any node in the network. Based on Ethereum’s rules of consensus, the network then agrees that the transaction is a valid one, and it is included in a block that is added to the blockchain.
+لإجراء أي تغيير على بلوكشين إيثيريوم، يجب إرسال المعاملة. المعاملة هي رسالة موقعة على التشفير تحدد التغيير الذي سيتم إدخاله، ويتم إرسالها إلى أي عقدة في الشبكة. استناداً إلى قواعد إجماع إيثيريوم، توافق الشبكة بعد ذلك على أن المعاملة صالحة. وهي مدرجة في كتلة يتم إضافتها إلى سلسلة الكتل.
 
-The simplest type of transaction is a token transfer, which involves transferring ETH from one account to another.
+وأبسط نوع من المعاملات هو التحويل الرمزي، الذي ينطوي على نقل ETH من حساب إلى آخر.
 
-Smart contracts, like the ones used for ENS, also function through the use of Ether transactions. Each time someone interacts with a smart contract, this action also takes place through an Ethereum transaction.
+العقود الذكية ، مثل العقود المستخدمة لـ ENS ، تعمل أيضا من خلال استخدام معاملات Ether . في كل مرة يتفاعل شخص ما مع عقد ذكي، يتم هذا الإجراء أيضا من خلال معاملة إيثيريوم.
 
-In order to incentivize miners to assume the heavy burden of cryptographically securing the Ethereum blockchain and make changes to it, each transaction incurs a cost called a "gas fee".
+من أجل تحفيز عمال المناجم على تحمل العبء الثقيل المتمثل في تأمين بلوكشين الإيثيريوم من الناحية التشفيرية وإجراء تغييرات فيه، وتتكبد كل معاملة تكلفة تسمى "رسم الغاز".
 
-More comprehensive information on how transactions work can be found in this [article](https://preethikasireddy.medium.com/how-does-ethereum-work-anyway-22d1df506369) and in the [ethereum documentation](https://ethereum.org/en/developers/docs/transactions/).
+يمكن العثور على معلومات أكثر شمولا عن كيفية عمل المعاملات في هذه المادة [](https://preethikasireddy.medium.com/how-does-ethereum-work-anyway-22d1df506369) وفي [مستندات الإيثيريوم](https://ethereum.org/en/developers/docs/transactions/).

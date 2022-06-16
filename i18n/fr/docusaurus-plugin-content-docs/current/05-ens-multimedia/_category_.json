@@ -1,8 +1,8 @@
 {
-    "label": "ENS Multimedia",
+    "label": "Multimédia ENS",
     "position": 4,
     "link": {
-        "type": "generated-index",
-        "description": "Podcasts and Articles about ENS"
+        "type": "index-généré",
+        "description": "Podcasts et articles sur les ENS"
     }
 }

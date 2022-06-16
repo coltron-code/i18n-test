@@ -1,19 +1,19 @@
 ---
-title: Why isn't the Resolver set to my address?
-id: Why isn't the Resolver different
+title: لماذا لم يتم تعيين الراسل إلى عنواني؟
+id: لماذا لا يوجد حل مختلف
 ---
 
-# Why isn't the Resolver set to my address?
+# لماذا لم يتم تعيين الراسل إلى عنواني؟
 
-The Resolver field for an ENS name is normally set to the ENS Public Resolver contract which helps resolve your ENS name into usable records like wallet addresses, avatars, etc. This is similar to how DNS helps resolve regular domain names into usable records like IP addresses.
+يتم عادة تعيين حقل Resolver لاسم ENS إلى عقد ENS العام الذي يساعد على حل اسم ENS الخاص بك في السجلات القابلة للاستخدام مثل عناوين المحفظة. الصور الرمزية، إلخ. وهذا مماثل لكيفية مساعدة DNS على حل أسماء النطاقات العادية في السجلات القابلة للاستخدام مثل عناوين IP
 
-There are a wide variety of records that can be set and resolved depending on your use-case.&
+هناك مجموعة واسعة من السجلات التي يمكن تعيينها وحلها اعتماداً على حالة الاستخدام الخاصة بك.&
 
-Some examples are:
+ومن الأمثلة على ذلك:
 
-* **Wallet address records** _Contains records about your various wallet addresses, so that funds can be sent to it._
-* **Avatar record** _Contains a link to an image stored as an NFT or on a website and used to visually represent your ENS name._
-* **Social links** _Useful links to, for example, your GitHub, LinkedIn or Twitter-profiles._
+* **سجلات عناوين المحفظة** _تحتوي على سجلات حول عناوين محفظتك المختلفة، بحيث يمكن إرسال الأموال إليها._
+* **سجل الصورة الرمزية** _يحتوي على رابط لصورة مخزنة كـ NFT أو على موقع على شبكة الإنترنت وتستخدم لتمثيل اسم ENS الخاص بك بصريا._
+* **الروابط الاجتماعية** _روابط مفيدة ، على سبيل المثال ، GitHub، LinkedIn أو Twitter-profiles._
 
 
-**Important:** If you've changed the default ENS Public Resolver, you can set it back to default on the [ENS App](https://app.ens.domains). The ENS Public Resolver is: 0x4976fb03C32e5B8cfe2b6cCB31c09Ba78EBaBa41
+**هام:** إذا قمت بتغيير الحل العام الافتراضي لـ ENS ، فيمكنك أن تعيده إلى الافتراضي على [تطبيق ENS](https://app.ens.domains). المعالج العام: 0x4976fb03C32e5B8cfe2b6cCB31c09Ba78EBaBa41

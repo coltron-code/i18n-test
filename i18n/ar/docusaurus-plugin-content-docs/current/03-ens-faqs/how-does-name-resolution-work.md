@@ -1,25 +1,25 @@
 ---
-title: How does name resolution work?
-id: Name resolution explained
+title: كيف تعمل دقة التسمية؟
+id: تم شرح قرار الاسم
 ---
 
-# How does name resolution work?
+# كيف تعمل دقة التسمية؟
 
-The Primary record is your _reverse record_ responsible for resolving your wallet address to your ENS name, effectively helping DApps and other services display your ENS name based on your wallet address_._
+السجل الأساسي هو _السجل العكسي_ المسؤول عن حل عنوان محفظتك إلى اسم ENS الخاص بك، مساعدة DApps وغيرها من الخدمات بشكل فعال في عرض اسم ENS الخاص بك استناداً إلى عنوان محفظتك__
 
-The easiest way to understand it is to consider that name resolution works in two directions:
+وأسهل طريقة لفهمه هي النظر في أن القرار المتعلق بالاسم يعمل في اتجاهين:
 
-### Forward resolution
+### إعادة التوجيه
 
-* **Your ENS name ➞ Your wallet address,** or for a practical example: **cthulu.eth ➞ 0xa19A7ae868eDe64C6C5256A64BCD3bf3a9F2d615** _Determined by the ETH Address (forward) record set on your domain._
+* **اسم ENS الخاص بك <unk> عنوان محفظتك** أو على سبيل المثال العملي: **cthulu. th <unk> 0xa19A7ae868eDe64C6C5256A64BCD3bf3a9F2d615** _تم تحديده بواسطة سجل ETH (forward) المحدد في نطاقك._
 
-### Reverse resolution
+### قرار عكسي
 
-* **Your wallet address ➞ Your ENS name,** or for a practical example: **0xa19A7ae868eDe64C6C5256A64BCD3bf3a9F2d615 ➞ cthulu.eth** _Determined by the Primary (reverse) record set in your wallet._
+* **عنوان محفظتك <unk> اسم ENS الخاص بك،** أو على سبيل المثال العملي: **0xa19A7ae868eDe64C6C5256A64BCD3bf3a9F2d615 <unk> cthulu.** _تم تحديده بواسطة السجل الأساسي (العكسي) في محفظتك_
 
-In order to set an ENS name as Primary in a wallet, it's therefore a requirement that the ENS name first resolves to that wallet address.
+من أجل تعيين اسم ENS كأساسي في المحفظة، لذلك فهو شرط أن يحل اسم ENS أولا عنوان المحفظة المذكورة.
 
-In order to set your ENS name as Primary in your wallet:
+من أجل تعيين اسم ENS الخاص بك كأساسي في محفظتك:
 
-1. Make sure the ETH-Address record points to the wallet address
-2. Connect your wallet to the [ENS Manager App](https://app.ens.domains) and set the ENS name as Primary.
+1. تأكد من أن نقاط سجل ETH-address إلى عنوان المحفظة
+2. قم بتوصيل محفظتك إلى تطبيق [ENS Manager](https://app.ens.domains) وتعيين اسم ENS كأساسي.

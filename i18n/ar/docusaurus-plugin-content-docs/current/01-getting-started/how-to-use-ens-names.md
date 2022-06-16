@@ -1,30 +1,30 @@
 ---
-title: What can I use an ENS name for?
-id: Using Your ENS Name
+title: ماذا يمكنني استخدام اسم ENS من أجل؟
+id: استخدام اسم ENS الخاص بك
 ---
 
-# What can I use an ENS name for?
+# ماذا يمكنني استخدام اسم ENS من أجل؟
 
-### An ENS Name is an way to remember you cryptocurrency addresses
+### اسم ENS هو طريقة لتذكر عناوين العملات الرقمية
 
-The first and most common use-case for ENS names is to use it as an easy-to-remember name for your cryptocurrency addresses.
+أول وأكثر حالات الاستخدام شيوعا لأسماء ENS هو استخدامها كاسم سهل التذكر لعناوين العملات الرقمية الخاصة بك.
 
-**ENS supports many different cryptocurrencies** which can be added to it from the [ENS Manager App](https://app.ens.domains) allowing you to receive payments in more cryptocurrencies than just Ethereum.  This reduces confusion associated with remembering your hexadecimal wallet address and provides clear payment options that integrated in to most wallet apps.
+**ENS يدعم العديد من العملات الرقمية المختلفة** التي يمكن إضافتها إليها من [تطبيق مدير ENS](https://app.ens.domains) مما يسمح لك باستلام المدفوعات في العملات المشفرة أكثر من Ethereum.  هذا يقلل من الارتباك المرتبط بتذكر عنوان محفظتك سداسية المستوى ويوفر خيارات دفع واضحة مدمجة في معظم تطبيقات المحفظة.
 
-### Point to decentralized websites
+### نقطة إلى مواقع الويب اللامركزية
 
-By coupling your decentralized ENS name with a service for hosting decentralized websites, it's possible to have an entirely decentralized website suitable for Web3. The protocols currently supported are:
+من خلال الجمع بين اسم ENS اللامركزي مع خدمة لاستضافة مواقع الويب اللامركزية، من الممكن الحصول على موقع لا مركزي تماما مناسب لموقع Web3. وفيما يلي البروتوكولات المدعومة حالياً:
 
-* IPFS and IPNS
+* IPFS و IPNS
 * Arweave
-* Onion and Onion3
-* Sia
-* Swarm
+* Onion و Onion3
+* سيا
+* سحر
 
-### Connect metadata to the Ethereum blockchain.
+### قم بتوصيل البيانات الوصفية إلى بلوكشين إيثيريوم.
 
-**Social Media.** ENS Names supports numerous text records which can be used to provide on-chain metadata to connect to your social media accounts. For example, you can add your Twitter or discord handles to your ENS records.
+**وسائل التواصل الاجتماعي.** أسماء NS تدعم العديد من السجلات النصية التي يمكن استخدامها لتوفير بيانات التعريف على السلسلة للاتصال بحسابات وسائل التواصل الاجتماعي الخاصة بك. على سبيل المثال، يمكنك إضافة معالجات تويتر أو ديسكورد إلى سجلات ENS الخاصة بك.
 
-**URLs and e-mail.** Your ENS name can store your e-mail or website. This will provide resources for anyone who has access to your name the ability to contact you.
+**عناوين URL والبريد الإلكتروني.** اسم ENS الخاص بك يمكنه تخزين بريدك الإلكتروني أو موقعك. هذا سيوفر الموارد لأي شخص لديه القدرة على الاتصال باسمك.
 
-**Custom Text Records.** our ENS name is also capable of storing custom records to can contain nearly anything you want to display or integrate into your own services.
+**سجلات نصية مخصصة.** اسم ENS لدينا قادر أيضًا على تخزين السجلات المخصصة لتحتوي على أي شيء تريد عرضه أو إدماجه في خدماتك الخاصة.

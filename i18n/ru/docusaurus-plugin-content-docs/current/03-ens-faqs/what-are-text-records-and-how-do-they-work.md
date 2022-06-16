@@ -1,57 +1,57 @@
 ---
-title: What are text records?
-id: Text Records
+title: Что такое текстовые записи?
+id: Текстовые записи
 ---
 
-# What are text records and how do they work?
+# Что такое текстовые записи и как они работают?
 
-## Text Records
+## Текстовые записи
 
-Text records allow you to attach and store publicly available and arbitrary text data to your Ethereum Name. Your text records are essentially user-controlled, human-readable metadata for applications to reference and use. Because your text records are created by you and stored on the Ethereum blockchain, they enable a self-sovereign and decentralized user profile. This means that your information and profile can begin to escape the centralized architecture of Web2.
+Текстовые записи позволяют прикреплять и хранить публичные и произвольные текстовые данные к вашему имени Ethereum. Ваши текстовые записи по существу контролируются пользователями, могут читаться для приложений для ссылки и использования. Поскольку ваши текстовые записи создаются вами и хранятся в блокчейне Ethereum, они позволяют самосуверенный и децентрализованный пользовательский профиль. Это означает, что ваша информация и профиль могут начать выходить из централизованной архитектуры Web2.
 
-With the [ENS Metadata Service](https://metadata.ens.domains/docs) these text records are not confined to the Ethereum Blockchain and can be referenced by DNS.
+В [сервисе метаданных ENS](https://metadata.ens.domains/docs) эти текстовые записи не ограничиваются блокчейном Ethereum и могут быть упомянуты DNS.
 
-For technical data on the EIP that makes this possible, see: [EIP-634](https://eips.ethereum.org/EIPS/eip-634).
+Технические данные по EIP, что делает это возможным, см. [EIP-634](https://eips.ethereum.org/EIPS/eip-634).
 
-### How can I add a text record?
+### Как я могу добавить текстовую запись?
 
-In the [ENS App](https://app.ens.domains), you can add a record by clicking the ‘Add/Edit’ link in the ‘records’ tab:
+В [ENS App](https://app.ens.domains)вы можете добавить запись, нажав на ссылку «Добавить/Изменить» во вкладке «Записи»:
 
-![Add/Edit Records](./img/text-records-1.png "Add/Edit your text records.")
+![Добавить/Изменить записи](./img/text-records-1.png "Добавить/изменить ваши текстовые записи.")
 
-You should see some drop down boxes appear that will allow you to choose to add a “TEXT” record, the kind of text record (e.g. “URL”), and then enter the information for that record:
+Вы должны увидеть появляются выпадающие окна, которые позволят вам добавить запись «TEXT», вид текстовой записи (e. "URL") и затем введите информацию для этой записи:
 
-![Add your text.](./img/text-records-2.png "Add your text to the fields.")
+![Добавьте ваш текст.](./img/text-records-2.png "Добавьте свой текст в поля.")
 
-Once you’re ready, click "Confirm" to send the transaction, and once it’s mined you should see it appear below.
+После того, как вы будете готовы, нажмите кнопку «Подтвердить», чтобы отправить транзакцию, и после того, как она будет добыта, вы увидите ее ниже.
 
-**Note:** Text records, like all ENS records, are publicly visible.
+**Примечание:** Текстовые записи, как и все записи ENS, видны публично.
 
 
-### Type of Text Fields.
+### Тип текстовых полей.
 
-Although users can easily define new text records, there are several keys established on the ENS Domain Manager.
+Хотя пользователи могут легко определить новые текстовые записи, в менеджере доменов ENS установлено несколько ключей.
 
-#### Common Global Keys
+#### Обычные Глобальные Ключи
 
-Global Keys should only consist of lowercase letters, numbers, and hyphens.
+Глобальные ключи должны состоять только из строчных букв, цифр и дефисов.
 
-* **Avatar** - An all lowercase URL to an image used as an avatar or logo. All lowercase.
-* **Description** - A description of the name.
-* **Display -** A canonical display name for the ENS name.
-* **E-mail -** An e-mail address
-* **Keywords -** A list of comma-separated keywords, ordered by most significant first.
-* **URL -** A website URL
+* **Аватар** - URL-адрес строчных букв к изображению, используемому в качестве аватара или логотипа. Все строчные буквы.
+* **Описание** - Описание имени.
+* **Отображение -** Каноническое отображаемое имя для ENS.
+* **E-mail -** Адрес электронной почты
+* **Ключевые слова -** Список ключевых слов, разделенных запятыми, упорядоченных по наиболее значимым словам.
+* **URL -** URL сайта
 
-#### Other Service Keys
+#### Другие ключи сервиса
 
-Service Keys must be made up of a reverse dot notation (see below examples), and contain at least one dot. A user can create their own service key adhering to this format.
+Ключи службы должны состоять из обратной точки, обозначенной (см. примеры ниже), и содержать хотя бы одну точку. Пользователь может создать свой собственный сервисный ключ в этом формате.
 
 * **com.github** - A Github username.
-* **com.twitter** - A Twitter username.
-* **io.keybase -** A Keybase Username.
-* **org.telegram -** A Telegram Username.
+* **com.twitter** - Имя пользователя Twitter.
+* **io.keybase -** Имя пользователя базы ключей.
+* **org.telegram -** Телеграмма имя пользователя.
 
 
-**Note:** Usernames should **NOT** include the "@" symbol or contain the full URL to the user profile.
+**Примечание:** Имена Пользователей должны **НЕ** включать символ "@" или содержать полный URL-адрес в профиле пользователя.
 

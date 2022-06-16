@@ -1,22 +1,22 @@
 {
   "version.label": {
-    "message": "Next",
+    "message": "Следующий",
     "description": "The label for version current"
   },
   "sidebar.tutorialSidebar.category.Getting Started": {
-    "message": "Getting Started",
+    "message": "Начало работы",
     "description": "The label for category Getting Started in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Getting Started.link.generated-index.description": {
-    "message": "Start here to learn about your ENS Name.",
+    "message": "Начните здесь , чтобы узнать о вашем ENS Name.",
     "description": "The generated-index page description for category Getting Started in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.ENS Tutorials": {
-    "message": "ENS Tutorials",
+    "message": "Уроки ENS",
     "description": "The label for category ENS Tutorials in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.ENS Tutorials.link.generated-index.description": {
-    "message": "Tutorials and guides to use your ENS Name.",
+    "message": "Учебники и руководства, чтобы использовать ваше имя ENS.",
     "description": "The generated-index page description for category ENS Tutorials in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.ENS Faqs": {
@@ -24,15 +24,15 @@
     "description": "The label for category ENS Faqs in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.ENS Faqs.link.generated-index.description": {
-    "message": "Frequently Asked Questions about ENS Names.",
+    "message": "Часто задаваемые вопросы о ENS Names.",
     "description": "The generated-index page description for category ENS Faqs in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Blockchain Basics": {
-    "message": "Blockchain Basics",
+    "message": "Основы блокчейна",
     "description": "The label for category Blockchain Basics in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Blockchain Basics.link.generated-index.description": {
-    "message": "Learn about common blockchain topics",
+    "message": "Узнайте о часто встречающихся блокчейн темах",
     "description": "The generated-index page description for category Blockchain Basics in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.ENS Multimedia": {
@@ -40,7 +40,7 @@
     "description": "The label for category ENS Multimedia in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.ENS Multimedia.link.generated-index.description": {
-    "message": "Podcasts and Articles about ENS",
+    "message": "Подкасты и статьи об ЭНС",
     "description": "The generated-index page description for category ENS Multimedia in sidebar tutorialSidebar"
   }
 }

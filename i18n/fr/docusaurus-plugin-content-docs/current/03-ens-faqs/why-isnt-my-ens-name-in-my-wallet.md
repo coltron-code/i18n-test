@@ -1,60 +1,60 @@
 ---
-title: Why isn't my ENS Name in my wallet?
-id: Why isn't my ENS Name in my wallet
+title: Pourquoi mon nom ENS n'est-il pas dans mon portefeuille?
+id: Pourquoi mon nom ENS n'est pas dans mon portefeuille
 ---
 
-# Why isn't my ENS Name in my wallet?
+# Pourquoi mon nom ENS n'est-il pas dans mon portefeuille?
 
-Please verify that your registration was successful please by checking your transaction history on [Etherscan.io](https://www.etherscan.io). Successful registrations will see two transactions: `Commit` **and** `Register with Config`. These transactions represent the Step 1 and Step 3 of the ENS registration process.
+Veuillez vérifier que votre inscription a réussi, veuillez vérifier votre historique de transactions sur [Etherscan.io](https://www.etherscan.io). Les inscriptions réussies verront deux transactions : `Valider` **et** `S'inscrire à Config`. Ces transactions représentent les étapes 1 et 3 du processus d'enregistrement de l'ENS.
 
-![Commit and Register With Config Transactions](./img/not-in-wallet-1.png "Ethercan showing the Commit and Register With Config Transactions")
+![Valider et s'inscrire avec les transactions de configuration](./img/not-in-wallet-1.png "Ethercan affiche la validation et l'enregistrement avec les transactions de configuration")
 
-## Troubleshooting Checklist
+## Liste de contrôle de dépannage
 
-1.  **Check your  address on** [**Etherscan.io**](https://www.etherscan.io)**.**
+1.  **Vérifiez votre adresse sur** [**Etherscan.io**](https://www.etherscan.io)**.**
 
-    Query the wallet address that was used to register an Ethereum Name.<!-- _If your address does not show any registration transactions proceed to_ \[#wrong-address\](why-isnt-my-ens-name-in-my-wallet.md#wrong-address "mention")__ -->2.  **Ensure Step 1 of registration is completed.**
+    Demander l'adresse du portefeuille qui a été utilisée pour enregistrer un nom Ethereum.<!-- _If your address does not show any registration transactions proceed to_ \[#wrong-address\](why-isnt-my-ens-name-in-my-wallet.md#wrong-address "mention")__ -->2.  **S'assurer que l'étape 1 de l'inscription est terminée.**
 
-    Look for a transaction with the method of `Commit`. This transaction should be present and have interacted with the [ENS Registrar Controller.](https://etherscan.io/address/0x283af0b28c62c092c9727f1ee09c02ca627eb7f5)__
+    Recherche une transaction avec la méthode de `Valider`. Cette transaction doit être présente et avoir interagi avec le contrôleur du registraire [ENS.](https://etherscan.io/address/0x283af0b28c62c092c9727f1ee09c02ca627eb7f5)__
 
-    _If the `Commit` transaction is not present, proceed to_<!--\[#registration-incomplete.\](why-isnt-my-ens-name-in-my-wallet.md#registration-incomplete. "mention")-->__
+    _Si la transaction `Valider` n'est pas présente, procédez à_<!--\[#registration-incomplete.\](why-isnt-my-ens-name-in-my-wallet.md#registration-incomplete. "mention")-->__
 
-    _If you did not interact with the ENS Registrar, proceed to_<!-- \[#fraudulent-activity\](why-isnt-my-ens-name-in-my-wallet.md#fraudulent-activity "mention")-->__
+    _Si vous n'avez pas interagi avec l'ENS Registrar, procédez à_<!-- \[#fraudulent-activity\](why-isnt-my-ens-name-in-my-wallet.md#fraudulent-activity "mention")-->__
 
 
-3.  **Ensure Step 3 of registration is completed.**
+3.  **S'assurer que l'étape 3 de l'inscription est terminée.**
 
-    Look for a transaction with the method of `Register With Config` present. This transaction should be present and have interacted with the [ENS Registrar Controller.](https://etherscan.io/address/0x283af0b28c62c092c9727f1ee09c02ca627eb7f5)
+    Recherchez une transaction avec la méthode de `Enregistrer avec la configuration` présent. Cette transaction doit être présente et avoir interagi avec le contrôleur du registraire [ENS.](https://etherscan.io/address/0x283af0b28c62c092c9727f1ee09c02ca627eb7f5)
 
-    _If the `Register With Config` transaction is not present, proceed to_<!--\[#registration-incomplete.\](why-isnt-my-ens-name-in-my-wallet.md#registration-incomplete. "mention")-->__
+    _Si la transaction `Enregistrer ŕ la Config` n'est pas présente, procédez à_<!--\[#registration-incomplete.\](why-isnt-my-ens-name-in-my-wallet.md#registration-incomplete. "mention")-->__
 
-    _If you did not interact with the ENS Registrar, proceed to_<!-- \[#fraudulent-activity\](why-isnt-my-ens-name-in-my-wallet.md#fraudulent-activity "mention")-->__
+    _Si vous n'avez pas interagi avec l'ENS Registrar, procédez à_<!-- \[#fraudulent-activity\](why-isnt-my-ens-name-in-my-wallet.md#fraudulent-activity "mention")-->__
 
-## Registration Errors
+## Erreurs d'enregistrement
 
-### Wrong Address
+### Mauvaise adresse
 
-You mistakenly registered your name to another wallet that you own.
+Vous avez par erreur enregistré votre nom sur un autre portefeuille que vous possédez.
 
-**Corrective Action:** _Connect the correct wallet to the ENS Application. If your ENS name was mistakenly registered to another address you own, you can transfer the name by changing the Registrant. If you do not need to migrate it to a new wallet, you also can point your ENS to any wallet address by setting the Controller._
-
-__
-
-### Registration **Incomplete**.
-
-One of the steps was missed or not completed. You must complete all the steps to register your ENS name fully.
-
-![Three Registration Steps.](./img/not-in-wallet-2.png "The manager app displaying the Commit and Register transactions.")
-
-**Corrective Action:** _You must complete all the steps to register your ENS name._ See<!--\[registering-a-name.md\](../../tutorials/registering-a-name.md "mention") -->to review the registration process. _Remember, you have seven days after the second transaction to complete Step 3._
+**Action corrective :** _Connectez le portefeuille correct à l'application ENS. Si votre nom de l'ENS a été enregistré par erreur à une autre adresse que vous possédez, vous pouvez transférer le nom en changeant le Déposant. Si vous n'avez pas besoin de le migrer vers un nouveau portefeuille, vous pouvez également pointer votre ENS sur n'importe quelle adresse de portefeuille en définissant le Contrôleur._
 
 __
 
-### Fraudulent Activity
+### Inscription **incomplète**.
 
-If you did not interact with the ENS Registrar Controller, you likely transacted with a malicious registration contract. Verify that your registration occurred at the official website, [https://app.ens.domains/](https://app.ens.domains/).
+Une des étapes a été manquée ou non complétée. Vous devez compléter toutes les étapes pour enregistrer votre nom à l'ENS.
 
-**Corrective Action:** _Open a ticket at our official Discord to report any fraudulent activity or phishing attempts. It is important to verify the details of all signature requests and contract calls before accepting them._
+![Trois étapes d'inscription.](./img/not-in-wallet-2.png "L'application Gestionnaire affiche les transactions Commit et Registrer.")
+
+**Action corrective :** _Vous devez compléter toutes les étapes pour enregistrer votre nom ENS._ Voir<!--\[registering-a-name.md\](../../tutorials/registering-a-name.md "mention") -->pour consulter le processus d'inscription. _Rappelez-vous que vous avez sept jours après la deuxième transaction pour compléter l'étape 3._
+
+__
+
+### Activité frauduleuse
+
+Si vous n'avez pas interagi avec le contrôleur du registraire de l'ENS, vous avez probablement négocié avec un contrat d'enregistrement malveillant. Vérifiez que votre inscription a eu lieu sur le site officiel, [https://app.ens.domains/](https://app.ens.domains/).
+
+**Action corrective :** _Ouvrez un ticket sur notre Discord officiel pour signaler toute activité frauduleuse ou tentative d'hameçonnage. Il est important de vérifier les détails de toutes les demandes de signature et les appels de contrat avant de les accepter._
 
 
 

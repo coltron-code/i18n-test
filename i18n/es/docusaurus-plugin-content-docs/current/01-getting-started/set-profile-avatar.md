@@ -1,86 +1,86 @@
 ---
-title: Setting your Profile Avatar
-id: Setting Avatar
+title: Configurando tu Avatar de Perfil
+id: Ajustando Avatar
 ---
 
-# Setting your Profile Avatar
+# Configurando tu Avatar de Perfil
 
-**WARNING**: Support in the ENS Manager right now is very manual! A redesign of the ENS manager will be released soon to make this much more manageable. For now, though, here is a guide.
+**ADVERTENCIA**: ¡Soporte en el Gestor de ENS ahora mismo es muy manual! A redesign of the ENS manager will be released soon to make this much more manageable. Por ahora, sin embargo, aquí hay una guía.
 
-### Do you have an ENS name?
+### ¿Tienes un nombre de ENS?
 
-If you don’t already have an ENS name, you can register an ENS name or import a DNS domain name you already own at [app.ens.domains](https://app.ens.domains). You can set an NFT avatar for either kind of ENS name.
+Si aún no tienes un nombre de ENS, puede registrar un nombre ENS o importar un nombre de dominio DNS que ya posee en [app. ns.domains](https://app.ens.domains). You can set a NFT avatar for either kind of ES name.
 
 ### Is your Primary ENS Name record set?
 
-A primary name is a record of which ENS name you own that represents your wallet.
+A primary name is a record of which ES name you own that represents your wallet.
 
-If you don’t have a primary name set, you can follow <!-- **Primary Name Guide Link ** --> as a guide.
+Si no tienes un nombre primario, puedes seguir <!-- **Primary Name Guide Link ** --> como guía.
 
-### Are you willing to spend ETH on gas fees?
+### ¿Está dispuesto a gastar ETH en tasas de gas?
 
-You're probably aware of what gas fees on the Ethereum network are by now if not, you can<!-- \[read here\](/references/ethereum/what-are-gas-fees.md) -->, and since this transaction will be **on-chain**, it means that you **will have to spend ETH**. If you're ok with that, perfect! You can continue following the steps
+Probablemente ya sabes cuáles son las tarifas de gas en la red Ethereum si no, puedes<!-- \[read here\](/references/ethereum/what-are-gas-fees.md) -->, y dado que esta transacción será **en cadena**, significa que **tendrás que gastar ETH**. Si estás de acuerdo con eso, ¡perfecto! Puedes continuar siguiendo los pasos
 
-### Setting the Avatar record
+### Configurando el registro de Avatar
 
-Go to [app.ens.domains](https://app.ens.domains) and search for your ENS name to get to its records page. Make sure you Connect with the wallet that is the Controller of the ENS name. You should see an `ADD/EDIT RECORD` button. Click it, and scroll down until you find the Avatar Text Record.
+Go to [app.ens.domains](https://app.ens.domains) and search for your ES name to get to its records page. Asegúrese de que se conecta con la cartera que es el controlador del nombre de ENS. Deberías ver un botón `AÑADIR /EDITAR` Haga clic en él y desplácese hacia abajo hasta que encuentre el Registro de Texto de Avatar.
 
-![Setting your avatar record.](./img/set-avatar-1.png "Locate the avatar record to make a change.")
+![Configurando tu registro de avatar.](./img/set-avatar-1.png "Localice el registro de avatar para hacer un cambio.")
 
-You can put an HTTPS link or IPFS hash to a file in this field, but if you’d like to put an **NFT that you own**, then you can input it **with this format**:
+Puede poner un enlace HTTPS o un hash IPFS a un archivo en este campo, pero si quieres poner un **NFT que posees**, entonces puedes introducirlo **con este formato**:
 
 ```
-eip155:1/[NFT standard]:[contract address for NFT collection]/[token ID or the number it is in the collection]
+eip155:1/[NFT standard]:[la dirección del contrato para la colección NFT]/[token ID o el número en la colección]
 ```
 
-You can find all of this information in the `Details` section of your NFT on OpenSea.
+Puede encontrar toda esta información en la sección `Detalles` de su NFT en OpenSea.
 
-![Setting your avatar record.](./img/set-avatar-2.png "Inspect the contract address and token id to build your avatar url.")
+![Configurando tu registro de avatar.](./img/set-avatar-2.png "Inspeccione la dirección del contrato y el identificador del token para construir su url de avatar.")
 
-Clicking the blue text across from `Contract Address` will take you to it's Etherscan page, where you can copy the full contract address.
+Al hacer clic en el texto azul a través de `Dirección del Contrato` se le llevará a la página de Etherscan , donde puede copiar la dirección completa del contrato.
 
-![Setting your avatar record.](./img/set-avatar-3.png "The contract address for your image can also be found on etherscan.io.")
+![Configurando tu registro de avatar.](./img/set-avatar-3.png "La dirección del contrato para su imagen también se puede encontrar en etherscan.io.")
 
-In this example, you would put all of this information like this:
+En este ejemplo, pondrías toda esta información como esta:
 
 ```
 eip155:1/erc721:0xb7F7F6C52F2e2fdb1963Eab30438024864c313F6/2430
 ```
 
-**Warning: The token standard cannot contain a hyphen, and must be all lowercase. So even though OpenSea may show it as "ERC-721", enter it as "erc721".**
+**Advertencia: El estándar de token no puede contener un guión, y debe estar en minúsculas. Así que aunque OpenSea pueda mostrarlo como "ERC-721", introdúzcalo como "erc721".**
 
-As mentioned at the start of the article, this will be much easier in the future. For now though, everything needs to be set and corrected manually, so be aware of the previous common mistakes, as well as others such as:
+Como se mencionó al principio del artículo, esto será mucho más fácil en el futuro. Por ahora, sin embargo, todo tiene que ser establecido y corregido manualmente, así que tenga en cuenta los errores comunes anteriores, así como otros como:
 
-* Setting the token standard to "erc721", even though it is actually "erc1155"
-* Using a cryptokitty as the NFT, which is **currently not supported**
-* Using any other NFT that doesn't use either NFT standard entirely. If you're unsure about this, you can always [ask in the discord](https://chat.ens.domains).
+* Establecer el estándar de token a "erc721", aunque en realidad es "erc1155"
+* Usando un criptokitty como NFT, el cual **no está actualmente soportado**
+* Utilizar cualquier otro NFT que no use ni el estándar NFT por completo. Si no estás seguro de esto, siempre puedes [preguntar en Discord](https://chat.ens.domains).
 
-Click `Save` once your correctly formatted NFT has been entered into the text field. You will be prompted to approve a transaction in your wallet.. You will be prompted to approve a transaction in your wallet. Once that transaction shows that it is confirmed on Etherscan, your avatar is set!
+Haga clic en `Guardar` una vez que el NFT formateado correctamente haya sido introducido en el campo de texto. Se le pedirá que apruebe una transacción en su cartera. Se le pedirá que apruebe una transacción en su cartera. Una vez que esa transacción muestre que se confirma en Etherscan, ¡tu avatar está establecido!
 
-### Try it out!
+### ¡Pruébalo!
 
-Refresh the page in the ENS Manager app, and you should see your ENS name and avatar on the left-hand side. It may take a few seconds for your NFT avatar to show up, but we're working on reducing this in the future.
+Actualiza la página en la aplicación Administrador de ENS, y deberías ver tu nombre y avatar de ENS en el lado izquierdo. Puede tardar unos segundos en aparecer tu avatar NFT, pero estamos trabajando en reducir esto en el futuro.
 
-![Setting your avatar record.](./img/set-avatar-4.png "If set properly, your avatar will be displayed in the manager app.")
+![Configurando tu registro de avatar.](./img/set-avatar-4.png "Si se establece correctamente, tu avatar se mostrará en la aplicación de administrador.")
 
-Next, head over to OpenSea and search for your name. Refresh the metadata (click the circular arrow button on the top right), wait a few minutes, and then reload the page. Your avatar should now be the background image for the NFT image of your ENS name!
+A continuación, diríjase a OpenSea y busque su nombre. Actualice los metadatos (haga clic en el botón circular de la flecha de la parte superior derecha), espere unos minutos y luego vuelva a cargar la página. Your avatar should now be the background image for the NFT image of your ENS name!
 
-![Setting your avatar record.](./img/set-avatar-5.png "Your avatar will also display marketplaces in the image for you ENS Name.")
+![Configurando tu registro de avatar.](./img/set-avatar-5.png "Your avatar will also display marketplaces in the image for you ES Name.")
 
-Now go visit [app.uniswap.org](https://app.uniswap.org) and connect your wallet. Give it a few seconds, and your ENS name and avatar should show up!
+Ahora visita [app.uniswap.org](https://app.uniswap.org) y conecta tu monedero. Dale unos segundos, y tu nombre y avatar de ENS debería aparecer!
 
-![Setting your avatar record.](./img/set-avatar-6.png "Your avatar on uniswap")
+![Configurando tu registro de avatar.](./img/set-avatar-6.png "Tu avatar en uniswap")
 
-Click on your name and you'll see it again.
+Haz clic en tu nombre y lo verás de nuevo.
 
-![Setting your avatar record.](./img/set-avatar-6.png "Your avatar on uniswap.")
+![Configurando tu registro de avatar.](./img/set-avatar-6.png "Tu avatar en uniswap.")
 
-Lastly, go to [app.1inch.io](https://app.1inch.io) and connect your wallet. Similarly to Uniswap, you'll be able to first see it on the top right.
+Por último, ve a [app.1inch.io](https://app.1inch.io) y conecta tu cartera. Del mismo modo, a Uniswap, podrás verlo primero en la parte superior derecha.
 
-![Setting your avatar record.](./img/set-avatar-7.png "Your avatar on 1inch.")
+![Configurando tu registro de avatar.](./img/set-avatar-7.png "Tu avatar en 1 pulgada.")
 
-Also, you'll be able to see it if you click your ENS name.
+Also, you'll be able to see it if you click your ES name.
 
-![Setting your avatar record.](./img/set-avatar-8.png "Your avatar on 1inch.")
+![Configurando tu registro de avatar.](./img/set-avatar-8.png "Tu avatar en 1 pulgada.")
 
-That's it! Have fun with your newly set NFT avatar!
+¡Eso es todo! ¡Diviértete con tu nuevo avatar NFT!

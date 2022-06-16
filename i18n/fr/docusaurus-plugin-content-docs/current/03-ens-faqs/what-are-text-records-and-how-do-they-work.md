@@ -1,57 +1,57 @@
 ---
-title: What are text records?
-id: Text Records
+title: Que sont les enregistrements textuels?
+id: Enregistrements de texte
 ---
 
-# What are text records and how do they work?
+# Qu'est-ce que les enregistrements textuels et comment fonctionnent-ils?
 
-## Text Records
+## Enregistrements de texte
 
-Text records allow you to attach and store publicly available and arbitrary text data to your Ethereum Name. Your text records are essentially user-controlled, human-readable metadata for applications to reference and use. Because your text records are created by you and stored on the Ethereum blockchain, they enable a self-sovereign and decentralized user profile. This means that your information and profile can begin to escape the centralized architecture of Web2.
+Les enregistrements textuels vous permettent d'attacher et de stocker publiquement des données textuelles et arbitraires à votre nom Ethereum. Vos enregistrements texte sont essentiellement des métadonnées contrôlées par l'utilisateur et lisibles par l'homme pour les applications à référencer et à utiliser. Parce que vos enregistrements textuels sont créés par vous et stockés sur la blockchain Ethereum, ils activent un profil utilisateur autosouverain et décentralisé. Cela signifie que vos informations et votre profil peuvent commencer à échapper à l'architecture centralisée de Web2.
 
-With the [ENS Metadata Service](https://metadata.ens.domains/docs) these text records are not confined to the Ethereum Blockchain and can be referenced by DNS.
+Avec le [Service de métadonnées ENS](https://metadata.ens.domains/docs) ces enregistrements textuels ne sont pas limités à la Blockchain Ethereum et peuvent être référencés par DNS.
 
-For technical data on the EIP that makes this possible, see: [EIP-634](https://eips.ethereum.org/EIPS/eip-634).
+Pour les données techniques sur l'EIP qui rendent cela possible, voir : [EIP-634](https://eips.ethereum.org/EIPS/eip-634).
 
-### How can I add a text record?
+### Comment puis-je ajouter un enregistrement textuel ?
 
-In the [ENS App](https://app.ens.domains), you can add a record by clicking the ‘Add/Edit’ link in the ‘records’ tab:
+Dans l'App [ENS](https://app.ens.domains), vous pouvez ajouter un enregistrement en cliquant sur le lien « Ajouter/Modifier » dans l'onglet « Enregistrements » :
 
-![Add/Edit Records](./img/text-records-1.png "Add/Edit your text records.")
+![Ajouter/Modifier les enregistrements](./img/text-records-1.png "Ajouter/Modifier vos enregistrements textuels.")
 
-You should see some drop down boxes appear that will allow you to choose to add a “TEXT” record, the kind of text record (e.g. “URL”), and then enter the information for that record:
+Vous devriez voir apparaître des listes déroulantes qui vous permettront de choisir d’ajouter un enregistrement « TEXT », le type d’enregistrement texte (e. . « URL»), puis entrez les informations pour cet enregistrement:
 
-![Add your text.](./img/text-records-2.png "Add your text to the fields.")
+![Ajoutez votre texte.](./img/text-records-2.png "Ajoutez votre texte aux champs.")
 
-Once you’re ready, click "Confirm" to send the transaction, and once it’s mined you should see it appear below.
+Une fois que vous êtes prêt, cliquez sur « Confirmer » pour envoyer la transaction, et une fois qu’elle est minée, vous devriez la voir apparaître ci-dessous.
 
-**Note:** Text records, like all ENS records, are publicly visible.
+**Remarque :** Les enregistrements textuels, comme tous les enregistrements ENS, sont visibles publiquement.
 
 
-### Type of Text Fields.
+### Type de champs de texte.
 
-Although users can easily define new text records, there are several keys established on the ENS Domain Manager.
+Bien que les utilisateurs puissent facilement définir de nouveaux enregistrements textuels, il y a plusieurs clés établies sur le gestionnaire de domaine ENS.
 
-#### Common Global Keys
+#### Clés globales Commune
 
-Global Keys should only consist of lowercase letters, numbers, and hyphens.
+Les clés globales ne doivent se composer que de minuscules, de chiffres et de traits d'union.
 
-* **Avatar** - An all lowercase URL to an image used as an avatar or logo. All lowercase.
-* **Description** - A description of the name.
-* **Display -** A canonical display name for the ENS name.
-* **E-mail -** An e-mail address
-* **Keywords -** A list of comma-separated keywords, ordered by most significant first.
-* **URL -** A website URL
+* **Avatar** - Une URL en minuscule à une image utilisée comme avatar ou logo. Toutes les minuscules.
+* **Description** - Une description du nom.
+* **Affichage :** Un nom d'affichage canonique pour le nom de l'ENS.
+* **E-mail -** Une adresse e-mail
+* **Mots-clés -** Une liste de mots clés séparés par des virgules, ordonnés par le plus significatif d'abord.
+* **URL -** Une URL de site web
 
-#### Other Service Keys
+#### Autres clés de service
 
-Service Keys must be made up of a reverse dot notation (see below examples), and contain at least one dot. A user can create their own service key adhering to this format.
+Les clés de service doivent être composées d'une notation par point inversé (voir l'exemple ci-dessous), et contenir au moins un point. Un utilisateur peut créer sa propre clé de service adhérant à ce format.
 
 * **com.github** - A Github username.
-* **com.twitter** - A Twitter username.
-* **io.keybase -** A Keybase Username.
-* **org.telegram -** A Telegram Username.
+* **com.twitter** - Un nom d'utilisateur Twitter.
+* **io.keybase -** Un nom d'utilisateur Keybase.
+* **org.telegram -** Un nom d'utilisateur Telegram.
 
 
-**Note:** Usernames should **NOT** include the "@" symbol or contain the full URL to the user profile.
+**Remarque :** Les noms d'utilisateur doivent **PAS** inclure le symbole "@" ou contenir l'URL complète du profil de l'utilisateur.
 

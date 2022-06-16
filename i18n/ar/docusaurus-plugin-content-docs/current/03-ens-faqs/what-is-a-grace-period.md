@@ -1,16 +1,16 @@
 ---
-title: What is a grace period?
-id: Grace Periods
+title: ما هي فترة السماح؟
+id: فترات غريس
 ---
 
-# What is a grace period?
+# ما هي فترة السماح؟
 
-The **grace period** is the 90-day time-frame that is given after an ENS name expires. During this time the name cannot be transferred to a new Registrant (owner) and the records cannot be updated. The ENS name must first be renewed so that it leaves the grace period and has an expiration date into the future.
+**فترة السماح** هي الإطار الزمني 90 يوما الذي يتم إعطاؤه بعد انتهاء صلاحية اسم ENS. وخلال هذه الفترة، لا يمكن نقل الاسم إلى مسجل جديد (مالك) ولا يمكن تحديث السجلات. ولا بد أولا من تجديد اسم النظام المذكور بحيث يترك فترة السماح ويكون له تاريخ انتهاء صلاحيته في المستقبل.
 
-![Checking for name in grace period.](./img/grace-period-1.png "The manager app will display if a name is in grace period.")
+![التحقق من الاسم في فترة السماح.](./img/grace-period-1.png "سيتم عرض تطبيق المدير إذا كان الاسم في فترة السماح.")
 
-If the ENS name is not renewed before the grace period ends, the name will enter a premium Dutch auction for 21-days. At the end of 21 days the ENS name will not have a premium attached any longer and can be registered at the standard yearly fee. The premium auction currently starts at $100,000,000 USD and decreases with a non-linear decay over 21-days. If the name is purchased during the premium period, the purchaser will pay the premium auction price and the standard yearly fee.
+وإذا لم يتم تجديد اسم ENS قبل انتهاء فترة السماح، يدخل الاسم في مزاد مدفوع في هولندا لمدة 21 يوما. وفي نهاية 21 يوما، لن يكون لاسم دائرة الخدمة المدنية الوطنية علاوة مربوطة بعد الآن ويمكن تسجيلها بالرسوم السنوية العادية. ويبدأ المزاد العكسي بالأقساط حاليا بمبلغ 000 000 100 دولار من دولارات الولايات المتحدة وينخفض مع حدوث انحسار غير خطي على مدى 21 يوما. وإذا تم شراء الاسم خلال فترة العلاوة، يدفع المشتري ثمن المزاد العلني الخاص بالأقساط والرسوم السنوية القياسية.
 
-![Grace Period Decay](./img/grace-period-2.png "Graphical representation of the premium period decay.")
+![فترة تآكل](./img/grace-period-2.png "التمثيل البياني لتناقص فترة العلاوة.")
 
-### Further Reading:<!-- * \[What is a premium auction?\](what-is-a-premium-auction.md) -->
+### المزيد من القراءة:<!-- * \[What is a premium auction?\](what-is-a-premium-auction.md) -->

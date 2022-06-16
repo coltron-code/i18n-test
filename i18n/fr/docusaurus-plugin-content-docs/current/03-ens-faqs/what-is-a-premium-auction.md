@@ -1,26 +1,26 @@
 ---
-title: What is a premium auction?
-id: premium auction explained
+title: Qu'est-ce qu'une vente aux primes?
+id: Enchères premium expliquées
 ---
 
-# What is a premium auction?
+# Qu'est-ce qu'une vente aux primes?
 
-### About premium auctions
+### À propos des enchères premium
 
-An expired ENS name will first go into a 90 day grace period. After the grace period ends, anyone will be able to register the name again. However, names that have passed the grace period enter into a 21 day dutch auction starting with a premium price that is currently set at $100,000,000 USD.
+Un nom ENS expiré entrera dans un délai de grâce de 90 jours. Après la fin de la période de grâce, tout le monde pourra enregistrer le nom à nouveau. Cependant, les noms qui ont passé la période de grâce entrent dans une vente aux enchères en néerlandais de 21 jours commençant par un prix de prime qui est actuellement fixé à 100 $, 00,000 USD.
 
-Over 21 days, the premium price will decline until the premium fee is $0. The premium price decreases using a non-linear decay. This means the premium falls from the very high start price quickly, and slows towards the end of the 21 day premium window. A name can be registered within the premium auction by choosing the time to buy.
+Sur 21 jours, le prix de la prime diminuera jusqu'à ce que les frais de prime soient de 0 $. Le prix de la prime diminue en utilisant une décomposition non linéaire. Cela signifie que la prime tombe rapidement du prix de départ très élevé et ralentit vers la fin de la fenêtre premium de 21 jours. Un nom peut être enregistré dans la vente aux enchères de prime en choisissant le temps à acheter.
 
-In the user interface of the [ENS App](https://app.ens.domains), clicking on the line chart for an ENS name in premium will give a price estimate for the specific date and time chosen. You will need enough Ether to pay the premium fee plus the yearly registration fee.
+Dans l'interface utilisateur de l'application [ENS](https://app.ens.domains), en cliquant sur le tableau de bord d'un nom de l'ENS en prime vous obtiendrez une estimation du prix de la date et de l'heure choisies. Vous aurez besoin de suffisamment d'Ether pour payer les frais de prime plus les frais d'inscription annuels.
 
-![Manager app displaying premium decay.](./img/premium-auction-1.png "Chart of premium decay period.")
+![Application de gestion affichant la décomposition Premium.](./img/premium-auction-1.png "Graphique de la période de décomposition premium.")
 
-### Why have a premium auction at all?
+### Pourquoi avoir une vente aux enchères primes?
 
-With the increase in the popularity of ENS names, names available to be re-registered would be instantly bought by bots, and front-running miners, to snipe an ENS name before others could purchase it. The current starting price for the premium auction is $100,000,000 which decays to $0 over the 21 premium window. This declining premium is effectively a Dutch Auction.
+Avec l'augmentation de la popularité des noms ENS, les noms disponibles pour être ré-enregistrés seront immédiatement achetés par les bots, et les mineurs en front, pour sniper un nom de l'ENS avant que d'autres puissent l'acheter. Le prix de départ actuel de la vente aux enchères premium est de 100 000 000 $, ce qui se dégrade à 0 $ par la fenêtre 21 premium. Cette prime en baisse est en fait une vente aux enchères néerlandaise.
 
-It's not expected that anyone would purchase a name at such a high price, but it prevents those running scripts from taking advantage of the auction mechanics.
+On ne s'attend pas à ce que quelqu'un achète un nom à un prix aussi élevé mais il empêche ceux qui exécutent des scripts de profiter de la mécanique des ventes aux enchères.
 
-### Further Reading:
+### Lecture supplémentaire:
 
-* [\[EP9\]\[Executable\] Change to Exponential Premium Price Oracle](https://docs.ens.domains/v/governance/governance-proposals/ep9-executable-change-to-exponential-premium-price-oracle)
+* [\[EP9\]\[Exécutable\] Changer en prix Exponentiel Premium Oracle](https://docs.ens.domains/v/governance/governance-proposals/ep9-executable-change-to-exponential-premium-price-oracle)

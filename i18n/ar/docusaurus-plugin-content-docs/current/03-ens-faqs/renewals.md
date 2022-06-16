@@ -1,15 +1,15 @@
 ---
-title: Renewals Explained
-id: Renewals
+title: شرح التجديدات
+id: التجديدات
 ---
 
-# Renewals
+# التجديدات
 
-All .eth names expire, but can be renewed. Renewal fees are currently set to the same costs as the registration fees.
+كل أسماء الأسنان تنتهي صلاحيتها، ولكن يمكن تجديدها. وتُحدد رسوم التجديد في الوقت الراهن بنفس التكاليف التي تُحدَّد بها رسوم التسجيل.
 
-* 5+ character .eth names: $5 in ETH per year.
-* 4 character .eth names: $160 in ETH per year.
-* 3 character .eth names $640 in ETH per year.
+* 5+ أسماء الأحرف .الأسنان: 5 دولارات في ETH سنوياً.
+* 4 أسماء حروف .الأسنان: 160 دولار في ETH سنوياً.
+* 3 أحرف أسنان 640 دولارا في ETH سنويا.
 
-**Note:** Any wallet can renew an ENS name. The wallet does not need to own the name in order to extend the registration period.
+**ملاحظة:** يمكن لأي محفظة تجديد اسم ENS. المحفظة لا تحتاج إلى امتلاك الاسم من أجل تمديد فترة التسجيل.
 

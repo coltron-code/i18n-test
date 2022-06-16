@@ -1,22 +1,22 @@
 ---
-title: Transfer Ownership of an ENS Name
-id: Name Transfer
+title: Transferir la propiedad de un nombre de ENS
+id: Nombre de transferencia
 ---
 
-# Transfer Ownership of an ENS Name
+# Transferir la propiedad de un nombre de ENS
 
-To transfer the ownership of an ENS name to another wallet, connect to the ENS App. The wallet that is listed as the Registrant is the **owner** of the ENS name. In the screenshot below, (1) indicates the Registrant.
+Para transferir la propiedad de un nombre de ENS a otra cartera, conéctate a la aplicación ENS. The walllet that is listed as the Registrt is the **owner** of the ES name. En la captura de pantalla de abajo, (1) indica al inscrito.
 
-![Editing ENS Records and rransfering the name.](./img/transfer-1.png "In the manager app, you can change the registrant to transfer the name.")
+![Editando registros ENS y ransfering el nombre.](./img/transfer-1.png "En la aplicación de administrador, puede cambiar el registro para transferir el nombre.")
 
-While logged into the ENS App with the Registrant wallet, you will be able to click “Transfer”, and type in a wallet address to transfer the ENS name ownership to.
+Mientras inicias sesión en la aplicación ENS con el monedero de registro, podrás hacer clic en "Transferir", y escriba una dirección de cartera a la que transferir la propiedad del nombre de ENS.
 
-However, the Controller is the wallet that can update other records like the ETH Address (see #3 in the image above). Transferring the Registrant to a new wallet _does not automatically update_ the Controller address(see #2 in screenshot), and does not change the ETH payment address. These are separate transactions that will cost gas to update.
+Sin embargo, el Controlador es el monedero que puede actualizar otros registros como la Dirección ETH (ver #3 en la imagen anterior). Transferir el Registro a una nueva cartera _no actualiza automáticamente_ la dirección del Controlador (ver #2 en la captura de pantalla), y no cambia la dirección de pago ETH. Estas son transacciones separadas que costarán gas actualizar.
 
-Some users may want to fully transfer a name to another wallet and have the same default records set up as if that new wallet registered the name. In order to do that, the Controller wallet should first update the ETH Address(see #3) to the new wallet address. Once that is changed, the Registrant wallet will need to update the Controller record to the same new wallet address. Finally, the Registrant should transfer ownership to the new wallet. In this way, the name is totally transferred to a new wallet, and that recipient does not have to do additional setup besides setting their Primary name. The order to this process does matter. If the for instance the Registrant is transferred to the new wallet first, only the new wallet can then update the Controller.
+Algunos usuarios pueden querer transferir completamente un nombre a otra cartera y tener los mismos registros por defecto configurados como si la nueva cartera registrara el nombre. Para ello, el monedero Controller debería actualizar primero la dirección ETH (ver #3) a la nueva dirección del monedero. Una vez que se haya cambiado, el monedero de Registro tendrá que actualizar el registro del Controlador a la misma dirección de la nueva cartera. Por último, el Registrt debería transferir la propiedad a la nueva cartera. De esta manera, el nombre se transfiere totalmente a una nueva cartera, y que el destinatario no tiene que hacer configuración adicional además de establecer su nombre primario. El orden de este proceso sí importa. Si el registro, por ejemplo, se transfiere al nuevo monedero primero, sólo el nuevo monedero puede actualizar el Controlador.
 
 
-**Important:** Without updating the ETH Address, tokens sent to _othername.eth_ will still arrive in the original wallet, if only the Registrant has been changed!
+**Importante:** Sin actualizar la dirección ETH, los tokens enviados a _otro nombre. o_ todavía llegará a la billetera original, si sólo se ha cambiado el Registro!
 
 
 <!-- ### Further Reading:

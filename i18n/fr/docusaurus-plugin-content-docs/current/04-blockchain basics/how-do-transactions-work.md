@@ -1,16 +1,16 @@
 ---
-title: How do transactions work?
-id: Explaining Transactions
+title: Comment fonctionnent les transactions?
+id: Explication des transactions
 ---
 
-# How do transactions work?
+# Comment fonctionnent les transactions?
 
-To make any change to the Ethereum blockchain, a transaction must be sent. A transaction is a cryptographically-signed message that specifies what change is to be made, and it is sent to any node in the network. Based on Ethereum’s rules of consensus, the network then agrees that the transaction is a valid one, and it is included in a block that is added to the blockchain.
+Pour effectuer toute modification à la blockchain Ethereum, une transaction doit être envoyée. Une transaction est un message signé cryptographiquement qui spécifie quel changement doit être fait et qui est envoyé à n'importe quel noeud du réseau. Basé sur les règles de consensus d'Ethereum, le réseau accepte ensuite que la transaction soit valide, et il est inclus dans un bloc qui est ajouté à la blockchain.
 
-The simplest type of transaction is a token transfer, which involves transferring ETH from one account to another.
+Le type de transaction le plus simple est un transfert de jeton, ce qui implique le transfert de ETH d'un compte à un autre.
 
-Smart contracts, like the ones used for ENS, also function through the use of Ether transactions. Each time someone interacts with a smart contract, this action also takes place through an Ethereum transaction.
+Les contrats intelligents, comme ceux utilisés pour les ENS, fonctionnent également par le biais de transactions Ether. Chaque fois que quelqu'un interagit avec un contrat intelligent, cette action se fait également par le biais d'une transaction Ethereum.
 
-In order to incentivize miners to assume the heavy burden of cryptographically securing the Ethereum blockchain and make changes to it, each transaction incurs a cost called a "gas fee".
+Afin d'encourager les mineurs à assumer le lourd fardeau de sécurisation cryptographique de la blockchain Ethereum et d'y apporter des modifications, chaque transaction entraîne un coût appelé « frais de gaz ».
 
-More comprehensive information on how transactions work can be found in this [article](https://preethikasireddy.medium.com/how-does-ethereum-work-anyway-22d1df506369) and in the [ethereum documentation](https://ethereum.org/en/developers/docs/transactions/).
+Des informations plus complètes sur le fonctionnement des transactions peuvent être trouvées dans cet article [](https://preethikasireddy.medium.com/how-does-ethereum-work-anyway-22d1df506369) et dans la [documentation ethereum](https://ethereum.org/en/developers/docs/transactions/).

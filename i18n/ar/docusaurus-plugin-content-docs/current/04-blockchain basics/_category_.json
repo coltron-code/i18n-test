@@ -1,8 +1,8 @@
 {
-    "label": "Blockchain Basics",
+    "label": "أساسيات سلسلة الكتل",
     "position": 4,
     "link": {
-        "type": "generated-index",
-        "description": "Learn about common blockchain topics"
+        "type": "تم إنشاء-فهرس",
+        "description": "تعرف على المواضيع الشائعة في سلسلة الكتل"
     }
 }

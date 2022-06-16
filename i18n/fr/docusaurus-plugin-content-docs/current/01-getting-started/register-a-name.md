@@ -1,72 +1,72 @@
 ---
-title: Registering a Name
-id: Registering Names
+title: Enregistrement d'un nom
+id: Enregistrement des noms
 ---
 
-# Registering a Name
+# Enregistrement d'un nom
 
-### Go to the ENS Manager
+### Aller au gestionnaire de l'ENS
 
-Go to the [ENS Manager App](https://app.ens.domains) and connect your wallet with the connect-button. Make sure that your wallet shows as _connected_ or the registration will likely not be successful.
+Rendez-vous sur l' [ENS Manager App](https://app.ens.domains) et connectez votre portefeuille avec le bouton connecter. Assurez-vous que votre portefeuille s'affiche comme _connecté_ ou que l'inscription ne réussira probablement pas.
 
-![Connecting to the manager app. Step 1.](./img/register-1.png "Connect your wallet by selecting the Connect button.")
+![Connexion à l'application manager. Étape 1.](./img/register-1.png "Connectez votre portefeuille en sélectionnant le bouton Connecter.")
 
-### Connect your wallet
+### Connectez votre portefeuille
 
-Choose how to connect with your wallet. In case you're unsure if your wallet supports WalletConnect or not, a list is provided on WalletConnect's website [here](https://walletconnect.com/registry/wallets).
-
-
-![Connecting to the manager app. Step 2](./img/register-2.png "Connect using your wallet or the Wallet Connect service")
-
-### Search for the ENS name you want
-
-![Serching for an ENS Name](./img/register-3.png "Search for an ENS Name to check availability.")
+Choisissez comment vous connecter à votre portefeuille. Si vous n'êtes pas sûr que votre portefeuille prenne en charge WalletConnect ou non, une liste est fournie sur le site Web de WalletConnect [ici](https://walletconnect.com/registry/wallets).
 
 
-Provided that the name you searched for is available, click on it to continue with the registration.
+![Connexion à l'application manager. Étape 2](./img/register-2.png "Connectez-vous à l'aide de votre portefeuille ou du service Wallet Connect")
 
-![Checking ENS Name availability](./img/register-4.png "If the name is available it will display this on the right side of the screen.")
+### Rechercher le nom de l'ENS que vous voulez
 
-
-### Registering your ENS name
-
-Registering an ENS name is a process in three steps in order to prevent front-running, so that no one can steal your ENS name from under you while you're in the process of registering it.
-
-#### Step 1: Request to Register
-
-Clicking Request to Register initiates Step 1 of the 3-Step process. A 0ETH transaction is performed where your name is hashed with a secret key so that no one else can view which name you're trying to register. This step will incur gas fees, as well as the final Step 3.
-
-This key is stored in your browser's local storage, so make sure to avoid clearing your browser's local data before you've completed all three steps, or you'll be forced to repeat Step 1 again.\
+![Servir pour un nom d'ENS](./img/register-3.png "Recherchez un nom ENS pour vérifier la disponibilité.")
 
 
-It's a good idea to:
+Si le nom que vous avez recherché est disponible, cliquez dessus pour continuer l'enregistrement.
 
-* Consider registering your ENS name for more than 1 year in order to avoid having to pay gas fees for renewals every year.
-* Favourite the ENS name you're registering in case you forget it later.
-
-Once you're ready click "Request to Register".
+![Vérification de la disponibilité du nom de l'ENS](./img/register-4.png "Si le nom est disponible, il s'affichera sur le côté droit de l'écran.")
 
 
-![Registering your ENS Name. Step 1](./img/register-5.png "Select the number of years you want to register for.")
+### Enregistrement de votre nom d'ENS
 
-Check that the cost of the transaction is what you expect it to be and confirm the transaction in your wallet.
+L'enregistrement d'un nom d'ENS est un processus en trois étapes afin d'empêcher le front-running, afin que personne ne puisse voler votre nom ENS sous vous pendant que vous êtes en train de l'enregistrer.
 
-#### Step 2: Wait 1 minute
+#### Étape 1 : Demande d'inscription
 
-After the Step 1 transaction completes there's a 1 minute waiting period in order to prevent front-running.
+Cliquer sur Demande d'inscription lance l'étape 1 du processus en 3 étapes. Une transaction 0ETH est effectuée lorsque votre nom est haché avec une clé secrète afin que personne d'autre ne puisse voir quel nom vous essayez de vous enregistrer. Cette étape entraînera des frais de gaz, ainsi que la dernière étape 3.
 
-![Registering your ENS Name. Step 2](./img/register-6.png "Wait one minute after you request to register.")
-
-#### Step 3: Register
-
-After you've waited 1 minute and Step 2 has completed it's time to actually _Register_ your ENS name. You have up to 7 days to do this from the time you finished your Step 1 transaction, but keep in mind that your ENS name isn't reserved for you until you _Register_ it.
-
-It might be a good idea to double-check that gas costs are still low during this time. Once you're ready to proceed click the Register button and confirm the transaction in your wallet.\
+Cette clé est stockée dans le stockage local de votre navigateur, alors assurez-vous d'éviter de vider les données locales de votre navigateur avant d'avoir terminé les trois étapes, ou vous serez contraint de répéter l'étape 1 à nouveau.\
 
 
-![Registering your ENS Name. Step 3](./img/register-7.png "After waiting one minutes, select Register, and approve the transaction in your wallet.")
+C'est une bonne idée de :
 
-Congratulations! If all transactions went through successfully you should now be the proud owner of your very own ENS name!
+* Envisagez d’enregistrer votre nom d’ENS pour plus d’un an afin d’éviter d’avoir à payer des frais de renouvellement pour l’essence chaque année.
+* Préférez le nom de l'ENS que vous enregistrez si vous l'oubliez plus tard.
 
-![Your name is registered](./img/register-8.png "After the transaction is approved on the blockchain, it is now your new ENS Name!")
+Une fois que vous êtes prêt, cliquez sur "Demande d'inscription".
+
+
+![Enregistrement de votre nom d'ENS. Étape 1](./img/register-5.png "Sélectionnez le nombre d'années pour lesquelles vous souhaitez vous inscrire.")
+
+Vérifiez que le coût de la transaction est ce que vous attendez et confirmez la transaction dans votre portefeuille.
+
+#### Étape 2 : Attendez 1 minute
+
+Une fois que la transaction de l'étape 1 est terminée, il y a une période d'attente d'une minute afin d'éviter qu'elle ne soit exécutée en premier.
+
+![Enregistrement de votre nom d'ENS. Étape 2](./img/register-6.png "Attendez une minute après avoir demandé à vous inscrire.")
+
+#### Étape 3 : Inscription
+
+Après avoir attendu 1 minute et l'étape 2 a terminé, il est temps de _enregistrer_ votre nom ENS. Vous avez jusqu'à 7 jours pour le faire à partir du moment où vous avez terminé votre opération Étape 1, mais gardez à l'esprit que votre nom ENS n'est pas réservé pour vous jusqu'à ce que vous l'inscriviez __.
+
+Il serait peut-être bon de vérifier à nouveau que les coûts du gaz sont encore faibles pendant cette période. Une fois que vous êtes prêt à continuer, cliquez sur le bouton Enregistrer et confirmez la transaction dans votre portefeuille.\
+
+
+![Enregistrement de votre nom d'ENS. Étape 3](./img/register-7.png "Après une minute d'attente, sélectionnez S'inscrire, et approuvez la transaction dans votre portefeuille.")
+
+Félicitations ! Si toutes les transactions ont été effectuées avec succès, vous devriez maintenant être le fier propriétaire de votre propre nom ENS !
+
+![Votre nom est enregistré](./img/register-8.png "Après que la transaction soit approuvée sur la blockchain, c'est maintenant votre nouveau nom ENS !")
  

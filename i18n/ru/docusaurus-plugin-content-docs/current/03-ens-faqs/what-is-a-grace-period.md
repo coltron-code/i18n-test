@@ -1,16 +1,16 @@
 ---
-title: What is a grace period?
-id: Grace Periods
+title: Что такое льготный период?
+id: Льготный период
 ---
 
-# What is a grace period?
+# Что такое льготный период?
 
-The **grace period** is the 90-day time-frame that is given after an ENS name expires. During this time the name cannot be transferred to a new Registrant (owner) and the records cannot be updated. The ENS name must first be renewed so that it leaves the grace period and has an expiration date into the future.
+**Льготный период** - это 90-дневный промежуток времени, который дается по истечении имени ENS. За это время имя не может быть передано новому Регистратору (владельцу) и записи не могут быть обновлены. Имя ENS должно быть обновлено для того, чтобы оставить льготный период и срок действия его действия в будущем.
 
-![Checking for name in grace period.](./img/grace-period-1.png "The manager app will display if a name is in grace period.")
+![Проверка имени в льготный период.](./img/grace-period-1.png "Приложение менеджера будет отображено, если имя находится в льготном периоде.")
 
-If the ENS name is not renewed before the grace period ends, the name will enter a premium Dutch auction for 21-days. At the end of 21 days the ENS name will not have a premium attached any longer and can be registered at the standard yearly fee. The premium auction currently starts at $100,000,000 USD and decreases with a non-linear decay over 21-days. If the name is purchased during the premium period, the purchaser will pay the premium auction price and the standard yearly fee.
+Если название ENS не будет продлено до истечения льготного периода, название будет указано на премиальный голландский аукцион в течение 21 дней. В конце 21 дня название ЭНС не будет иметь больше премии и может быть зарегистрировано по стандартной годовой плате. В настоящее время премиальный аукцион начинается с $100 000 000 000 долларов США и уменьшается при нелинейном разрыве в 21 день. Если наименование приобретено в течение премиального периода, покупатель оплачивает премиальную цену аукциона и стандартную ежегодную плату.
 
-![Grace Period Decay](./img/grace-period-2.png "Graphical representation of the premium period decay.")
+![Период кредитования](./img/grace-period-2.png "Графическое представление премиального периода распада.")
 
-### Further Reading:<!-- * \[What is a premium auction?\](what-is-a-premium-auction.md) -->
+### Дальнейшее чтение:<!-- * \[What is a premium auction?\](what-is-a-premium-auction.md) -->

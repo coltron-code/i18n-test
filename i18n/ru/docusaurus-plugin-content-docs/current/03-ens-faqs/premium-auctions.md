@@ -1,14 +1,14 @@
 ---
-title: Premium Auctions Explained
-id: Premium Auctions
-draft: True
+title: Обнаружены премиальные аукционы
+id: Премиум аукцион
+draft: Истина
 ---
 
-# Premium Auctions
+# Премиум аукцион
 
-After _any_ .eth name has been released, it goes into a Premium Dutch auction for 28 days. There is a linear price decay until the name is bought within the premium window or the premium auction ends, resulting in the name being able to be registered without any premium.
+После _любого_ названия зубов было выпущено, оно выходит на премиум голландский аукцион 28 дней. Существует линейный разрыв цен, пока имя не будет куплено в окне премиум или аукционе премиум-класса, В результате имя может быть зарегистрировано без премиум-версии.
 
-**Important:** Registering a .eth name while it is in the premium window will require the premium fee, plus the yearly registration fee, as well as gas to transact on the Ethereum blockchain.
+**Важно:** Регистрация . имя, пока оно находится в премиум-окне, потребует премиум-вознаграждения, плюс ежегодную регистрационную плату, а также газ для совершения сделок на блокчейне Ethereum.
 
 
 <!-- 

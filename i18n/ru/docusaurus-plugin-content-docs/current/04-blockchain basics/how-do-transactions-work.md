@@ -1,16 +1,16 @@
 ---
-title: How do transactions work?
-id: Explaining Transactions
+title: Как работают транзакции?
+id: Объяснение транзакций
 ---
 
-# How do transactions work?
+# Как работают транзакции?
 
-To make any change to the Ethereum blockchain, a transaction must be sent. A transaction is a cryptographically-signed message that specifies what change is to be made, and it is sent to any node in the network. Based on Ethereum’s rules of consensus, the network then agrees that the transaction is a valid one, and it is included in a block that is added to the blockchain.
+Чтобы внести изменения в блокчейн Ethereum, необходимо отправить транзакцию. Транзакция - это криптографическое сообщение, в котором указывается, какие изменения необходимо сделать, и отправляется на любой узел сети. На основании правил консенсуса, сеть соглашается с тем, что транзакция является действительной, и он включен в блок, который добавляется в блокчейн.
 
-The simplest type of transaction is a token transfer, which involves transferring ETH from one account to another.
+Самым простым типом транзакции является перевод токенов, который включает перевод ЕТН с одного счета на другой.
 
-Smart contracts, like the ones used for ENS, also function through the use of Ether transactions. Each time someone interacts with a smart contract, this action also takes place through an Ethereum transaction.
+Умные контракты, как и контракты, используемые для ENS, также функционируют с помощью Ether транзакций. Каждый раз, когда кто-то взаимодействует с смарт-контрактом, это действие также происходит через Ethereum сделки.
 
-In order to incentivize miners to assume the heavy burden of cryptographically securing the Ethereum blockchain and make changes to it, each transaction incurs a cost called a "gas fee".
+Чтобы побудить шахтеров взять на себя тяжелое бремя криптографической защиты блокчейна Ethereum и внести в него изменения, каждая транзакция несет в себе стоимость под названием "Газовая комиссия".
 
-More comprehensive information on how transactions work can be found in this [article](https://preethikasireddy.medium.com/how-does-ethereum-work-anyway-22d1df506369) and in the [ethereum documentation](https://ethereum.org/en/developers/docs/transactions/).
+Более подробная информация о том, как работают транзакции, содержится в [статье](https://preethikasireddy.medium.com/how-does-ethereum-work-anyway-22d1df506369) и в [ethereum документации](https://ethereum.org/en/developers/docs/transactions/).

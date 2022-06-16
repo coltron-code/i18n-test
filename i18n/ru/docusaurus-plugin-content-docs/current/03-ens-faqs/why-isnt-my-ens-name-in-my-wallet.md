@@ -1,60 +1,60 @@
 ---
-title: Why isn't my ENS Name in my wallet?
-id: Why isn't my ENS Name in my wallet
+title: Почему у меня нет имени ENS в кошельке?
+id: Почему у меня нет имени ENS в кошельке
 ---
 
-# Why isn't my ENS Name in my wallet?
+# Почему у меня нет имени ENS в кошельке?
 
-Please verify that your registration was successful please by checking your transaction history on [Etherscan.io](https://www.etherscan.io). Successful registrations will see two transactions: `Commit` **and** `Register with Config`. These transactions represent the Step 1 and Step 3 of the ENS registration process.
+Пожалуйста, убедитесь, что ваша регистрация прошла успешно, проверьте историю ваших транзакций на [Etherscan.io](https://www.etherscan.io). Успешные регистрации будут видеть две транзакции: `Коммит` **и** `Регистрация в Конфиге`. Эти транзакции представляют собой шаг 1 и шаг 3 процесса регистрации ЭНС.
 
-![Commit and Register With Config Transactions](./img/not-in-wallet-1.png "Ethercan showing the Commit and Register With Config Transactions")
+![Зафиксировать и зарегистрировать с помощью конфигурации транзакций](./img/not-in-wallet-1.png "Ethercan показывать коммит и Регистрация в конфигурационных транзакциях")
 
-## Troubleshooting Checklist
+## Контрольный список устранения неполадок
 
-1.  **Check your  address on** [**Etherscan.io**](https://www.etherscan.io)**.**
+1.  **Проверьте ваш адрес на** [**Etherscan.io**](https://www.etherscan.io)**.**
 
-    Query the wallet address that was used to register an Ethereum Name.<!-- _If your address does not show any registration transactions proceed to_ \[#wrong-address\](why-isnt-my-ens-name-in-my-wallet.md#wrong-address "mention")__ -->2.  **Ensure Step 1 of registration is completed.**
+    Запрос адреса кошелька, который был использован для регистрации имени Ethereum.<!-- _If your address does not show any registration transactions proceed to_ \[#wrong-address\](why-isnt-my-ens-name-in-my-wallet.md#wrong-address "mention")__ -->2.  **Убедитесь, что этап 1 регистрации завершен.**
 
-    Look for a transaction with the method of `Commit`. This transaction should be present and have interacted with the [ENS Registrar Controller.](https://etherscan.io/address/0x283af0b28c62c092c9727f1ee09c02ca627eb7f5)__
+    Ищите транзакцию с помощью метода `Commit`. This transaction should be present and have interacted with the [ENS Registrar Controller.](https://etherscan.io/address/0x283af0b28c62c092c9727f1ee09c02ca627eb7f5)__
 
-    _If the `Commit` transaction is not present, proceed to_<!--\[#registration-incomplete.\](why-isnt-my-ens-name-in-my-wallet.md#registration-incomplete. "mention")-->__
+    _Если `Коммит` транзакция отсутствует, перейдите к_<!--\[#registration-incomplete.\](why-isnt-my-ens-name-in-my-wallet.md#registration-incomplete. "mention")-->__
 
-    _If you did not interact with the ENS Registrar, proceed to_<!-- \[#fraudulent-activity\](why-isnt-my-ens-name-in-my-wallet.md#fraudulent-activity "mention")-->__
+    _Если вы не общались с регистратором ЭНС, перейдите к_<!-- \[#fraudulent-activity\](why-isnt-my-ens-name-in-my-wallet.md#fraudulent-activity "mention")-->__
 
 
-3.  **Ensure Step 3 of registration is completed.**
+3.  **Убедитесь, что этап 3 регистрации завершен.**
 
-    Look for a transaction with the method of `Register With Config` present. This transaction should be present and have interacted with the [ENS Registrar Controller.](https://etherscan.io/address/0x283af0b28c62c092c9727f1ee09c02ca627eb7f5)
+    Ищите сделку с методом `Register With Config` присутствует. This transaction should be present and have interacted with the [ENS Registrar Controller.](https://etherscan.io/address/0x283af0b28c62c092c9727f1ee09c02ca627eb7f5)
 
-    _If the `Register With Config` transaction is not present, proceed to_<!--\[#registration-incomplete.\](why-isnt-my-ens-name-in-my-wallet.md#registration-incomplete. "mention")-->__
+    _Если `Регистрация с конфигурацией` транзакция отсутствует, перейдите к_<!--\[#registration-incomplete.\](why-isnt-my-ens-name-in-my-wallet.md#registration-incomplete. "mention")-->__
 
-    _If you did not interact with the ENS Registrar, proceed to_<!-- \[#fraudulent-activity\](why-isnt-my-ens-name-in-my-wallet.md#fraudulent-activity "mention")-->__
+    _Если вы не общались с регистратором ЭНС, перейдите к_<!-- \[#fraudulent-activity\](why-isnt-my-ens-name-in-my-wallet.md#fraudulent-activity "mention")-->__
 
-## Registration Errors
+## Ошибки регистрации
 
-### Wrong Address
+### Неправильный адрес
 
-You mistakenly registered your name to another wallet that you own.
+Вы ошибочно зарегистрировали ваше имя на другой кошелек, который вы владеете.
 
-**Corrective Action:** _Connect the correct wallet to the ENS Application. If your ENS name was mistakenly registered to another address you own, you can transfer the name by changing the Registrant. If you do not need to migrate it to a new wallet, you also can point your ENS to any wallet address by setting the Controller._
-
-__
-
-### Registration **Incomplete**.
-
-One of the steps was missed or not completed. You must complete all the steps to register your ENS name fully.
-
-![Three Registration Steps.](./img/not-in-wallet-2.png "The manager app displaying the Commit and Register transactions.")
-
-**Corrective Action:** _You must complete all the steps to register your ENS name._ See<!--\[registering-a-name.md\](../../tutorials/registering-a-name.md "mention") -->to review the registration process. _Remember, you have seven days after the second transaction to complete Step 3._
+**Правильное действие:** _Подключите правильный кошелек к приложению ENS. Если ваше имя ENS было ошибочно зарегистрировано на другой адрес, вы можете передать имя, изменив его регистрацию. Если вам не нужно переносить его на новый кошелек, вы также можете указать ENS на любой адрес кошелька, установив контроллер._
 
 __
 
-### Fraudulent Activity
+### Регистрация **Неполный**.
 
-If you did not interact with the ENS Registrar Controller, you likely transacted with a malicious registration contract. Verify that your registration occurred at the official website, [https://app.ens.domains/](https://app.ens.domains/).
+Один из шагов был пропущен или не завершен. Вы должны завершить все шаги для полной регистрации вашего ENS имени.
 
-**Corrective Action:** _Open a ticket at our official Discord to report any fraudulent activity or phishing attempts. It is important to verify the details of all signature requests and contract calls before accepting them._
+![Три шага регистрации.](./img/not-in-wallet-2.png "Приложение менеджера отображает транзакции Commit и Register Commit.")
+
+**Коррекционное действие:** _Вы должны выполнить все шаги для регистрации вашего имени ENS._ Смотрите<!--\[registering-a-name.md\](../../tutorials/registering-a-name.md "mention") -->для проверки процесса регистрации. _Помните, что у вас есть семь дней после второй транзакции, чтобы завершить шаг 3._
+
+__
+
+### Мошенничество
+
+Если вы не общались с контроллером регистрационной службы ENS, вы, скорее всего, осуществили злонамеренный контракт на регистрацию. Проверьте, что ваша регистрация произошла на официальном сайте, [https://app.ens.domains/](https://app.ens.domains/).
+
+**Коррекционное действие:** _Откройте тикет в нашем официальном Discord чтобы сообщить о любых мошеннических действиях или попытках фишинга. Прежде чем принимать заявки, важно проверить детали всех заявок на подпись и контрактных звонков._
 
 
 

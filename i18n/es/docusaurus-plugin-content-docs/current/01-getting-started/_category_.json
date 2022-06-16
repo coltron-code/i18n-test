@@ -1,8 +1,8 @@
 {
-  "label": "Getting Started",
+  "label": "Comenzando",
   "position": 1,
   "link": {
-    "type": "generated-index",
-    "description": "Start here to learn about your ENS Name."
+    "type": "índice generado",
+    "description": "Empieza aquí a aprender más acerca de tu nombre de ENS."
   }
 }

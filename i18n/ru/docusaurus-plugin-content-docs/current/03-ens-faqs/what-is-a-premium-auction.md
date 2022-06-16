@@ -1,26 +1,26 @@
 ---
-title: What is a premium auction?
-id: premium auction explained
+title: Что такое премиум аукцион?
+id: подробнее о премиум аукционе
 ---
 
-# What is a premium auction?
+# Что такое премиум аукцион?
 
-### About premium auctions
+### О премиум аукционах
 
-An expired ENS name will first go into a 90 day grace period. After the grace period ends, anyone will be able to register the name again. However, names that have passed the grace period enter into a 21 day dutch auction starting with a premium price that is currently set at $100,000,000 USD.
+Просроченное название ЭНС будет входить в льготный период продолжительностью 90 дней. После окончания льготного периода каждый сможет зарегистрировать имя еще раз. Однако имена, прошедшие льготный период, входят в аукцион на 21 день, начиная с премиальной цены, установленной в настоящее время в $100, 00,000 USD.
 
-Over 21 days, the premium price will decline until the premium fee is $0. The premium price decreases using a non-linear decay. This means the premium falls from the very high start price quickly, and slows towards the end of the 21 day premium window. A name can be registered within the premium auction by choosing the time to buy.
+Более 21 дней, премиальная цена будет снижаться до премиум-платы $0. Премиум-цена уменьшается в случае нелинейного распада. Это означает, что премиум падает от очень высокой стартовой цены быстро, и замедляется до конца 21 дня окна Премиум. Имя может быть зарегистрировано в рамках премиум аукциона, выбрав время покупки.
 
-In the user interface of the [ENS App](https://app.ens.domains), clicking on the line chart for an ENS name in premium will give a price estimate for the specific date and time chosen. You will need enough Ether to pay the premium fee plus the yearly registration fee.
+В пользовательском интерфейсе [ENS App](https://app.ens.domains), щелчок на линейном графике для названия ENS в премиум даст оценку цены за выбранную дату и время. Чтобы оплатить премиальную комиссию, Вам понадобится достаточное количество Эфира.
 
-![Manager app displaying premium decay.](./img/premium-auction-1.png "Chart of premium decay period.")
+![Менеджер приложения отображает премиальное прекращение.](./img/premium-auction-1.png "График премиального периода распада.")
 
-### Why have a premium auction at all?
+### Зачем вообще нужен аукцион премиум?
 
-With the increase in the popularity of ENS names, names available to be re-registered would be instantly bought by bots, and front-running miners, to snipe an ENS name before others could purchase it. The current starting price for the premium auction is $100,000,000 which decays to $0 over the 21 premium window. This declining premium is effectively a Dutch Auction.
+С увеличением популярности имён ЭНС, имена, доступные для повторной регистрации, будут мгновенно приобретены ботами, и начальных шахтеров, чтобы сбить имя ЭНС, прежде чем другие могли его купить. Текущая стартовая цена на аукцион премиум составляет $100,000,000, что снижается до $0 по сравнению с 21 окном премиум-класса. Эта понижающаяся премия по сути является голландским аукционом.
 
-It's not expected that anyone would purchase a name at such a high price, but it prevents those running scripts from taking advantage of the auction mechanics.
+Не ожидается, что кто-либо купит имя по такой высокой цене, но это не позволяет запускающим скриптам воспользоваться аукционной механикой.
 
-### Further Reading:
+### Дальнейшее чтение:
 
-* [\[EP9\]\[Executable\] Change to Exponential Premium Price Oracle](https://docs.ens.domains/v/governance/governance-proposals/ep9-executable-change-to-exponential-premium-price-oracle)
+* [\[EP9\]\[Executable\] Изменение на экспоненциальную премиальную цену Oracle](https://docs.ens.domains/v/governance/governance-proposals/ep9-executable-change-to-exponential-premium-price-oracle)

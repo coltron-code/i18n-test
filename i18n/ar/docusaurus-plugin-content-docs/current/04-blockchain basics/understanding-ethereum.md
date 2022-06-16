@@ -1,10 +1,10 @@
 ---
-title: Understanding Ethereum
-id: Understanding Ethereum
+title: فهم الإيثيريوم
+id: فهم الإيثيريوم
 ---
 
-# Understanding Ethereum
+# فهم الإيثيريوم
 
-Ethereum is a decentralized cryptocurrency blockchain that distinguishes itself by providing a Virtual Machine capable of running turing complete smart contracts, enabling technological advancements like decentralized finance and even the Ethereum Name Service itself — something which wasn't possible with the cryptocurrencies that preceded it.
+إيثيريوم هي سلسلة كتل للعملات الرقمية اللامركزية التي تميز نفسها عن طريق توفير آلة افتراضية قادرة على تشغيل العقود الذكية الكاملة، تمكين التقدم التكنولوجي مثل التمويل اللامركزي وحتى خدمة اسم إيثيريوم نفسها - شيء لم يكن ممكنا مع العملات الرقمية التي سبقته.
 
-More comprehensive information about Ethereum can be found in the [official Ethereum documentation](https://ethereum.org/en/what-is-ethereum/).
+يمكن العثور على مزيد من المعلومات الشاملة عن الإيثيريوم في [وثائق الإيثيريوم الرسمية](https://ethereum.org/en/what-is-ethereum/).

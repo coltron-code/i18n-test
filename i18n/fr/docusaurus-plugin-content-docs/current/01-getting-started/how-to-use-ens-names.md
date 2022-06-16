@@ -1,30 +1,30 @@
 ---
-title: What can I use an ENS name for?
-id: Using Your ENS Name
+title: À quoi sert le nom de l'ENS ?
+id: Utiliser votre nom d'ENS
 ---
 
-# What can I use an ENS name for?
+# À quoi sert le nom de l'ENS ?
 
-### An ENS Name is an way to remember you cryptocurrency addresses
+### Un nom ENS est un moyen de se souvenir de vos adresses de cryptomonnaies
 
-The first and most common use-case for ENS names is to use it as an easy-to-remember name for your cryptocurrency addresses.
+Le premier cas d'utilisation et le plus courant pour les noms ENS est de l'utiliser comme nom facile à retenir pour vos adresses de crypto-monnaies.
 
-**ENS supports many different cryptocurrencies** which can be added to it from the [ENS Manager App](https://app.ens.domains) allowing you to receive payments in more cryptocurrencies than just Ethereum.  This reduces confusion associated with remembering your hexadecimal wallet address and provides clear payment options that integrated in to most wallet apps.
+**ENS prend en charge de nombreuses cryptomonnaies différentes** qui peuvent y être ajoutées à partir de l' [application Gestionnaire ENS](https://app.ens.domains) vous permettant de recevoir des paiements dans plus de cryptomonnaies que simplement Ethereum.  Cela réduit la confusion associée à la mémorisation de l'adresse de votre portefeuille hexadécimal et fournit des options de paiement claires qui s'intègrent à la plupart des applications de portefeuille.
 
-### Point to decentralized websites
+### Pointez vers des sites web décentralisés
 
-By coupling your decentralized ENS name with a service for hosting decentralized websites, it's possible to have an entirely decentralized website suitable for Web3. The protocols currently supported are:
+En couplant votre nom d'ENS décentralisé avec un service d'hébergement de sites web décentralisés, il est possible d'avoir un site entièrement décentralisé adapté à Web3. Les protocoles actuellement pris en charge sont :
 
-* IPFS and IPNS
+* IPFS et IPNS
 * Arweave
-* Onion and Onion3
+* Oignon et Oignon3
 * Sia
-* Swarm
+* Nuée
 
-### Connect metadata to the Ethereum blockchain.
+### Connectez les métadonnées à la blockchain Ethereum.
 
-**Social Media.** ENS Names supports numerous text records which can be used to provide on-chain metadata to connect to your social media accounts. For example, you can add your Twitter or discord handles to your ENS records.
+**Les médias sociaux.** Les noms ENS prennent en charge de nombreux enregistrements textuels qui peuvent être utilisés pour fournir des métadonnées en chaîne pour se connecter à vos comptes de réseaux sociaux. Par exemple, vous pouvez ajouter votre compte Twitter ou discord à vos dossiers ENS.
 
-**URLs and e-mail.** Your ENS name can store your e-mail or website. This will provide resources for anyone who has access to your name the ability to contact you.
+**URL et e-mail.** Votre nom d'ENS peut stocker votre e-mail ou votre site Web. Cela fournira des ressources à toute personne ayant accès à votre nom la possibilité de vous contacter.
 
-**Custom Text Records.** our ENS name is also capable of storing custom records to can contain nearly anything you want to display or integrate into your own services.
+**Enregistrements de texte personnalisés.** notre nom ENS est également capable de stocker des enregistrements personnalisés pour contenir presque tout ce que vous voulez afficher ou intégrer dans vos propres services.

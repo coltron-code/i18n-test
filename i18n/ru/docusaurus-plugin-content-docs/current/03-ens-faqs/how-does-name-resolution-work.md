@@ -1,25 +1,25 @@
 ---
-title: How does name resolution work?
-id: Name resolution explained
+title: Как работает разрешение имени?
+id: Разрешение имени разъяснено
 ---
 
-# How does name resolution work?
+# Как работает разрешение имени?
 
-The Primary record is your _reverse record_ responsible for resolving your wallet address to your ENS name, effectively helping DApps and other services display your ENS name based on your wallet address_._
+Основная запись является вашей _обратной записью_ , ответственной за разрешение адреса вашего кошелька на ваше имя ENS, эффективно помогая DApps и другим службам показывать ваше имя ENS на основе адреса вашего кошелька_._
 
-The easiest way to understand it is to consider that name resolution works in two directions:
+Самый простой способ понять, что разрешение имени работает в двух направлениях:
 
-### Forward resolution
+### Разрешение вперед
 
-* **Your ENS name ➞ Your wallet address,** or for a practical example: **cthulu.eth ➞ 0xa19A7ae868eDe64C6C5256A64BCD3bf3a9F2d615** _Determined by the ETH Address (forward) record set on your domain._
+* **Ваше имя ENS <unk> Ваш бумажник адрес,** или практический пример: **cthulu. th <unk> 0xa19A7ae868eDe64C6C5256A64BCD3bf3a9F2d615** _Определяется ETH адресом (вперед) записи, установленной на вашем домене._
 
-### Reverse resolution
+### Обратное разрешение
 
-* **Your wallet address ➞ Your ENS name,** or for a practical example: **0xa19A7ae868eDe64C6C5256A64BCD3bf3a9F2d615 ➞ cthulu.eth** _Determined by the Primary (reverse) record set in your wallet._
+* **Адрес вашего кошелька <unk> Ваше имя ENS,** или практический пример: **0xa19A7ae868eDe64C6C5256A64BCD3bf3a9F2d615 <unk> cthulu. th** _Определено записью Primary (обратно), установленной в вашем кошельке._
 
-In order to set an ENS name as Primary in a wallet, it's therefore a requirement that the ENS name first resolves to that wallet address.
+Чтобы установить имя ENS как Primary в кошельке, Поэтому это требование заключается в том, что имя ENS сначала устраняется на адрес этого кошелька.
 
-In order to set your ENS name as Primary in your wallet:
+Для того чтобы установить в вашем кошельке ваше имя ENS в качестве основного:
 
-1. Make sure the ETH-Address record points to the wallet address
-2. Connect your wallet to the [ENS Manager App](https://app.ens.domains) and set the ENS name as Primary.
+1. Убедитесь, что ETH-адрес указывает на адрес кошелька
+2. Подключите ваш кошелек к [приложению ENS Manager](https://app.ens.domains) и установите имя ENS как основное.

@@ -1,72 +1,72 @@
 ---
-title: Registering a Name
-id: Registering Names
+title: تسجيل اسم
+id: أسماء التسجيل
 ---
 
-# Registering a Name
+# تسجيل اسم
 
-### Go to the ENS Manager
+### الذهاب إلى مدير ENS
 
-Go to the [ENS Manager App](https://app.ens.domains) and connect your wallet with the connect-button. Make sure that your wallet shows as _connected_ or the registration will likely not be successful.
+انتقل إلى تطبيق [ENS Manager](https://app.ens.domains) و قم بتوصيل محفظتك مع زر الاتصال. تأكد من أن محفظتك تظهر كـ _متصلة_ أو أن التسجيل لن يكون ناجحاً.
 
-![Connecting to the manager app. Step 1.](./img/register-1.png "Connect your wallet by selecting the Connect button.")
+![الاتصال بتطبيق المدير. الخطوة 1.](./img/register-1.png "قم بتوصيل محفظتك عن طريق تحديد زر الاتصال.")
 
-### Connect your wallet
+### قم بتوصيل محفظتك
 
-Choose how to connect with your wallet. In case you're unsure if your wallet supports WalletConnect or not, a list is provided on WalletConnect's website [here](https://walletconnect.com/registry/wallets).
-
-
-![Connecting to the manager app. Step 2](./img/register-2.png "Connect using your wallet or the Wallet Connect service")
-
-### Search for the ENS name you want
-
-![Serching for an ENS Name](./img/register-3.png "Search for an ENS Name to check availability.")
+اختر كيفية الاتصال مع محفظتك. في حالة عدم التأكد مما إذا كانت محفظتك تدعم WalletConnect أم لا، يتم توفير قائمة على موقع WalletConnect [هنا](https://walletconnect.com/registry/wallets).
 
 
-Provided that the name you searched for is available, click on it to continue with the registration.
+![الاتصال بتطبيق المدير. الخطوة 2](./img/register-2.png "الاتصال باستخدام محفظتك أو خدمة اتصال المحفظة")
 
-![Checking ENS Name availability](./img/register-4.png "If the name is available it will display this on the right side of the screen.")
+### البحث عن اسم ENS الذي تريده
 
-
-### Registering your ENS name
-
-Registering an ENS name is a process in three steps in order to prevent front-running, so that no one can steal your ENS name from under you while you're in the process of registering it.
-
-#### Step 1: Request to Register
-
-Clicking Request to Register initiates Step 1 of the 3-Step process. A 0ETH transaction is performed where your name is hashed with a secret key so that no one else can view which name you're trying to register. This step will incur gas fees, as well as the final Step 3.
-
-This key is stored in your browser's local storage, so make sure to avoid clearing your browser's local data before you've completed all three steps, or you'll be forced to repeat Step 1 again.\
+![ركاب اسم ENS](./img/register-3.png "البحث عن اسم ENS للتحقق من التوافر.")
 
 
-It's a good idea to:
+شريطة أن يكون الاسم الذي بحثت عنه متاحا، انقر عليه لمواصلة التسجيل.
 
-* Consider registering your ENS name for more than 1 year in order to avoid having to pay gas fees for renewals every year.
-* Favourite the ENS name you're registering in case you forget it later.
-
-Once you're ready click "Request to Register".
+![التحقق من توفر اسم ENS](./img/register-4.png "إذا كان الاسم متوفراً فإنه سيعرض هذا على الجانب الأيمن من الشاشة.")
 
 
-![Registering your ENS Name. Step 1](./img/register-5.png "Select the number of years you want to register for.")
+### تسجيل اسم ENS الخاص بك
 
-Check that the cost of the transaction is what you expect it to be and confirm the transaction in your wallet.
+ويعد تسجيل اسم نظام التصنيف الوطني للغلاف الجوي عملية في ثلاث خطوات لمنع التيار الأمامي، بحيث لا يمكن لأحد سرقة اسم ENS الخاص بك من أسفلك بينما أنت في عملية تسجيله.
 
-#### Step 2: Wait 1 minute
+#### الخطوة 1: طلب التسجيل
 
-After the Step 1 transaction completes there's a 1 minute waiting period in order to prevent front-running.
+النقر على طلب التسجيل يبدأ الخطوة 1 من عملية 3 خطوات. تتم معاملة 0ETH حيث يتم تجزئة اسمك بمفتاح سري بحيث لا يستطيع أي شخص آخر رؤية الاسم الذي تحاول تسجيله. وستترتب على هذه الخطوة رسوم للغاز، فضلا عن الخطوة الثالثة الأخيرة.
 
-![Registering your ENS Name. Step 2](./img/register-6.png "Wait one minute after you request to register.")
-
-#### Step 3: Register
-
-After you've waited 1 minute and Step 2 has completed it's time to actually _Register_ your ENS name. You have up to 7 days to do this from the time you finished your Step 1 transaction, but keep in mind that your ENS name isn't reserved for you until you _Register_ it.
-
-It might be a good idea to double-check that gas costs are still low during this time. Once you're ready to proceed click the Register button and confirm the transaction in your wallet.\
+تم تخزين هذا المفتاح في وحدة التخزين المحلية للمتصفح، لذا تأكد من تجنب مسح البيانات المحلية للمتصفح الخاص بك قبل الانتهاء من الخطوات الثلاث جميعها، أو سوف تضطر إلى تكرار الخطوة 1 مرة أخرى.\
 
 
-![Registering your ENS Name. Step 3](./img/register-7.png "After waiting one minutes, select Register, and approve the transaction in your wallet.")
+إنها فكرة جيدة أن:
 
-Congratulations! If all transactions went through successfully you should now be the proud owner of your very own ENS name!
+* النظر في تسجيل اسم ENS الخاص بك لأكثر من سنة واحدة لتجنب دفع رسوم الغاز مقابل التجديد كل سنة.
+* تفضّل اسم ENS الذي تقوم بالتسجيل في حالة نسيانه لاحقاً.
 
-![Your name is registered](./img/register-8.png "After the transaction is approved on the blockchain, it is now your new ENS Name!")
+بمجرد أن تكون جاهزاً انقر فوق "طلب التسجيل".
+
+
+![تسجيل اسم ENS الخاص بك. الخطوة 1](./img/register-5.png "حدد عدد السنوات التي تريد التسجيل فيها.")
+
+تحقق من أن تكلفة المعاملة هي ما تتوقع أن تكون عليه وتأكيد المعاملة في محفظتك.
+
+#### الخطوة 2: انتظر 1 دقيقة
+
+بعد اكتمال عملية الخطوة 1 هناك فترة انتظار 1 دقيقة لمنع التشغيل الأمامي.
+
+![تسجيل اسم ENS الخاص بك. الخطوة 2](./img/register-6.png "انتظر دقيقة بعد أن تطلب التسجيل.")
+
+#### الخطوة 3: التسجيل
+
+بعد الانتظار لمدة دقيقة واحدة والخطوة 2 قد انتهت من الوقت الفعلي _لتسجيل_ اسم ENS الخاص بك. لديك ما يصل إلى 7 أيام للقيام بذلك من وقت الانتهاء من معاملة الخطوة 1، ولكن لا يغيب عن البال أن اسم ENS الخاص بك ليس محجوزا لك حتى _قم بتسجيل_.
+
+وقد يكون من المفيد التحقق المزدوج من أن تكاليف الغاز لا تزال منخفضة خلال هذه الفترة. بمجرد أن تكون جاهزاً للمتابعة انقر فوق زر السجل وتأكيد المعاملة في محفظتك.\
+
+
+![تسجيل اسم ENS الخاص بك. الخطوة 3](./img/register-7.png "بعد الانتظار دقيقة واحدة، حدد التسجيل، وقم بالموافقة على المعاملة في محفظتك.")
+
+تهانينا! إذا مرت جميع المعاملات بنجاح، فيجب عليك الآن أن تكون المالك الفخور لاسم ENS الخاص بك!
+
+![اسمك مسجل](./img/register-8.png "بعد الموافقة على المعاملة على سلسلة الكتل، أصبح اسم ENS الجديد الخاص بك!")
  

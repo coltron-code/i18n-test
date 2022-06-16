@@ -1,60 +1,60 @@
 ---
-title: Why isn't my ENS Name in my wallet?
-id: Why isn't my ENS Name in my wallet
+title: لماذا ليس اسم ENS الخاص بي في محفظتي؟
+id: لماذا ليس اسم ENS الخاص بي في محفظتي
 ---
 
-# Why isn't my ENS Name in my wallet?
+# لماذا ليس اسم ENS الخاص بي في محفظتي؟
 
-Please verify that your registration was successful please by checking your transaction history on [Etherscan.io](https://www.etherscan.io). Successful registrations will see two transactions: `Commit` **and** `Register with Config`. These transactions represent the Step 1 and Step 3 of the ENS registration process.
+يرجى التحقق من نجاح تسجيلك عن طريق التحقق من سجل المعاملات الخاص بك على [Etherscan.io](https://www.etherscan.io). التسجيلات الناجحة سوف ترى معاملتين : `الالتزام` **و** `سجل مع التكوين`. وتمثل هاتان المعاملتان الخطوتين 1 و 3 من عملية التسجيل في نظام الخدمة المدنية الوطنية.
 
-![Commit and Register With Config Transactions](./img/not-in-wallet-1.png "Ethercan showing the Commit and Register With Config Transactions")
+![ارتكاب وتسجيل مع معاملات التكوين](./img/not-in-wallet-1.png "عرض الإيثران للالتزام والتسجيل مع معاملات التكوين")
 
-## Troubleshooting Checklist
+## قائمة التحقق من استكشاف الأخطاء
 
-1.  **Check your  address on** [**Etherscan.io**](https://www.etherscan.io)**.**
+1.  **تحقق من عنوانك على** [**Etherscan.io**](https://www.etherscan.io)**.**
 
-    Query the wallet address that was used to register an Ethereum Name.<!-- _If your address does not show any registration transactions proceed to_ \[#wrong-address\](why-isnt-my-ens-name-in-my-wallet.md#wrong-address "mention")__ -->2.  **Ensure Step 1 of registration is completed.**
+    استفسر عن عنوان المحفظة الذي استخدم لتسجيل اسم إيثيريوم.<!-- _If your address does not show any registration transactions proceed to_ \[#wrong-address\](why-isnt-my-ens-name-in-my-wallet.md#wrong-address "mention")__ -->2.  **تأكد من اكتمال الخطوة 1 من التسجيل.**
 
-    Look for a transaction with the method of `Commit`. This transaction should be present and have interacted with the [ENS Registrar Controller.](https://etherscan.io/address/0x283af0b28c62c092c9727f1ee09c02ca627eb7f5)__
+    ابحث عن معاملة مع طريقة `الالتزام`. يجب أن تكون هذه المعاملة حاضرة وأن تكون قد تفاعلت مع [مراقب تسجيل ENS.](https://etherscan.io/address/0x283af0b28c62c092c9727f1ee09c02ca627eb7f5)__
 
-    _If the `Commit` transaction is not present, proceed to_<!--\[#registration-incomplete.\](why-isnt-my-ens-name-in-my-wallet.md#registration-incomplete. "mention")-->__
+    _إذا كان `الالتزام` المعاملة غير موجودة، انتقل إلى_<!--\[#registration-incomplete.\](why-isnt-my-ens-name-in-my-wallet.md#registration-incomplete. "mention")-->__
 
-    _If you did not interact with the ENS Registrar, proceed to_<!-- \[#fraudulent-activity\](why-isnt-my-ens-name-in-my-wallet.md#fraudulent-activity "mention")-->__
+    _إذا لم تتفاعل مع مسجل ENS ، انتقل إلى_<!-- \[#fraudulent-activity\](why-isnt-my-ens-name-in-my-wallet.md#fraudulent-activity "mention")-->__
 
 
-3.  **Ensure Step 3 of registration is completed.**
+3.  **تأكد من اكتمال الخطوة 3 من التسجيل.**
 
-    Look for a transaction with the method of `Register With Config` present. This transaction should be present and have interacted with the [ENS Registrar Controller.](https://etherscan.io/address/0x283af0b28c62c092c9727f1ee09c02ca627eb7f5)
+    ابحث عن معاملة مع طريقة `تسجيل مع تهيئة` الحاضر. يجب أن تكون هذه المعاملة حاضرة وأن تكون قد تفاعلت مع [مراقب تسجيل ENS.](https://etherscan.io/address/0x283af0b28c62c092c9727f1ee09c02ca627eb7f5)
 
-    _If the `Register With Config` transaction is not present, proceed to_<!--\[#registration-incomplete.\](why-isnt-my-ens-name-in-my-wallet.md#registration-incomplete. "mention")-->__
+    _إذا `سجل مع التهيئة` المعاملة غير موجودة، انتقل إلى_<!--\[#registration-incomplete.\](why-isnt-my-ens-name-in-my-wallet.md#registration-incomplete. "mention")-->__
 
-    _If you did not interact with the ENS Registrar, proceed to_<!-- \[#fraudulent-activity\](why-isnt-my-ens-name-in-my-wallet.md#fraudulent-activity "mention")-->__
+    _إذا لم تتفاعل مع مسجل ENS ، انتقل إلى_<!-- \[#fraudulent-activity\](why-isnt-my-ens-name-in-my-wallet.md#fraudulent-activity "mention")-->__
 
-## Registration Errors
+## أخطاء التسجيل
 
-### Wrong Address
+### عنوان خاطئ
 
-You mistakenly registered your name to another wallet that you own.
+لقد قمت بالخطأ بتسجيل اسمك في محفظة أخرى تملكها.
 
-**Corrective Action:** _Connect the correct wallet to the ENS Application. If your ENS name was mistakenly registered to another address you own, you can transfer the name by changing the Registrant. If you do not need to migrate it to a new wallet, you also can point your ENS to any wallet address by setting the Controller._
-
-__
-
-### Registration **Incomplete**.
-
-One of the steps was missed or not completed. You must complete all the steps to register your ENS name fully.
-
-![Three Registration Steps.](./img/not-in-wallet-2.png "The manager app displaying the Commit and Register transactions.")
-
-**Corrective Action:** _You must complete all the steps to register your ENS name._ See<!--\[registering-a-name.md\](../../tutorials/registering-a-name.md "mention") -->to review the registration process. _Remember, you have seven days after the second transaction to complete Step 3._
+**الإجراء التصحيحي:** _ربط المحفظة الصحيحة بتطبيق ENS. إذا كان اسم ENS الخاص بك قد تم تسجيله خطأ إلى عنوان آخر تملكه، فيمكنك تحويل الاسم عن طريق تغيير اسم المسجل. إذا كنت لست بحاجة إلى نقله إلى محفظة جديدة، يمكنك أيضا توجيه ENS الخاص بك إلى أي عنوان محفظة عن طريق تعيين المراقب المالي._
 
 __
 
-### Fraudulent Activity
+### تسجيل **غير مكتمل**.
 
-If you did not interact with the ENS Registrar Controller, you likely transacted with a malicious registration contract. Verify that your registration occurred at the official website, [https://app.ens.domains/](https://app.ens.domains/).
+وقد أُغفلت إحدى هذه الخطوات أو لم تكتمل. يجب عليك إكمال جميع الخطوات لتسجيل اسم ENS الخاص بك بالكامل.
 
-**Corrective Action:** _Open a ticket at our official Discord to report any fraudulent activity or phishing attempts. It is important to verify the details of all signature requests and contract calls before accepting them._
+![ثلاث خطوات للتسجيل.](./img/not-in-wallet-2.png "تطبيق المدير يعرض عملية التسليم والتسجيل.")
+
+**الإجراء التصحيحي:** _يجب عليك إكمال جميع الخطوات لتسجيل اسم ENS الخاص بك._ انظر<!--\[registering-a-name.md\](../../tutorials/registering-a-name.md "mention") -->استعراض عملية التسجيل. _تذكر، لديك سبعة أيام بعد المعاملة الثانية لإكمال الخطوة 3._
+
+__
+
+### النشاط الاحتيالي
+
+إذا كنت لا تتفاعل مع مراقب مسجل NS ، فمن المحتمل أن تكون قد تعاملت بعقد تسجيل خبيث. تحقق من أن تسجيلك حدث في الموقع الرسمي، [https://app.ens.domains/](https://app.ens.domains/).
+
+**الإجراء التصحيحي:** _فتح تذكرة في ديسكورد الرسمي للإبلاغ عن أي نشاط احتيالي أو محاولات للصيد الاحتيالي. من المهم التحقق من تفاصيل جميع طلبات التوقيع والمكالمات التعاقدية قبل قبولها._
 
 
 

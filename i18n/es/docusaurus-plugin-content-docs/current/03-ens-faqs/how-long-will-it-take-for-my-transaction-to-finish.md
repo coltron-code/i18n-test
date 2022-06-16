@@ -1,16 +1,16 @@
 ---
-title: How long will it take for my transaction to finish?
-id: How long do transactions take
+title: '¿Cuánto tiempo tardará mi transacción en terminar?'
+id: Cuánto tiempo tardan las transacciones
 ---
 
-# How long will it take for my transaction to finish?
+# ¿Cuánto tiempo tardará mi transacción en terminar?
 
-### Ethereum Gas (Gwei) and Transactions
+### Gas etéreo (Gwei) y transacciones
 
-The time for Ethereum transactions to finish adding data to a block is dependent upon network usage. There's a fee charged for using the blockchain, which is the gas fee in gwei. One gwei is 0.000000001 ETH. When there are a lot of transactions happening on the blockchain, gas fees can increase due to competition for the validators to mine a transaction. In most cases, the transaction will eventually finish. However, the time frame would be dependent on when the miners add the data to the block. Setting too low of a maximum for a gas fee can cause a transaction to sit for too long; hours or days, or even not get mined at all.
+El tiempo para que las transacciones de Ethereum terminen de añadir datos a un bloque depende del uso de la red. Hay una comisión cobrada por usar el blockchain, que es la comisión de gas en gwei. Un gwei es 0.000000001 ETH. Cuando hay muchas transacciones en el blockchain, las comisiones de gas pueden aumentar debido a la competencia de los validadores para minar una transacción. En la mayoría de los casos, la transacción terminará. Sin embargo, el plazo dependería de cuándo los mineros añadan los datos al bloque. Establecer un límite demasiado bajo para una comisión de gas puede causar que una transacción se sienta durante demasiado tiempo; horas o días, o incluso no se extrae en absoluto.
 
-### Looking for Stuck Transactions
+### Buscando transacciones atascadas
 
-When looking for the reason why a transaction might not have finished, the first place to look is on a blockchain explorer such as [Etherscan.io](https://etherscani.io). After searching for your wallet, you can see any pending transactions listed there. If you don't see any pending transactions, but you see them in your wallet software such as MetaMask, those transactions pending there have not been sent to the blockchain. They are stuck locally in the wallet software.
+Cuando se busca la razón por la que una transacción podría no haber terminado, el primer lugar para mirar es en un explorador de blockchain como [Etherscan. o](https://etherscani.io). Después de buscar su cartera, puede ver todas las transacciones pendientes listadas allí. Si no ve ninguna transacción pendiente, pero las ve en su software de cartera como MetaMask, aquellas transacciones pendientes de que no se hayan enviado a la cadena de bloques. Están atascados localmente en el software de la cartera.
 
-On the other hand, if you do have pending transactions seen on the block explorer, you can clear them out by sending a 0 ETH transaction with the same nonce value to your own wallet. In this new transaction, you must set the gas price higher so that it will be picked up and the old transaction with the same nonce canceled. There's more reading from the [Etherscan documentation on how to replace a transaction. ](https://info.etherscan.com/how-to-replace-a-transaction/)
+Por otro lado, si tienes transacciones pendientes vistas en el explorador de bloques, puede limpiarlos enviando una transacción de 0 ETH con el mismo valor de nonce a su propia cartera. En esta nueva transacción, debe establecer el precio del gas más alto para que sea recogido y la transacción antigua con el mismo nonce cancelado. Hay más lectura de la documentación de Etherscan [sobre cómo reemplazar una transacción. ](https://info.etherscan.com/how-to-replace-a-transaction/)

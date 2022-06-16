@@ -1,11 +1,11 @@
 ---
-title: Written Interviews
-id: Written Interviews
+title: Interviews écrites
+id: Interviews écrites
 ---
 
-# Written Interviews
+# Interviews écrites
 
-This is a collection of written interviews.
+Il s'agit d'une collection d'entrevues écrites.
 
-* [Interview with ENS team (Virgil Griffith)](https://medium.com/the-ethereum-name-service/interview-with-ens-team-virgil-griffith-4dd1dcf9d13f)
-* [Interview with ENS team (Nick Johnson)](https://medium.com/the-ethereum-name-service/interview-with-ens-team-nick-johnson-d98fb296d228)
+* [Interview avec l'équipe ENS (Virgil Griffith)](https://medium.com/the-ethereum-name-service/interview-with-ens-team-virgil-griffith-4dd1dcf9d13f)
+* [Interview avec l'équipe ENS (Nick Johnson)](https://medium.com/the-ethereum-name-service/interview-with-ens-team-nick-johnson-d98fb296d228)

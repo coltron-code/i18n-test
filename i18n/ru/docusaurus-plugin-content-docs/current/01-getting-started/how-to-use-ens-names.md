@@ -1,30 +1,30 @@
 ---
-title: What can I use an ENS name for?
-id: Using Your ENS Name
+title: Для чего я могу использовать название ENS?
+id: Используя ваше имя ENS
 ---
 
-# What can I use an ENS name for?
+# Для чего я могу использовать название ENS?
 
-### An ENS Name is an way to remember you cryptocurrency addresses
+### ENS Name - это способ вспомнить адреса криптовалюты
 
-The first and most common use-case for ENS names is to use it as an easy-to-remember name for your cryptocurrency addresses.
+Первый и наиболее распространенный вариант использования для ENS имен, это использовать его в качестве простого имени для ваших криптовалютных адресов.
 
-**ENS supports many different cryptocurrencies** which can be added to it from the [ENS Manager App](https://app.ens.domains) allowing you to receive payments in more cryptocurrencies than just Ethereum.  This reduces confusion associated with remembering your hexadecimal wallet address and provides clear payment options that integrated in to most wallet apps.
+**ENS поддерживает множество различных криптовалют** , которые можно добавить в него из [приложения Менеджера ENS](https://app.ens.domains) , позволяющего получать платежи в криптовалютах больше, чем в Ethereum.  Это уменьшает путаницу, связанную с запоминанием адреса шестнадцатеричного кошелька и предоставляет чистые способы оплаты, интегрированные в большинство приложений.
 
-### Point to decentralized websites
+### Указывать на децентрализованные веб-сайты
 
-By coupling your decentralized ENS name with a service for hosting decentralized websites, it's possible to have an entirely decentralized website suitable for Web3. The protocols currently supported are:
+Разместив ваше децентрализованное название ЭНС с сервисом для децентрализованных веб-сайтов, можно иметь полностью децентрализованный веб-сайт, подходящий для Web3. В настоящее время поддерживаются следующие протоколы:
 
-* IPFS and IPNS
+* IPFS и IPNS
 * Arweave
-* Onion and Onion3
-* Sia
-* Swarm
+* Лук и лук 3
+* Сиа
+* Рой
 
-### Connect metadata to the Ethereum blockchain.
+### Подключение метаданных к блокчейну Ethereum.
 
-**Social Media.** ENS Names supports numerous text records which can be used to provide on-chain metadata to connect to your social media accounts. For example, you can add your Twitter or discord handles to your ENS records.
+**Социальные медиа.** Названия ENS поддерживают множество текстовых записей, которые могут быть использованы для обеспечения в цепочке метаданных для подключения к вашим аккаунтам социальных сетей. Например, вы можете добавить Twitter или discord ручки к записи ENS.
 
-**URLs and e-mail.** Your ENS name can store your e-mail or website. This will provide resources for anyone who has access to your name the ability to contact you.
+**URL-адреса и e-mail.** Ваше имя ENS может хранить вашу электронную почту или веб-сайт. Это предоставит ресурсы всем, у кого есть доступ к вашему имени, возможность связаться с вами.
 
-**Custom Text Records.** our ENS name is also capable of storing custom records to can contain nearly anything you want to display or integrate into your own services.
+**Пользовательские текстовые записи.** наше имя ENS также может хранить пользовательские записи для того, чтобы содержать почти все, что вы хотите отображать или интегрироваться в ваши собственные сервисы.

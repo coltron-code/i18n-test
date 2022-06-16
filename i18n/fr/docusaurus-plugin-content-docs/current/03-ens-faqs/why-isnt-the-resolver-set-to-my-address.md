@@ -1,19 +1,19 @@
 ---
-title: Why isn't the Resolver set to my address?
-id: Why isn't the Resolver different
+title: Pourquoi le Resolver n'est-il pas réglé sur mon adresse ?
+id: Pourquoi le résolveur ne diffère pas
 ---
 
-# Why isn't the Resolver set to my address?
+# Pourquoi le Resolver n'est-il pas réglé sur mon adresse ?
 
-The Resolver field for an ENS name is normally set to the ENS Public Resolver contract which helps resolve your ENS name into usable records like wallet addresses, avatars, etc. This is similar to how DNS helps resolve regular domain names into usable records like IP addresses.
+Le champ de résolution pour un nom d'ENS est normalement défini sur le contrat de résolution publique ENS qui aide à résoudre votre nom ENS dans les enregistrements utilisables comme les adresses de portefeuille, avatars, etc. Ceci est similaire à la façon dont DNS aide à résoudre les noms de domaine réguliers en enregistrements utilisables comme les adresses IP.
 
-There are a wide variety of records that can be set and resolved depending on your use-case.&
+Il y a une grande variété d'enregistrements qui peuvent être définis et résolus en fonction de votre cas d'utilisation&
 
-Some examples are:
+Quelques exemples sont :
 
-* **Wallet address records** _Contains records about your various wallet addresses, so that funds can be sent to it._
-* **Avatar record** _Contains a link to an image stored as an NFT or on a website and used to visually represent your ENS name._
-* **Social links** _Useful links to, for example, your GitHub, LinkedIn or Twitter-profiles._
+* **Enregistrements d'adresse du portefeuille** _Contient des enregistrements à propos des diverses adresses de votre portefeuille, de sorte que des fonds peuvent lui être envoyés._
+* **Enregistrement d'avatar** _Contient un lien vers une image stockée en tant que NFT ou sur un site Web et utilisée pour représenter visuellement votre nom d'ENS._
+* **Liens sociaux** _Liens utiles vers vos profils GitHub, LinkedIn ou Twitter-._
 
 
-**Important:** If you've changed the default ENS Public Resolver, you can set it back to default on the [ENS App](https://app.ens.domains). The ENS Public Resolver is: 0x4976fb03C32e5B8cfe2b6cCB31c09Ba78EBaBa41
+**Important :** Si vous avez modifié le résolveur public ENS par défaut, vous pouvez le rétablir par défaut sur l' [application ENS](https://app.ens.domains). La résolution publique de l'ENS est : 0x4976fb03C32e5B8cfe2b6cCB31c09Ba78EBa41

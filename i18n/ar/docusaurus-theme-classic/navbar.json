@@ -1,18 +1,18 @@
 {
   "title": {
-    "message": "Learn Docs",
+    "message": "تعلم المستندات",
     "description": "The title in the navbar"
   },
   "item.label.Docs": {
-    "message": "Docs",
+    "message": "الوثائق",
     "description": "Navbar item with label Docs"
   },
   "item.label.Governance": {
-    "message": "Governance",
+    "message": "الحوكمة",
     "description": "Navbar item with label Governance"
   },
   "item.label.Developers": {
-    "message": "Developers",
+    "message": "المطورين",
     "description": "Navbar item with label Developers"
   }
 }

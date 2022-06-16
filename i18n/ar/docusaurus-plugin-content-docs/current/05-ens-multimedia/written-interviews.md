@@ -1,11 +1,11 @@
 ---
-title: Written Interviews
-id: Written Interviews
+title: المقابلات الخطية
+id: المقابلات الخطية
 ---
 
-# Written Interviews
+# المقابلات الخطية
 
-This is a collection of written interviews.
+هذه مجموعة من المقابلات الخطية.
 
-* [Interview with ENS team (Virgil Griffith)](https://medium.com/the-ethereum-name-service/interview-with-ens-team-virgil-griffith-4dd1dcf9d13f)
-* [Interview with ENS team (Nick Johnson)](https://medium.com/the-ethereum-name-service/interview-with-ens-team-nick-johnson-d98fb296d228)
+* [مقابلة مع فريق ENS (Virgil Griffith)](https://medium.com/the-ethereum-name-service/interview-with-ens-team-virgil-griffith-4dd1dcf9d13f)
+* [مقابلة مع فريق ENS (نيك جونسون)](https://medium.com/the-ethereum-name-service/interview-with-ens-team-nick-johnson-d98fb296d228)

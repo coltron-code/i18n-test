@@ -1,26 +1,26 @@
 ---
-title: What is a premium auction?
-id: premium auction explained
+title: ما هو المزاد المميز؟
+id: شرح المزاد القسط
 ---
 
-# What is a premium auction?
+# ما هو المزاد المميز؟
 
-### About premium auctions
+### حول المزادات الممتازة
 
-An expired ENS name will first go into a 90 day grace period. After the grace period ends, anyone will be able to register the name again. However, names that have passed the grace period enter into a 21 day dutch auction starting with a premium price that is currently set at $100,000,000 USD.
+اسم ENS منتهى الصلاحية سيذهب أولا إلى فترة سماح مدتها 90 يوما. وبعد انتهاء فترة السماح، سيتمكن أي شخص من تسجيل الاسم مرة أخرى. غير الأسماء التي اجتازت فترة السماح تدخل في مزاد السحب لمدة 21 يوماً بدءاً بسعر مميز المحدد حالياً بقيمة 100 دولار، 50,000 دولار أمريكي.
 
-Over 21 days, the premium price will decline until the premium fee is $0. The premium price decreases using a non-linear decay. This means the premium falls from the very high start price quickly, and slows towards the end of the 21 day premium window. A name can be registered within the premium auction by choosing the time to buy.
+على مدى 21 يوماً، سينخفض سعر العلاوة إلى أن يكون رسم العلاوة هو 0$. وينخفض سعر العلاوة باستخدام انخفاض غير خطي. وهذا يعني أن العلاوة تنخفض من سعر البداية المرتفع جدا بسرعة، وتتباطأ قرب نهاية نافذة العلاوة البالغة 21 يوما. يمكن تسجيل اسم في المزاد المزاد عن طريق اختيار وقت الشراء.
 
-In the user interface of the [ENS App](https://app.ens.domains), clicking on the line chart for an ENS name in premium will give a price estimate for the specific date and time chosen. You will need enough Ether to pay the premium fee plus the yearly registration fee.
+في واجهة المستخدم لـ [ENS App](https://app.ens.domains)، النقر على الرسم البياني الخطي لاسم ENS بأقساط سيعطي تقديرا لسعر التاريخ والوقت المحددين المختارين. سوف تحتاج إلى ما يكفي من Ether لدفع رسوم مميزة بالإضافة إلى رسوم التسجيل السنوية.
 
-![Manager app displaying premium decay.](./img/premium-auction-1.png "Chart of premium decay period.")
+![تطبيق المدير يعرض تآكل مميز.](./img/premium-auction-1.png "الشكل البياني لفترة الانحسار المميز.")
 
-### Why have a premium auction at all?
+### لماذا هناك مزاد مميز على الإطلاق؟
 
-With the increase in the popularity of ENS names, names available to be re-registered would be instantly bought by bots, and front-running miners, to snipe an ENS name before others could purchase it. The current starting price for the premium auction is $100,000,000 which decays to $0 over the 21 premium window. This declining premium is effectively a Dutch Auction.
+ومع زيادة شعبية أسماء ENS فإن الأسماء المتاحة لإعادة تسجيلها ستشتريها على الفور البوتات، و عمال المناجم في المقدمة، لقنص اسم ENS قبل أن يتمكن الآخرون من شرائه. وسعر البدء الحالي لمزاد القسط هو 000 000 100 دولار ينخفض إلى صفر دولار على نافذة القسط الواحد والعشرين. وهذه العلاوة المتناقصة هي في الواقع مزاد هولندي.
 
-It's not expected that anyone would purchase a name at such a high price, but it prevents those running scripts from taking advantage of the auction mechanics.
+ليس من المتوقع أن يشتري أي شخص اسما بهذا الثمن المرتفع، ولكنه يمنع أولئك الذين يقومون بتشغيل البرامج النصية من الاستفادة من ميكانيكا المزاد العلني.
 
-### Further Reading:
+### المزيد من القراءة:
 
-* [\[EP9\]\[Executable\] Change to Exponential Premium Price Oracle](https://docs.ens.domains/v/governance/governance-proposals/ep9-executable-change-to-exponential-premium-price-oracle)
+* [\[EP9\]\[Executable\] تغير إلى السعر المميز للأوراكل](https://docs.ens.domains/v/governance/governance-proposals/ep9-executable-change-to-exponential-premium-price-oracle)

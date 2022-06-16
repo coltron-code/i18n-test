@@ -1,10 +1,10 @@
 ---
-title: Understanding Ethereum
-id: Understanding Ethereum
+title: Eterno de pie
+id: Eterno de pie
 ---
 
-# Understanding Ethereum
+# Eterno de pie
 
-Ethereum is a decentralized cryptocurrency blockchain that distinguishes itself by providing a Virtual Machine capable of running turing complete smart contracts, enabling technological advancements like decentralized finance and even the Ethereum Name Service itself — something which wasn't possible with the cryptocurrencies that preceded it.
+Ethereum es un blockchain descentralizado de criptomonedas que se distingue por proporcionar una máquina virtual capaz de ejecutar contratos inteligentes completos, permitir avances tecnológicos como las finanzas descentralizadas e incluso el propio Servicio Ethereum – algo que no era posible con las criptomonedas que lo precedieron.
 
-More comprehensive information about Ethereum can be found in the [official Ethereum documentation](https://ethereum.org/en/what-is-ethereum/).
+Puede encontrar información más completa sobre Ethereum en la [documentación oficial de Ethereum](https://ethereum.org/en/what-is-ethereum/).

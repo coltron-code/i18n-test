@@ -1,21 +1,21 @@
 ---
-title: How do I use an ENS name after purchasing it on a secondary marketplace?
-id: Steps after secondary purchase.
+title: كيف يمكنني استخدام اسم NS بعد شرائه في سوق ثانوية؟
+id: الخطوات بعد الشراء الثانوي.
 ---
 
-# How do I use an ENS name after purchasing it on a secondary marketplace?
+# كيف يمكنني استخدام اسم NS بعد شرائه في سوق ثانوية؟
 
-After purchasing your ENS name on a secondary market like OpenSea or Rarible, you should next head over to the [ENS App](https://app.ens.domains). Once connecting your wallet there, you can update the records for your ENS name. You may notice that only the Registrant has changed to your wallet address. By clicking “Set,” you will update the Controller record. Updating ENS name records will update the state of the blockchain, so this will incur gas.
+بعد شراء اسم ENS الخاص بك في سوق ثانوية مثل OpenSea أو Rarible، يجب عليك التوجه إلى [ENS App](https://app.ens.domains). بمجرد توصيل محفظتك هناك، يمكنك تحديث السجلات لاسم ENS الخاص بك. يمكنك ملاحظة أن المسجل فقط قد تغير إلى عنوان محفظتك. بالضغط على "المجموعة"، سوف تقوم بتحديث سجل المراقب. تحديث سجلات اسم ENS سوف يقوم بتحديث حالة البلوكشين ، لذلك سوف يتكبد الغاز.
 
-![Editing the controller.](./img/second-market-1.png "The controller highlighted in the manager app.")
+![تعديل وحدة التحكم.](./img/second-market-1.png "تم تسليط الضوء على وحدة التحكم في تطبيق المدير.")
 
 
-After setting the Controller, you can update the ETH Address record. Any cryptocurrency (ERC20) or NFTs(ERC721) sent to your ENS name will arrive at the Ethereum address saved there.
+بعد تعيين المراقب المالي، يمكنك تحديث سجل عنوان ETH. ستصل أي عملة مشفرة (ERC20) أو NFTs(ERC721) مرسلة إلى اسم ENS الخاص بك إلى عنوان إيثيريوم المحفوظ هناك.
 
-**Important:** Without updating these records after purchase on a secondary market, cryptocurrency transactions sent to your .eth name will not arrive in your wallet(s) by default.
+**هام:** دون تحديث هذه السجلات بعد الشراء في سوق ثانوية، معاملات العملات الرقمية المرسلة إلى الخاص بك. الاسم الثاني لن يصل في محفظتك (محفظاتك) بشكل افتراضي.
 
-Your ENS name can store payment addresses for more than just Ethereum. The currencies you can add, includes BTC, LTC, DOGE, and _many_ more.
+اسم ENS الخاص بك يمكنه تخزين عناوين الدفع لأكثر من إيثيريوم فقط. العملات التي يمكنك إضافتها، تشمل BTC، LTC، DOGE، و _العديد من_ أكثر.
 
-![Editing the currency record.](./img/second-market-2.png "Editing the currency record.")
+![تعديل سجل العملة.](./img/second-market-2.png "تعديل سجل العملة.")
 
 

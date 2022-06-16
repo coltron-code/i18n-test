@@ -1,17 +1,17 @@
 ---
-title: Podcasts & Videos
-id: Podcasts and Videos
+title: Подкасты & Видео
+id: Подкасты и видео
 ---
 
-# Podcasts & Videos
+# Подкасты & Видео
 
-### Podcasts
+### Подкасты
 
-* ** [**Early with ENS Podcast**](https://open.spotify.com/episode/6DoSULJSKHjUhujODHd5Wq) - "_Nick Johnson on founding and building ENS_" **
-* ** [**The Defiant Podcast**](https://open.spotify.com/episode/1QA3O4SPdmdo4Pc34JWFOB) - "_Nick Johnson of ENS: 'We Want to be the naming system for every digital resource in the world._'" **
+* ** [**Ранним с ENS Подкаст**](https://open.spotify.com/episode/6DoSULJSKHjUhujODHd5Wq) - "_Ник Джонсон о создании и строительстве ENS_" **
+* ** [**Подкаст**](https://open.spotify.com/episode/1QA3O4SPdmdo4Pc34JWFOB) - "_Ник Джонсон из ENS: 'Мы хотим быть системой именования для каждого цифрового ресурса в мире._'" **
 
 ### Youtube
 
-See the official [ENS YouTube](https://www.youtube.com/c/ENSdomains) Channel.
+См. официальный [ENS YouTube](https://www.youtube.com/c/ENSdomains) канал.
 
-* [**ENS on Bankless** ](https://www.youtube.com/watch?v=jwadHC5ha-E)- _"Nick Johnson and Brantly Millegan discuss the ENS airdrop on Bankless."_
+* [**ENS на Безжалостных** ](https://www.youtube.com/watch?v=jwadHC5ha-E)- _"Ник Джонсон и Брэнли Милеган обсуждают эфирный трофей ЭНС на Безбанковской."_
