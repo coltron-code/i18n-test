@@ -1,0 +1,46 @@
+{
+  "version.label": {
+    "message": "Siguiente",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Getting Started": {
+    "message": "Comenzando",
+    "description": "The label for category Getting Started in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Getting Started.link.generated-index.description": {
+    "message": "Empieza aquí a aprender más acerca de tu nombre de ENS.",
+    "description": "The generated-index page description for category Getting Started in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.ENS Tutorials": {
+    "message": "Tutoriales ENS",
+    "description": "The label for category ENS Tutorials in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.ENS Tutorials.link.generated-index.description": {
+    "message": "Tutoriales y guías para usar su nombre de ENS.",
+    "description": "The generated-index page description for category ENS Tutorials in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.ENS Faqs": {
+    "message": "ENS Faqs",
+    "description": "The label for category ENS Faqs in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.ENS Faqs.link.generated-index.description": {
+    "message": "Preguntas frecuentes sobre los nombres de ENS.",
+    "description": "The generated-index page description for category ENS Faqs in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Blockchain Basics": {
+    "message": "Blockchain Básicos",
+    "description": "The label for category Blockchain Basics in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Blockchain Basics.link.generated-index.description": {
+    "message": "Aprende sobre temas comunes de blockchain",
+    "description": "The generated-index page description for category Blockchain Basics in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.ENS Multimedia": {
+    "message": "Multimedia ENS",
+    "description": "The label for category ENS Multimedia in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.ENS Multimedia.link.generated-index.description": {
+    "message": "Podcasts y artículos sobre ES",
+    "description": "The generated-index page description for category ENS Multimedia in sidebar tutorialSidebar"
+  }
+}

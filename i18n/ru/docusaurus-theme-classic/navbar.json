@@ -1,0 +1,18 @@
+{
+  "title": {
+    "message": "Узнать документацию",
+    "description": "The title in the navbar"
+  },
+  "item.label.Docs": {
+    "message": "Документ",
+    "description": "Navbar item with label Docs"
+  },
+  "item.label.Governance": {
+    "message": "Управление",
+    "description": "Navbar item with label Governance"
+  },
+  "item.label.Developers": {
+    "message": "Разработчики",
+    "description": "Navbar item with label Developers"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "title": {
+    "message": "Aprende Docs",
+    "description": "The title in the navbar"
+  },
+  "item.label.Docs": {
+    "message": "Documentos",
+    "description": "Navbar item with label Docs"
+  },
+  "item.label.Governance": {
+    "message": "Gobernanza",
+    "description": "Navbar item with label Governance"
+  },
+  "item.label.Developers": {
+    "message": "Desarrolladores",
+    "description": "Navbar item with label Developers"
+  }
+}

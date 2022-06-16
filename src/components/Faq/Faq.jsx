@@ -46,13 +46,13 @@ const StyledFaqCardGrid = styled('div')`
 `;
 function Faq() {
   return (
-    <div className="faq-bar">
-      <Translate description="FAQ">
-        Frequently Asked Questions
-      </Translate>
-      <div />
-      <Search />
-      <br />
+    <>
+      <div className="faq-bar">
+        <Translate description="FAQ">
+          Frequently Asked Questions
+        </Translate>
+        <Search />
+      </div>
       <StyledFaqCardGrid>
         {articles.map((item) => (
           <Link to={item.url}>
@@ -60,7 +60,8 @@ function Faq() {
           </Link>
         ))}
       </StyledFaqCardGrid>
-    </div>
+    </>
+
   );
 }
 export default Faq;

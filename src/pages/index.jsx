@@ -12,6 +12,7 @@ const StyledContainer = styled('div')`
   margin: 0 auto;
   height: 80vh;
   display: grid;
+  grid-template-rows: auto;
   align-items: center;
 `;
 
@@ -24,11 +25,8 @@ export default function Hojme() {
       </Head>
       <Layout>
         <StyledContainer>
-          <div className="main">
-            <Hero />
-            <br />
-            <Faq />
-          </div>
+          <Hero />
+          <Faq />
         </StyledContainer>
         <main />
         <Footer />

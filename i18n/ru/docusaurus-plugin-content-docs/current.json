@@ -1,0 +1,46 @@
+{
+  "version.label": {
+    "message": "Следующий",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Getting Started": {
+    "message": "Начало работы",
+    "description": "The label for category Getting Started in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Getting Started.link.generated-index.description": {
+    "message": "Начните здесь , чтобы узнать о вашем ENS Name.",
+    "description": "The generated-index page description for category Getting Started in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.ENS Tutorials": {
+    "message": "Уроки ENS",
+    "description": "The label for category ENS Tutorials in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.ENS Tutorials.link.generated-index.description": {
+    "message": "Учебники и руководства, чтобы использовать ваше имя ENS.",
+    "description": "The generated-index page description for category ENS Tutorials in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.ENS Faqs": {
+    "message": "ENS Faqs",
+    "description": "The label for category ENS Faqs in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.ENS Faqs.link.generated-index.description": {
+    "message": "Часто задаваемые вопросы о ENS Names.",
+    "description": "The generated-index page description for category ENS Faqs in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Blockchain Basics": {
+    "message": "Основы блокчейна",
+    "description": "The label for category Blockchain Basics in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Blockchain Basics.link.generated-index.description": {
+    "message": "Узнайте о часто встречающихся блокчейн темах",
+    "description": "The generated-index page description for category Blockchain Basics in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.ENS Multimedia": {
+    "message": "ENS Multimedia",
+    "description": "The label for category ENS Multimedia in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.ENS Multimedia.link.generated-index.description": {
+    "message": "Подкасты и статьи об ЭНС",
+    "description": "The generated-index page description for category ENS Multimedia in sidebar tutorialSidebar"
+  }
+}
