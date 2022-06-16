@@ -229,5 +229,9 @@
   "theme.docs.sidebar.expandButtonAriaLabel": {
     "message": "Expand sidebar",
     "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "Learn about your web3 identity.": {
+    "message": "Learn about your web3 identity.",
+    "description": "Landing page main text"
   }
 }

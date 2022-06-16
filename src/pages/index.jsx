@@ -3,6 +3,7 @@ import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 import Head from '@docusaurus/Head';
+import Translate from '@docusaurus/Translate';
 
 import Card from '../components/Card/Card';
 import './index.css';
@@ -30,7 +31,7 @@ const StyledContainer = styled('div')`
   align-items: center;
 `;
 const Footer = styled('div')`    
-  position: fixed;
+  position: absolute;
   padding: 10px 10px 0px 10px;
   bottom: 0;
   width: 100%;
@@ -74,19 +75,20 @@ export default function Hojme() {
         <link rel="preconnect" href="https://YOUR_APP_ID-dsn.algolia.net" crossOrigin />
       </Head>
       <Layout>
-        {/* <Navigation /> */}
-
         <StyledContainer>
           <div className="main">
             <div className="heros">
               <div className="main-title">ENS Learn Docs</div>
-              <div className="subtitle">Learn about your web3 identity.</div>
+
+              <div className="subtitle">
+                <Translate description="The homepage main heading">
+                  Learn about your web3 identity.
+                </Translate>
+              </div>
             </div>
             <div className="faq-bar">
               <div>Frequently Asked Questions</div>
               <Search />
-
-              {/* <input placeholder="Algolia Docsearch Will be here" type="text" /> */}
             </div>
             <br />
 
