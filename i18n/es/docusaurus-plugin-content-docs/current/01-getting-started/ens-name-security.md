@@ -1,13 +1,13 @@
 ---
-title: Mantener tu nombre ENS seguro
-id: Seguridad del nombre ENS
+title:  Keeping Your ENS Name Secure
+id:  ENS Name Security
 ---
 
-# Mantener tu nombre ENS seguro
+# Keeping Your ENS Name Secure
 
-It is important to store your ES name secuely. Si el nombre de ENS se pierde o se roba, sería como perder su identidad en Web3. Siempre debes practicar la mejor seguridad, como nunca dar tus frases de semillas o claves privadas a nadie por ninguna razón. Algunos usuarios de ENS prefieren guardar su nombre en una cartera fría. This would mean that the Registrt record for the ES name is set to the cold wallet. Esta cartera sería el **dueño** del nombre de ENS. Cualquiera que sea el monedero del inscrito, tiene acceso para transferir el nombre de la propiedad a otra cartera. Los nombres de ENS son [ERC721](https://ethereum.org/en/developers/docs/standards/tokens/erc-721/) NFT compatibles en la cadena de bloques Ethereum.
+It is important to store your ENS name securely. If the ENS name is lost or stolen, it would be like losing your identity in Web3. You should always practice best security, like never giving out your seed phrases or private keys to anyone for any reason. Some users of ENS prefer to store their name in a cold wallet. This would mean that the Registrant record for the ENS name is set to the cold wallet. This wallet would be the **owner** of the ENS name. Whichever wallet is the Registrant, has access to transfer the name ownership to another wallet. ENS names are [ERC721](https://ethereum.org/en/developers/docs/standards/tokens/erc-721/) compliant NFTs on the Ethereum blockchain.
 
-In some scenarios, ENS name owners choose a combination of both a cold wallet and hot wallet. Así por ejemplo, el propietario (Registrant) del nombre se establecería en una cartera fría como Ledger o Trezor mientras que el controlador se ajustaría a una cartera caliente como MetaMask. De esta manera la propiedad del nombre se mantiene segura en una cartera fría, pero una cartera caliente puede ser usada para actualizar registros como direcciones de pago ETH u otros registros del nombre de ENS además del Inscriptor.
+In some scenarios, ENS name owners choose a combination of both a cold wallet and hot wallet. So for instance, the ownership(Registrant) of the name would be set to a cold wallet like Ledger or Trezor while the Controller would be set to a hot wallet like MetaMask. This way the ownership of the name is safely held in a cold wallet, but a hot wallet can be used to update records like ETH payment addresses or other records of the ENS name besides the Registrant.
 
-El registro de direcciones ETH, que es la resolución _de _ adelante_ del nombre de ENS, se puede configurar a una dirección de cartera que sea diferente de los registros de Registros y Controladores.</p>
+The ETH Address record, which is the _forward_ resolution of the ENS name, could be set to a wallet address that is different from the Registrant and Controller records.
 
