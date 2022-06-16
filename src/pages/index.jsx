@@ -10,14 +10,14 @@ import Faq from '../components/Faq/Faq';
 const StyledContainer = styled('div')`
   width: 80%;
   margin: 0 auto;
-  height: 80vh;
+  height: 60vh;
   display: grid;
-  grid-template-rows: auto;
+  margin: auto;
+
   align-items: center;
 `;
 
 export default function Hojme() {
-  // const { siteConfig } = useDocusaurusContext();
   return (
     <>
       <Head>
@@ -25,11 +25,12 @@ export default function Hojme() {
       </Head>
       <Layout>
         <StyledContainer>
+
           <Hero />
           <Faq />
+
         </StyledContainer>
-        <main />
-        <Footer />
+        {/* <Footer /> */}
       </Layout>
     </>
   );
