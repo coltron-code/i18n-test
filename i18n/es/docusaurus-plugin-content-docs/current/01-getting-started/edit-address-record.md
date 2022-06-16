@@ -1,30 +1,30 @@
 ---
-title: Add other wallet addresses to your ENS name.
-id: Add Crpyto Addresses
+title: Añadir otras direcciones de cartera a su nombre de ENS.
+id: Añadir direcciones de Crpyto
 ---
 
-# Add other wallet addresses to your ENS name.
+# Añadir otras direcciones de cartera a su nombre de ENS.
 
-Setting a non-Ethereum address to your name allows dApps that support ENS to use your Ethereum Name to connect to other cryptocurrency addresses. You can set up non-ETH addresses in the domain manager on [https://app.ens.domains](https://app.ens.domains/).
+Establecer una dirección que no sea Ethereum a su nombre permite a dApps que soporten ENS usar su Nombre de Ethereum para conectarse a otras direcciones de criptomonedas. Puede configurar direcciones no ETH en el administrador de dominio en [https://app.ens.domains](https://app.ens.domains/).
 
-We recommend setting multiple addresses at once to save on gas fees. Adding or removing cryptocurrencies will incur a gas fee signing request.
+Recomendamos establecer varias direcciones a la vez para ahorrar en tarifas de gas. Añadir o eliminar criptomonedas incurrirá en una solicitud de firma de cuota de gas.
 
-### How can I add other wallets?
+### ¿Cómo puedo añadir otras carteras?
 
-In the ENS Manager, you can add a cryptocurrency address by copying and pasting your cryptocurrency address in the corresponding address field.
+En el Administrador de ENS, puede agregar una dirección de criptomoneda copiando y pegando su dirección de criptomoneda en el campo de dirección correspondiente.
 
-![Adding Cryptocurrencies to your address records](./img/add-currency-1.png "Your wallet addresses are displayed in the corresponding currency fields.")
+![Añadiendo criptomonedas a sus registros de direcciones](./img/add-currency-1.png "Sus direcciones de cartera se muestran en los campos de moneda correspondientes.")
 
-If your coin type is not listed in the pre-existing fields, find the coin dropdown menu and select your currency. Click `ADD/EDIT RECORD`.
+Si su tipo de moneda no aparece en los campos preexistentes, encuentre el menú desplegable de monedas y seleccione su moneda. Haga clic en `AÑADIR /EDIT RECORD`.
 
-![Adding Cryptocurrencies to your address records](./img/add-currency-2.png "Selecting the Add/Edit Link opens a dropdown menu.")
+![Añadiendo criptomonedas a sus registros de direcciones](./img/add-currency-2.png "Al seleccionar Añadir/Editar Enlace abre un menú desplegable.")
 
-![Adding Cryptocurrencies to your address records](./img/add-currency-3.png "Select the currency you would lke to add to your records.")
+![Añadiendo criptomonedas a sus registros de direcciones](./img/add-currency-3.png "Seleccione la moneda que desea agregar a sus registros.")
 
-When you have entered all of your desired cryptocurrency, or have made changes to your other records, scroll down to the bottom of the manager page.
+Cuando haya introducido toda la criptomoneda deseada, o han hecho cambios en sus otros registros, desplácese hacia abajo en la parte inferior de la página del administrador.
 
-![Adding Cryptocurrencies to your address records](./img/add-currency-4.png "You can also edit your text records at this time to save gas fees.")
+![Añadiendo criptomonedas a sus registros de direcciones](./img/add-currency-4.png "También puede editar sus registros de texto en este momento para ahorrar gastos de gas.")
 
-**Important:** To permanently make these changes, you must select the "Confirm" button. This will change the on-chain data and will incur a gas fee.
+**Importante:** Para realizar estos cambios de forma permanente, debe seleccionar el botón "Confirmar". Esto cambiará los datos de la cadena e incurrirá en una tasa de gas.
 
 

@@ -1,26 +1,26 @@
 ---
-title: What is a primary name?
-id: Primary Names Explained
+title: '¿Cuál es el nombre principal?'
+id: Nombres primarios explicados
 ---
 
-# What is a primary name?
+# ¿Cuál es el nombre principal?
 
-### Primary ENS name
+### Nombre primario ENS
 
-The Primary ENS name is the reverse record that resolves a wallet address to an ENS name.&#x20;
+El nombre principal de ENS es el registro inverso que resuelve una dirección de cartera a un nombre de ENS.&#x20;
 
-Setting your Primary ENS Name record will allow dApps to find your ENS name when connecting with your Ethereum wallet. For example, an Ethereum wallet with a Primary ENS name will show primaryname_.eth_ when logged into Uniswap. On OpenSea, your profile will show your Primary ENS name on your profile page. This is because OpenSea integrates with ENS and reads the reverse record to find the .eth name.
+Configurando su registro principal de nombre de ENS permitirá a dApps encontrar su nombre de ENS cuando se conecte con su cartera de Ethereum. Por ejemplo, una cartera Ethereum con un nombre primario de ENS mostrará primaryname_.eth_ cuando inicie sesión en Uniswap. On OpenSea, your profile will show your Primary ENS name on your profile page. Esto se debe a que OpenSea se integra con ENS y lee el registro inverso para encontrar el nombre .eth.
 
-![Primary name on Opensea.io](./img/primary-name-1.png "Opensea.io displaying a primary ENS Name.")
+![Nombre primario en Opensea.io](./img/primary-name-1.png "Opensea.io muestra un nombre de ENS primario.")
 
-Although it commonly is, the primary name does not need to be the same wallet as the ENS name owner or Registrant. As long as the Ethereum wallet is set as the ETH address record, that wallet can select the ENS name as its Primary name selection.
+Aunque comúnmente es, el nombre principal no necesita ser el mismo monedero que el propietario del nombre de ENS o Inscriptor. As long as the Ethereum wallet is set as the ETH address record, that wallet can select the ENS name as its primary name selection.
 
-To select a Primary ENS name, head over to the [ENS App](https://app.ens.domains) and log in with your wallet. Once logged in, click “My Account.” You will then be able to pick a Primary ENS name to associate with your wallet. Only ENS names with your wallet in their ETH Address record will be available in the drop-down list as a Primary name.
+Para seleccionar un nombre de ENS primario, dirígete a la [aplicación ENS](https://app.ens.domains) e inicia sesión con tu monedero. Una vez conectado, haga clic en "Mi cuenta". You will then be able to pick a Primary ES name to associate with your wallet. Sólo los nombres ENS con su cartera en su registro de Dirección ETH estarán disponibles en la lista desplegable como nombre principal.
 
-**Note:** A wallet address can only have one Primary name.
+**Nota:** Una dirección de cartera solo puede tener un nombre primario.
 
-![Primary name in the manager app.](./img/primary-name-2.png "Manger app displaying the primary name.")
+![Nombre principal en la aplicación de administrador.](./img/primary-name-2.png "Manger aplicación que muestra el nombre principal.")
 
 
-### Further Reading:
+### Leyendo más:
 

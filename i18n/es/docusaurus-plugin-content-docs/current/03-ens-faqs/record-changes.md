@@ -1,11 +1,11 @@
 ---
-title: Record Changes Explained
-id: Record Changes
+title: Cambios de registro explicados
+id: Cambios de registro
 ---
 
-# Record Changes
+# Cambios de registro
 
-You can update ENS records on the [ENS App](https://app.ens.domains). There are no fees to update records, however since the changes are on-chain, there will be Ethereum gas fees to update records.
+You can update ENS records on the [ENS App](https://app.ens.domains). No hay honorarios para actualizar los registros, sin embargo, dado que los cambios están en cadena, habrá tarifas de gas Ethereum para actualizar los registros.
 
 
 <!--

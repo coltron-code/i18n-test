@@ -1,9 +1,9 @@
 
-* **Your wallet address ➞ Your ENS name,** or for a practical example: **0xa19A7ae868eDe64C6C5256A64BCD3bf3a9F2d615 ➞ cthulu.eth** _Determined by the Primary (reverse) record set in your wallet._
+* **Su dirección de monedero: Su nombre de ENS,** o para un ejemplo práctico: **0xa19A7ae868eDe64C6C5256A64BCD3bf3a9F2d615 ethulu. th** _Determinado por el registro primario (reverso) establecido en su cartera._
 
-In order to set an ENS name as Primary in a wallet, it's therefore a requirement that the ENS name first resolves to that wallet address.
+Para establecer un nombre ENS como primario en una cartera, es por lo tanto un requisito que el nombre de ENS resuelva primero a esa dirección de cartera.
 
-In order to set your ENS name as Primary in your wallet:
+In order to set your ES name as Primary in your wallet:
 
-1. Make sure the ETH-Address record points to the wallet address
-2. Connect your wallet to the [ENS Manager App](https://app.ens.domains) and set the ENS name as Primary.
+1. Asegúrese de que el registro ETH-Dirección apunta a la dirección de la cartera
+2. Conecte su cartera a la [aplicación ENS Manager](https://app.ens.domains) y establezca el nombre ENS como principal.
