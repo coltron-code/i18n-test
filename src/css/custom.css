@@ -243,12 +243,15 @@ h6 {
 
 
 
-
-
 .footer {
   background: none !important;
 }
 
-a {
+
+
+
+
+a:-webkit-any-link {
   text-decoration: none;
+  color: inherit;
 }
