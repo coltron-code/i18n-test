@@ -11,8 +11,8 @@ const StyledFaqCardGrid = styled("div")`
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   align-items: center;
   gap: 24px;
+  justify-items: end;
   justify-items: center;
-  align-items: center;
 `;
 function Faq() {
   const { url } = useRouteMatch();

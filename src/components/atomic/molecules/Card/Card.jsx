@@ -4,14 +4,13 @@ import ArrowRightSVG from "../../../../assets/right-arrow.png";
 
 const StyledCard = styled("div")`
   width: 100%;
-  min-width: 300px;
+  max-width: 500px;
+  max-height: 200px;
   border-radius: 24px;
   transition: all 0.2s;
   border: 1px solid rgba(0, 0, 0, 0.06);
-
   box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.02);
   background-color: var(--ens-card-bg);
-
   cursor: pointer;
   &:hover {
     transform: translateY(-2px);
