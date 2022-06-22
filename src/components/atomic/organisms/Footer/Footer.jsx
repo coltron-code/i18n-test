@@ -1,9 +1,9 @@
-import React from 'react';
-import styled from 'styled-components';
-import discordGrey from '../../assets/discordGrey.svg';
-import discussGrey from '../../assets/discussGrey.svg';
+import React from "react";
+import styled from "styled-components";
+import discordGrey from "../../../../assets/discordGrey.svg";
+import discussGrey from "../../../../assets/discussGrey.svg";
 
-const StyledFooter = styled('div')`    
+const StyledFooter = styled("div")`
   position: absolute;
   padding: 10px 10px 0px 10px;
   bottom: 0;
@@ -22,11 +22,7 @@ function Footer() {
   return (
     <StyledFooter>
       <a href="https://twitter.com/ensdomains">
-        <img
-          width="34"
-          css={{ marginTop: '2px' }}
-          alt="Twitter"
-        />
+        <img width="34" css={{ marginTop: "2px" }} alt="Twitter" />
       </a>
       <a href="https://discuss.ens.domains/">
         <img src={discussGrey} width="33" alt="Discuss" />
@@ -35,7 +31,7 @@ function Footer() {
         <img
           src={discordGrey}
           width="30"
-          css={{ marginLeft: '4px' }}
+          css={{ marginLeft: "4px" }}
           alt="Discord"
         />
       </a>

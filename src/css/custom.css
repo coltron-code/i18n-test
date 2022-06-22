@@ -1,41 +1,51 @@
-/**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
- */
-
-/* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #f6f7fa;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #161717;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #A373FF;
+  --ifm-color-primary: #A373FF;
+  --ifm-color-primary-dark: #A373FF;
+  --ifm-color-primary-darker: #A373FF;
+  --ifm-color-primary-darkest: #A373FF;
+  --ifm-color-primary-light: #A373FF;
+  --ifm-color-primary-lighter: #A373FF;
+  --ifm-color-primary-lightest: #A373FF;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
   --ifm-breadcrumb-color-active: rgba(0, 0, 0, );
   --ifm-menu-color-active: rgba(0, 0, 0, );
   --ifm-link-color: rgba(82, 152, 255, 0.9);
+  --ens-card-bg: white;
+  --ens-card-title: color: #333333;
+  --doc-sidebar-width: 350px !important;
+  --ens-body-bg: radial-gradient(50% 50% at 50% 50%, rgba(183, 120, 255, 0.062) 0%, rgba(183, 120, 255, 0) 100%), #F6F6F6;
+
+
+
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
+/* DARK THEME  */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+  --ifm-color-primary: #A373FF;
+  --ifm-color-primary-dark: #A373FF;
+  --ifm-color-primary-darker: #A373FF;
+  --ifm-color-primary-darkest: #A373FF;
+  --ifm-color-primary-light: #A373FF;
+  --ifm-color-primary-lighter: #A373FF;
+  --ifm-color-primary-lightest: #A373FF;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ens-card-bg: #29282b;
+  --ens-card-title: #cdcdcd;
+  --ens-body-bg: radial-gradient(50% 50% at 50% 50%, rgba(183, 120, 255, 0.062) 0%, rgba(183, 120, 255, 0) 100%), #181818;
+  --ens-nav-bg: radial-gradient(50% 50% at 50% 50%, rgba(183, 120, 255, 0.032) 0%, rgba(183, 120, 255, 0) 100%), #181818;
+
 }
 
 body {
   font-family: JakartaSans !important;
   margin: 0px;
-  background: radial-gradient(50% 50% at 50% 50%, rgba(183, 120, 255, 0.062) 0%, rgba(183, 120, 255, 0) 100%), #F6F6F6;
+  background: var(--ens-body-bg);
+}
+
+button {
+  border-radius: 1rem !important;
 }
 
 .hero__title {
@@ -44,18 +54,6 @@ body {
 
 .hero__subtitle {
   color: rgba(51, 51, 51, 0.41);
-}
-
-h1 {
-  color: rgba(51, 51, 51, 0.9);
-}
-
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: rgba(51, 51, 51, 0.7);
 }
 
 
@@ -94,8 +92,17 @@ div[role="group"][tabindex] {
 
 }
 
+.thin-scrollbar {
+  padding-right: 3rem;
+
+}
+
+.theme-doc-sidebar-menu {
+  padding-right: 3rem;
+}
+
 .menu__list-item-collapsible {
-  background: white;
+  background: var(--ens-card-bg);
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
   margin-top: 1rem;
@@ -135,10 +142,6 @@ div[role="group"][tabindex] {
 }
 
 
-
-
-
-
 .navbar__inner {
   padding: 0 2rem;
 }
@@ -147,15 +150,14 @@ div[role="group"][tabindex] {
   display: none;
 }
 
-
 .navbar {
-  background: radial-gradient(50% 50% at 50% 50%, rgba(183, 120, 255, 0.062) 0%, rgba(183, 120, 255, 0) 100%), #F6F6F6;
+  background: var(--ens-nav-bg);
   box-shadow: none;
   height: fit-content;
 }
 
-.navbar button {
-  display: none;
+.clean-btn {
+  border-radius: 1rem;
 }
 
 .navbar__item {
@@ -170,6 +172,7 @@ div[role="group"][tabindex] {
 
 .navbar__logo {
   height: fit-content;
+  padding-top: 5px;
 }
 
 .navbar__logo:hover {
@@ -186,17 +189,10 @@ div[role="group"][tabindex] {
   box-shadow: 0px 3px 24px rgba(0, 0, 0, 0.03);
   border-radius: 16px;
   font-weight: normal !important;
-  background: #FFFFFF;
+  background: var(--ens-card-bg);
   border: 1px solid rgba(0, 0, 0, 0.06);
   border-radius: 10px;
 }
-
-
-
-
-
-
-
 
 
 /* ======docs===== */
@@ -205,15 +201,15 @@ div[role="group"][tabindex] {
   width: 100%;
   border-radius: 24px;
   transition: all 0.2s;
-  border: 1px solid rgba(0, 0, 0, 0.06);
+  border: none !important;
   box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.02) !important;
-  background-color: white;
+  background-color: var(--ens-card-bg);
   font-family: JakartaSans !important;
 }
 
 .card h2 {
   font-size: 24px;
-  color: #333333;
+  color: var(--ens-card-title);
   overflow: visible;
   text-overflow: unset;
   white-space: normal;
@@ -243,12 +239,38 @@ h6 {
 
 
 
-
-
 .footer {
   background: none !important;
 }
 
-a {
+
+
+
+
+a:-webkit-any-link {
   text-decoration: none;
+  color: inherit;
+}
+
+.DocSearch {}
+
+.DocSearch-Logo {
+  display: none;
+}
+
+.DocSearch-Modal {
+  border-radius: 1rem;
+}
+
+.DocSearch-Button {
+  font-family: JakartaSans !important;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.02);
+  background: var(--ens-card-bg) !important;
+  border-radius: 1rem !important;
+  width: 300px !important;
+
+}
+
+.DocSearch-Button-Keys {
+  display: none !important;
 }

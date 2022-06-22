@@ -1,6 +1,6 @@
 ---
-title: Únete a la comunidad
-id: Comunidad
+title:  Join the Community
+id:  Community
 ---
 
 # Únete a la comunidad
