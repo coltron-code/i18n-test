@@ -24,7 +24,7 @@ function Faq() {
       </div>
       <StyledFaqCardGrid>
         {articles.map((item) => {
-          const localeUrl = url; // Eg. ES EN RU
+          const localeUrl = url;
           const transformedUrl = `${localeUrl}${item.url}`;
           return (
             <Link to={transformedUrl}>

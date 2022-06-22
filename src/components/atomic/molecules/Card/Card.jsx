@@ -8,8 +8,10 @@ const StyledCard = styled("div")`
   border-radius: 24px;
   transition: all 0.2s;
   border: 1px solid rgba(0, 0, 0, 0.06);
+
   box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.02);
-  background-color: white;
+  background-color: var(--ens-card-bg);
+
   cursor: pointer;
   &:hover {
     transform: translateY(-2px);
@@ -23,7 +25,7 @@ const StyledCardInner = styled("div")`
 const StyledCardTitle = styled("div")`
   font-size: 24px;
   font-weight: 600;
-  color: #333333;
+  color: var(--ens-card-title);
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
