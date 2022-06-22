@@ -56,14 +56,6 @@ button {
   color: rgba(51, 51, 51, 0.41);
 }
 
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: rgba(51, 51, 51, 0.7);
-}
-
 
 div[role="group"][tabindex] {
   height: 100%;
