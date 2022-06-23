@@ -267,7 +267,6 @@ a:-webkit-any-link {
   box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.02);
   background: var(--ens-card-bg) !important;
   border-radius: 1rem !important;
-  width: 300px !important;
 
 }
 

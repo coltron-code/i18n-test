@@ -20,7 +20,11 @@ function Faq() {
     <>
       <div className="faq-bar">
         <Translate description="FAQ">Frequently Asked Questions</Translate>
-        <Search />
+        <DocSearch
+          appId="R2IYF7ETH7"
+          apiKey="599cec31baffa4868cae4e79f180729b"
+          indexName="docsearch"
+        />
       </div>
       <StyledFaqCardGrid>
         {articles.map((item) => {
