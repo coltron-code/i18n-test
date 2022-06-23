@@ -1,5 +1,21 @@
 # Website
 
+ENS DOCS 
+
+==Languages== 
+Use Crowdin platform (https://docusaurus.io/docs/i18n/crowdin) to Add a new Language and then run the following commands to sync translations to repo👇.
+
+```
+$ yarn run crowdin:sync
+$ npm run crowdin:sync
+```
+
+Custom CSS and Dark Theme for Docusaurus at: src/css/custom.css 
+
+
+
+
+
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
 ### Installation

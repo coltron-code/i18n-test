@@ -2,8 +2,8 @@ import React from "react";
 import Translate from "@docusaurus/Translate";
 import styled from "styled-components";
 import { Link, useRouteMatch } from "react-router-dom";
-import { Search } from "../Search/Search";
-import Card from "../atomic/molecules/Card/Card";
+import { DocSearch } from "@docsearch/react";
+import Card from "../../molecules/Card/Card";
 import { articles } from "./data";
 
 const StyledFaqCardGrid = styled("div")`
@@ -14,20 +14,32 @@ const StyledFaqCardGrid = styled("div")`
   justify-items: end;
   justify-items: center;
 `;
+const StyledFaqBar = styled("div")`
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+`;
+
 function Faq() {
   const { url } = useRouteMatch();
   return (
     <>
-      <div className="faq-bar">
+      <StyledFaqBar>
         <Translate description="FAQ">Frequently Asked Questions</Translate>
-        <Search />
-      </div>
+        <DocSearch
+          appId="R2IYF7ETH7"
+          apiKey="599cec31baffa4868cae4e79f180729b"
+          indexName="docsearch"
+        />
+      </StyledFaqBar>
       <StyledFaqCardGrid>
-        {articles.map((item) => {
+        {articles.map((item, i) => {
           const localeUrl = url;
           const transformedUrl = `${localeUrl}${item.url}`;
           return (
-            <Link to={transformedUrl}>
+            <Link key={item.title + i} to={transformedUrl}>
               <Card title={item.title} description={item.description} />
             </Link>
           );

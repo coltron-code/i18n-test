@@ -1,20 +1,18 @@
 import React from "react";
 import styled from "styled-components";
 import Head from "@docusaurus/Head";
-import "./index.css";
 import Layout from "@theme/Layout";
-import Hero from "../components/Hero/Hero";
-import Faq from "../components/Faq/Faq";
-import Footer from "../components/atomic/organisms/Footer/Footer";
+import Hero from "../components/atomic/organisms/Hero/Hero";
+import Faq from "../components/atomic/organisms/Faq/Faq";
+// import Footer from "../components/atomic/organisms/Footer/Footer";
 
 const StyledContainer = styled("div")`
   width: 80%;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  height: 90vh;
-  margin-top: -3.75rem;
   justify-content: center;
+  min-height: calc(100vh - var(--navbar-height));
 `;
 
 export default function Hojme() {
@@ -32,7 +30,7 @@ export default function Hojme() {
           <Hero />
           <Faq />
         </StyledContainer>
-        <Footer />
+        {/* <Footer /> */}
       </Layout>
     </>
   );
