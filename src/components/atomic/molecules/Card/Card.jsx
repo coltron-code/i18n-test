@@ -3,7 +3,6 @@ import styled from "styled-components";
 import ArrowRightSVG from "../../../../assets/right-arrow.png";
 
 const StyledCard = styled("div")`
-  width: 100%;
   max-width: 500px;
   max-height: 200px;
   border-radius: 24px;

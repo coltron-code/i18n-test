@@ -1,3 +1,6 @@
+/* Docusaurus Custom CSS  */
+
+
 :root {
   --ifm-color-primary: #A373FF;
   --ifm-color-primary: #A373FF;
@@ -14,11 +17,11 @@
   --ifm-link-color: rgba(82, 152, 255, 0.9);
   --ens-card-bg: white;
   --ens-card-title: color: #333333;
+  --ens-nav-bg: radial-gradient(50% 50% at 50% 50%, rgba(183, 120, 255, 0.032) 0%, rgba(183, 120, 255, 0) 100%), #F6F6F6;
+
   --doc-sidebar-width: 350px !important;
   --ens-body-bg: radial-gradient(50% 50% at 50% 50%, rgba(183, 120, 255, 0.062) 0%, rgba(183, 120, 255, 0) 100%), #F6F6F6;
-
-
-
+  --navbar-height: 3.8rem;
 }
 
 /* DARK THEME  */
@@ -35,7 +38,6 @@
   --ens-card-title: #cdcdcd;
   --ens-body-bg: radial-gradient(50% 50% at 50% 50%, rgba(183, 120, 255, 0.062) 0%, rgba(183, 120, 255, 0) 100%), #181818;
   --ens-nav-bg: radial-gradient(50% 50% at 50% 50%, rgba(183, 120, 255, 0.032) 0%, rgba(183, 120, 255, 0) 100%), #181818;
-
 }
 
 body {
@@ -45,16 +47,9 @@ body {
 }
 
 button {
-  border-radius: 1rem !important;
+  border-radius: 1rem;
 }
 
-.hero__title {
-  color: rgba(51, 51, 51, 0.9);
-}
-
-.hero__subtitle {
-  color: rgba(51, 51, 51, 0.41);
-}
 
 
 div[role="group"][tabindex] {
@@ -84,7 +79,6 @@ div[role="group"][tabindex] {
   border-bottom: 1px solid rgba(128, 128, 128, 0.301);
   border-left: 1px solid rgba(128, 128, 128, 0.301);
   border-right: 1px solid rgba(128, 128, 128, 0.301);
-
   flex: 0 0 100%;
   padding-left: 0;
   border-bottom-left-radius: 1rem;
@@ -153,7 +147,7 @@ div[role="group"][tabindex] {
 .navbar {
   background: var(--ens-nav-bg);
   box-shadow: none;
-  height: fit-content;
+  height: 3.8rem;
 }
 
 .clean-btn {
@@ -227,20 +221,31 @@ div[role="group"][tabindex] {
 
 h1,
 h2,
-h3,
 h4,
 h5,
 h6 {
-  font-family: JakartaSans !important;
-  padding: 0 !important;
+  font-family: JakartaSans;
+  padding: 0;
   margin: 0;
 
+}
+
+h3 {
+  font-family: JakartaSans;
+
+  padding: 1rem 0;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #717171;
 }
 
 
 
 .footer {
-  background: none !important;
+  background: none;
 }
 
 
@@ -252,8 +257,7 @@ a:-webkit-any-link {
   color: inherit;
 }
 
-.DocSearch {}
-
+/* ========Docsearch======== */
 .DocSearch-Logo {
   display: none;
 }
