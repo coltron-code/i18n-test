@@ -16,7 +16,7 @@ However, the Controller is the wallet that can update other records like the ETH
 Some users may want to fully transfer a name to another wallet and have the same default records set up as if that new wallet registered the name. In order to do that, the Controller wallet should first update the ETH Address(see #3) to the new wallet address. Once that is changed, the Registrant wallet will need to update the Controller record to the same new wallet address. Finally, the Registrant should transfer ownership to the new wallet. In this way, the name is totally transferred to a new wallet, and that recipient does not have to do additional setup besides setting their Primary name. The order to this process does matter. If the for instance the Registrant is transferred to the new wallet first, only the new wallet can then update the Controller.
 
 
-**Important:** Without updating the ETH Address, tokens sent to _othername.eth_ will still arrive in the original wallet, if only the Registrant has been changed!
+**Important:** Without updating the controller record, tokens sent to _othername.eth_ will still arrive in the original wallet. Both the registrant and the controller must be changed!
 
 <!-- ### Further Reading:
 
