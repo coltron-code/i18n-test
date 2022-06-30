@@ -1,7 +1,7 @@
 ---
 title: Subastas Premium explicadas
 id: Subastas Premium
-draft: Verdadero
+draft: True
 ---
 
 # Subastas Premium
