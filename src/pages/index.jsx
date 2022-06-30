@@ -12,10 +12,11 @@ const StyledContainer = styled("div")`
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: 3rem 0;
   min-height: calc(100vh - var(--navbar-height));
 `;
 
-export default function Hojme() {
+export default function Home() {
   return (
     <>
       <Head>
