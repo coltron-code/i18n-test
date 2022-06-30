@@ -16,7 +16,7 @@ Sin embargo, el Controlador es el monedero que puede actualizar otros registros 
 Algunos usuarios pueden querer transferir completamente un nombre a otra cartera y tener los mismos registros por defecto configurados como si la nueva cartera registrara el nombre. Para ello, el monedero Controller debería actualizar primero la dirección ETH (ver #3) a la nueva dirección del monedero. Una vez que se haya cambiado, el monedero de Registro tendrá que actualizar el registro del Controlador a la misma dirección de la nueva cartera. Por último, el Registrt debería transferir la propiedad a la nueva cartera. De esta manera, el nombre se transfiere totalmente a una nueva cartera, y que el destinatario no tiene que hacer configuración adicional además de establecer su nombre primario. El orden de este proceso sí importa. Si el registro, por ejemplo, se transfiere al nuevo monedero primero, sólo el nuevo monedero puede actualizar el Controlador.
 
 
-**Importante:** Sin actualizar la dirección ETH, los tokens enviados a _otro nombre. o_ todavía llegará a la billetera original, si sólo se ha cambiado el Registro!
+**Important:** Without updating the controller record, tokens sent to _othername.eth_ will still arrive in the original wallet. Both the registrant and the controller must be changed!
 
 
 <!-- ### Further Reading:

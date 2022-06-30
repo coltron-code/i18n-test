@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 const StyledGradientTitle = styled("div")`
   font-weight: 830;
-  font-size: 50px;
+  font-size: 1.875rem;
   line-height: 68px;
   text-align: center;
   letter-spacing: -0.01em;

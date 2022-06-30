@@ -300,5 +300,9 @@
   "Frequently Asked Questions": {
     "message": "Frequently Asked Questions",
     "description": "FAQ"
+  },
+  "Learn about your new web3 identity.": {
+    "message": "Learn about your new web3 identity.",
+    "description": "Landing page - hero subtitle"
   }
 }

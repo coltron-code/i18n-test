@@ -13,8 +13,8 @@ function Hero() {
     <StyledHeroContainer>
       <GradientTitle title="ENS Learn Docs" />
       <h3>
-        <Translate description="Landing page main text">
-          Learn about your web3 identity.
+        <Translate description="Landing page - hero subtitle">
+          Learn about your new web3 identity.
         </Translate>
       </h3>
     </StyledHeroContainer>
