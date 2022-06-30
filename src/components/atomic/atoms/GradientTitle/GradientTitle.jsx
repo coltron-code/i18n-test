@@ -12,6 +12,9 @@ const StyledGradientTitle = styled("div")`
   -webkit-text-fill-color: transparent;
   background-clip: text;
   text-fill-color: transparent;
+  @media (max-width: 768px) {
+    font-size: 1.875rem;
+  }
 `;
 const GradientTitle = ({ title }) => {
   return (

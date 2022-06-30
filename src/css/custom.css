@@ -136,9 +136,7 @@ div[role="group"][tabindex] {
 }
 
 
-.navbar__inner {
-  padding: 0 2rem;
-}
+
 
 .navbar__title {
   display: none;
@@ -166,7 +164,7 @@ div[role="group"][tabindex] {
 
 .navbar__logo {
   height: fit-content;
-  padding-top: 5px;
+  padding-top: 8px;
 }
 
 .navbar__logo:hover {
@@ -232,14 +230,15 @@ h6 {
 
 h3 {
   font-family: JakartaSans;
-
-  padding: 1rem 0;
+  padding: .5rem 0;
   font-weight: 500;
   font-size: 20px;
   line-height: 150%;
   text-align: center;
   letter-spacing: -0.01em;
   color: #717171;
+
+
 }
 
 
@@ -276,4 +275,16 @@ a:-webkit-any-link {
 
 .DocSearch-Button-Keys {
   display: none !important;
+}
+
+@media (max-width: 768px) {
+
+  h3 {
+    font-size: 1.125rem;
+  }
+
+  .navbar__logo {
+    transform: scale(.6);
+  }
+
 }
