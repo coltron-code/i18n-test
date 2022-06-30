@@ -1,15 +1,14 @@
 ---
-title: Subastas Premium explicadas
-id: Subastas Premium
+title:  Premium Auctions Explained
+id:  Premium Auctions
 draft: True
 ---
 
-# Subastas Premium
+# Premium Auctions
 
-Después de que _cualquier_ .eth nombre ha sido liberado, va a una subasta Premium holandesa durante 28 días. Hay una caída lineal del precio hasta que el nombre sea comprado dentro de la ventana premium o la subasta premium termine, resultando en que el nombre pueda ser registrado sin ninguna prima.
+After _any_ .eth name has been released, it goes into a Premium Dutch auction for 28 days. There is a linear price decay until the name is bought within the premium window or the premium auction ends, resulting in the name being able to be registered without any premium.
 
-**Importante:** Registrando una . el nombre mientras está en la ventana premium requerirá la cuota de premio, además de la cuota anual de inscripción, así como gas para transaccionar en la blockchain de Ethereum.
-
+**Important:** Registering a .eth name while it is in the premium window will require the premium fee, plus the yearly registration fee, as well as gas to transact on the Ethereum blockchain.
 
 <!-- 
 ### References:

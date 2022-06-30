@@ -16,7 +16,7 @@ function Hero() {
         <Translate description="Landing page - hero subtitle">
           Learn about your new web3 identity.
         </Translate>
-      </h3>
+      </h3>crow
     </StyledHeroContainer>
   );
 }
