@@ -5,7 +5,8 @@ import styled from "styled-components";
 
 const StyledHeroContainer = styled("div")`
   @media (max-width: 768px) {
-    padding: 3rem 0;
+    font-size: 3rem;
+    padding: 0px;
   }
 `;
 function Hero() {
@@ -16,7 +17,7 @@ function Hero() {
         <Translate description="Landing page - hero subtitle">
           Learn about your new web3 identity.
         </Translate>
-      </h3>crow
+      </h3>
     </StyledHeroContainer>
   );
 }

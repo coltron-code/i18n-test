@@ -11,7 +11,7 @@ export const articles = [
 
     description: (
       <Translate description="Landing Page Card Subtitle">
-        An ENS Name is an way to remember you cryptocurrency addresses
+        An ENS Name is an way to remember you cryptocurrency addresses.
       </Translate>
     ),
     url: "docs/getting-started/Community",
@@ -30,6 +30,21 @@ export const articles = [
       </Translate>
     ),
     url: "docs/getting-started/Registering%20Names",
+  },
+  {
+    title: (
+      <Translate description="Landing Page Card Title">
+        Setting your Profile Avatar
+      </Translate>
+    ),
+    description: (
+      <Translate description="Landing Page Card Subtitle">
+        If you don’t already have an ENS name, you can register an ENS name or
+        import a DNS domain name you already own at app.ens.domains.ç You can
+        set an NFT avatar for either kind of ENS name.
+      </Translate>
+    ),
+    url: "docs/getting-started/Setting%20Avatar",
   },
   {
     title: (

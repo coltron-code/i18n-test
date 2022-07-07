@@ -23,7 +23,7 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "facebook", // Usually your GitHub org/user name.
+  organizationName: "ens-dao", // Usually your GitHub org/user name.
   projectName: "i18n-test", // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
@@ -77,31 +77,35 @@ const config = {
         apiKey: "599cec31baffa4868cae4e79f180729b",
         indexName: "docsearch",
       },
+      announcementBar: {
+        id: 'support_us',
+        content:
+          'These docs ae under construction',
+        backgroundColor: '#fafbfc',
+        textColor: '#091E42',
+      },
       navbar: {
         title: "Learn Docs",
         logo: {
           alt: "My Site Logo",
           src: "/./img/ensLogov2.svg",
+          target: '_self',
+          href: "/index.html"
         },
         items: [
           {
             to: "/docs/category/getting-started",
             position: "right",
-            label: "Docs",
+            label: "Governance Docs",
           },
           {
             to: "/docs/category/getting-started",
             position: "right",
-            label: "Governance",
-          },
-          {
-            to: "/docs/category/getting-started",
-            position: "right",
-            label: "Developers",
+            label: "Developer Docs",
           },
           {
             type: "localeDropdown",
-            position: "right",
+            position: "left",
           },
         ],
       },
