@@ -80,7 +80,7 @@ const config = {
       announcementBar: {
         id: 'support_us',
         content:
-          'These docs ae under construction',
+          'These docs are under construction',
         backgroundColor: '#fafbfc',
         textColor: '#091E42',
       },
