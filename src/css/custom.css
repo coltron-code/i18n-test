@@ -240,18 +240,14 @@ h3 {
 }
 
 
-
 .footer {
   background: none;
 }
 
 
-
-
-
 a:-webkit-any-link {
   text-decoration: none;
-  color: inherit;
+  color: rgba(0, 0, 0, 0.65);
 }
 
 /* ========Docsearch======== */
@@ -290,8 +286,5 @@ a:-webkit-any-link {
 
   .navbar__logo {
     transform: scale(.6);
-    src: "/./img/ensLogov2.svg";
   }
-
-
 }

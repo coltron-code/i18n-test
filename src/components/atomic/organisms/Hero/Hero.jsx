@@ -4,8 +4,7 @@ import GradientTitle from "../../atoms/GradientTitle/GradientTitle";
 import styled from "styled-components";
 
 const StyledHeroContainer = styled("div")`
-  @media (max-width: 768px) {
-    font-size: 3rem;
+@media (max-width: 768px) {
     padding: 0px;
   }
 `;

@@ -16,10 +16,18 @@ const StyledFaqCardGrid = styled("div")`
 `;
 const StyledFaqBar = styled("div")`
   display: flex;
+  color: rgba(0, 0, 0, 0.65);
   width: 100%;
+  font-size: 2rem;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 0;
+
+  @media (max-width: 768px) {
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+
 `;
 
 function Faq() {
@@ -28,11 +36,11 @@ function Faq() {
     <>
       <StyledFaqBar>
         <Translate description="FAQ">Frequently Asked Questions</Translate>
-        <DocSearch
+        {/* <DocSearch
           appId="R2IYF7ETH7"
           apiKey="599cec31baffa4868cae4e79f180729b"
           indexName="docsearch"
-        />
+  /> */}
       </StyledFaqBar>
       <StyledFaqCardGrid>
         {articles.map((item, i) => {
