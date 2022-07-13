@@ -1,9 +1,10 @@
 import React from "react";
-import styled from "styled-components";
+import styled, { ThemeProvider } from "styled-components";
 import Head from "@docusaurus/Head";
 import Layout from "@theme/Layout";
 import Hero from "../components/atomic/organisms/Hero/Hero";
 import Faq from "../components/atomic/organisms/Faq/Faq";
+import { ThorinGlobalStyles, lightTheme } from "@ensdomains/thorin";
 // import Footer from "../components/atomic/organisms/Footer/Footer";
 
 const StyledContainer = styled("div")`
@@ -18,7 +19,8 @@ const StyledContainer = styled("div")`
 
 export default function Home() {
   return (
-    <>
+    <ThemeProvider theme={lightTheme}>
+      <ThorinGlobalStyles />
       <Head>
         <link
           rel="preconnect"
@@ -33,6 +35,6 @@ export default function Home() {
         </StyledContainer>
         {/* <Footer /> */}
       </Layout>
-    </>
+    </ThemeProvider>
   );
 }
