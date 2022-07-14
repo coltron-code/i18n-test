@@ -2,7 +2,6 @@
 
 :root {
   --ifm-color-primary: rgb(82, 152, 255);
-  --ifm-color-primary: rgb(82, 152, 255);
   --ifm-color-primary-dark: rgb(82, 152, 255);
   --ifm-color-primary-darker: rgb(82, 152, 255);
   --ifm-color-primary-darkest: rgb(82, 152, 255);
@@ -11,15 +10,14 @@
   --ifm-color-primary-lightest: rgb(82, 152, 255);
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
-  --ifm-breadcrumb-color-active: rgba(0, 0, 0, );
-  --ifm-menu-color-active: rgba(0, 0, 0, );
   --ifm-link-color: rgba(82, 152, 255, 0.9);
   --ens-card-bg: white;
-  --ens-card-title: color: #333333;
+  --ens-card-title: #333333;
   --ens-nav-bg: radial-gradient(50% 50% at 50% 50%, rgba(183, 120, 255, 0.032) 0%, rgba(183, 120, 255, 0) 100%), #F6F6F6;
+  --ens-body-bg: radial-gradient(50% 50% at 50% 50%, rgba(82, 152, 255, 0.063) 0%, rgba(255, 255, 255, 0) 100%), rgb(247, 247, 247);
   --doc-sidebar-width: 350px !important;
-  --ens-body-bg: radial-gradient(50% 50% at 50% 50%, rgba(183, 120, 255, 0.062) 0%, rgba(183, 120, 255, 0) 100%), #F6F6F6;
   --navbar-height: 3.8rem;
+  --light-text-color: rgba(0, 0, 0, 0.65);
 }
 
 /* DARK THEME  */
@@ -34,8 +32,9 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
   --ens-card-bg: #29282b;
   --ens-card-title: #cdcdcd;
-  --ens-body-bg: radial-gradient(50% 50% at 50% 50%, rgba(183, 120, 255, 0.062) 0%, rgba(183, 120, 255, 0) 100%), #181818;
+  --ens-body-bg: radial-gradient(50% 50% at 50% 50%, rgba(120, 145, 255, 0.062) 0%, rgba(183, 120, 255, 0) 100%), #181818;
   --ens-nav-bg: radial-gradient(50% 50% at 50% 50%, rgba(183, 120, 255, 0.032) 0%, rgba(183, 120, 255, 0) 100%), #181818;
+  --light-text-color: rgba(255, 255, 255, 0.65);
 }
 
 body {
@@ -163,7 +162,7 @@ div[role="group"][tabindex] {
 }
 
 .navbar {
-  background: var(--ens-nav-bg);
+  background: transparent;
   box-shadow: none;
   height: 3.8rem;
 }
@@ -250,7 +249,7 @@ h3 {
   line-height: 150%;
   text-align: center;
   letter-spacing: -0.02em;
-  color: rgba(0, 0, 0, 0.65);
+  color: var(--light-text-color);
 }
 
 .footer {
