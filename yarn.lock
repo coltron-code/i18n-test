@@ -2594,15 +2594,6 @@
   resolved "https://registry.yarnpkg.com/@emotion/weak-memoize/-/weak-memoize-0.2.5.tgz#8eed982e2ee6f7f4e44c253e12962980791efd46"
   integrity sha512-6U71C2Wp7r5XtFtQzYrW5iKFT67OixrSxjI4MptCHzdSVlgabczzqLe0ZSgnub/5Kp4hSbpDB1tMytZY9pwxxA==
 
-"@ensdomains/thorin@^0.6.4":
-  version "0.6.4"
-  resolved "https://registry.yarnpkg.com/@ensdomains/thorin/-/thorin-0.6.4.tgz#860aa35e8c1fb71656b1e9efaf99766914ab03b0"
-  integrity sha512-ojzDUi/+j9BZEZ7JwN38F8cz/xt6ZYiuAqwkN8tk9H4hSUAjUB9CvoFza6HTn7y9WJbcNSUVOW9EOm4JA9CdbQ==
-  dependencies:
-    clsx "^1.1.1"
-    focus-visible "^5.2.0"
-    lodash "^4.17.21"
-
 "@eslint/eslintrc@^1.3.0":
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/@eslint/eslintrc/-/eslintrc-1.3.0.tgz#29f92c30bb3e771e4a2048c95fa6855392dfac4f"
@@ -5383,11 +5374,6 @@ flux@^4.0.1:
   dependencies:
     fbemitter "^3.0.0"
     fbjs "^3.0.1"
-
-focus-visible@^5.2.0:
-  version "5.2.0"
-  resolved "https://registry.yarnpkg.com/focus-visible/-/focus-visible-5.2.0.tgz#3a9e41fccf587bd25dcc2ef045508284f0a4d6b3"
-  integrity sha512-Rwix9pBtC1Nuy5wysTmKy+UjbDJpIfg8eHjw0rjZ1mX4GNLz1Bmd16uDpI3Gk1i70Fgcs8Csg2lPm8HULFg9DQ==
 
 follow-redirects@^1.0.0, follow-redirects@^1.14.7:
   version "1.15.1"
