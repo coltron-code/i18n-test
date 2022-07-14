@@ -11,17 +11,30 @@ const maxWidth = '50rem'
 const StyledFaqCardGrid = styled("div")`
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  flex-wrap: wrap;
   align-items: center;
-  gap: 24px;
-  max-width: ${maxWidth};
+  gap: 1.5rem;
+  width: ${maxWidth};
+  max-width: 100%;
   margin: 0 auto;
   justify-items: end;
   justify-items: center;
+
+  &:hover {
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+  }
+
+  @media (max-width: 768px) {
+    gap: 1rem;
+  }
 `;
 const StyledFaqBar = styled("div")`
   display: flex;
-  width: 100%;
-  max-width: ${maxWidth};
+  max-width: 100%;
+  width: ${maxWidth};
   margin: 0 auto;
   justify-content: space-between;
   align-items: center;
