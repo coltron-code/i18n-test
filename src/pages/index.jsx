@@ -4,7 +4,6 @@ import Head from "@docusaurus/Head";
 import Layout from "@theme/Layout";
 import Hero from "../components/atomic/organisms/Hero/Hero";
 import Faq from "../components/atomic/organisms/Faq/Faq";
-// import Footer from "../components/atomic/organisms/Footer/Footer";
 
 const StyledContainer = styled("div")`
   display: flex;
@@ -28,7 +27,6 @@ export default function Home() {
           <Hero />
           <Faq />
         </StyledContainer>
-        {/* <Footer /> */}
       </Layout>
     </>
   );
