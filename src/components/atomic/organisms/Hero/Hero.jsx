@@ -4,9 +4,11 @@ import GradientTitle from "../../atoms/GradientTitle/GradientTitle";
 import styled from "styled-components";
 
 const StyledHeroContainer = styled("div")`
+  padding: 4rem 0;
+
   @media (max-width: 768px) {
     font-size: 3rem;
-    padding: 0px;
+    padding: 2rem 0;
   }
 `;
 function Hero() {
@@ -18,6 +20,12 @@ function Hero() {
           Learn about your new web3 identity.
         </Translate>
       </h3>
+
+      <style jsx>{`
+        h3 {
+          padding-top: 0;
+        }
+      `}</style>
     </StyledHeroContainer>
   );
 }

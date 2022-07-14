@@ -6,17 +6,23 @@ import { DocSearch } from "@docsearch/react";
 import Card from "../../molecules/Card/Card";
 import { articles } from "./data";
 
+const maxWidth = '50rem'
+
 const StyledFaqCardGrid = styled("div")`
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   align-items: center;
   gap: 24px;
+  max-width: ${maxWidth};
+  margin: 0 auto;
   justify-items: end;
   justify-items: center;
 `;
 const StyledFaqBar = styled("div")`
   display: flex;
   width: 100%;
+  max-width: ${maxWidth};
+  margin: 0 auto;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 0;

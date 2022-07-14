@@ -7,13 +7,10 @@ import Faq from "../components/atomic/organisms/Faq/Faq";
 // import Footer from "../components/atomic/organisms/Footer/Footer";
 
 const StyledContainer = styled("div")`
-  width: 80%;
-  margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 3rem 0;
-  min-height: calc(100vh - var(--navbar-height));
 `;
 
 export default function Home() {
