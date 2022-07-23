@@ -116,19 +116,12 @@ div[role="group"][tabindex] {
   border-bottom-right-radius: 1rem;
 }
 
-.thin-scrollbar {
-  padding-right: 3rem;
-}
-
-.theme-doc-sidebar-menu {
-  padding-right: 3rem;
-}
-
 .menu__list-item-collapsible {
   background: var(--ens-card-bg);
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
   margin-top: 1rem;
+  overflow: hidden;
   border-bottom: none !important;
 }
 
@@ -149,7 +142,7 @@ div[role="group"][tabindex] {
   padding-left: 0;
 }
 
-.menu__list-item {
+.menu__list-item--collapsed {
   border-bottom: 1px solid rgba(128, 128, 128, 0.158);
 }
 
@@ -164,7 +157,14 @@ div[role="group"][tabindex] {
 .navbar {
   background: transparent;
   box-shadow: none;
-  height: 3.8rem;
+  padding: 0.25rem 1rem;
+  height: unset !important;
+}
+
+.docs-wrapper .navbar {
+  border-radius: 1rem;
+  background-color: var(--ifm-navbar-background-color);
+  box-shadow: var(--ifm-navbar-shadow);
 }
 
 .clean-btn {
@@ -205,7 +205,6 @@ div[role="group"][tabindex] {
 
 /* ======docs===== */
 .card {
-  height: 200px;
   width: 100%;
   border-radius: 24px;
   transition: all 0.2s;
@@ -281,6 +280,16 @@ a:-webkit-any-link {
   display: none !important;
 }
 
+@media (min-width: 767px) {
+  .card {
+    height: 180px;
+  }
+
+  .theme-doc-sidebar-menu {
+    padding-right: 3rem;
+  }
+}
+
 @media (max-width: 768px) {
   body {
     font-family: Satoshi !important;
@@ -297,5 +306,9 @@ a:-webkit-any-link {
   .navbar__logo {
     transform: scale(.6);
     src: "/./img/ensLogov2.svg";
+  }
+
+  .docs-wrapper .navbar {
+    top: 1rem;
   }
 }
