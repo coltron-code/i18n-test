@@ -1,8 +1,6 @@
 /* Docusaurus Custom CSS  */
 
-
 :root {
-  --ifm-color-primary: rgb(82, 152, 255);
   --ifm-color-primary: rgb(82, 152, 255);
   --ifm-color-primary-dark: rgb(82, 152, 255);
   --ifm-color-primary-darker: rgb(82, 152, 255);
@@ -12,15 +10,14 @@
   --ifm-color-primary-lightest: rgb(82, 152, 255);
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
-  --ifm-breadcrumb-color-active: rgba(0, 0, 0, );
-  --ifm-menu-color-active: rgba(0, 0, 0, );
   --ifm-link-color: rgba(82, 152, 255, 0.9);
   --ens-card-bg: white;
-  --ens-card-title: color: #333333;
+  --ens-card-title: #333333;
   --ens-nav-bg: radial-gradient(50% 50% at 50% 50%, rgba(183, 120, 255, 0.032) 0%, rgba(183, 120, 255, 0) 100%), #F6F6F6;
+  --ens-body-bg: radial-gradient(50% 50% at 50% 50%, rgba(82, 152, 255, 0.063) 0%, rgba(255, 255, 255, 0) 100%), rgb(247, 247, 247);
   --doc-sidebar-width: 350px !important;
-  --ens-body-bg: radial-gradient(50% 50% at 50% 50%, rgba(183, 120, 255, 0.062) 0%, rgba(183, 120, 255, 0) 100%), #F6F6F6;
   --navbar-height: 3.8rem;
+  --light-text-color: rgba(0, 0, 0, 0.65);
 }
 
 /* DARK THEME  */
@@ -35,8 +32,9 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
   --ens-card-bg: #29282b;
   --ens-card-title: #cdcdcd;
-  --ens-body-bg: radial-gradient(50% 50% at 50% 50%, rgba(183, 120, 255, 0.062) 0%, rgba(183, 120, 255, 0) 100%), #181818;
+  --ens-body-bg: radial-gradient(50% 50% at 50% 50%, rgba(120, 145, 255, 0.062) 0%, rgba(183, 120, 255, 0) 100%), #181818;
   --ens-nav-bg: radial-gradient(50% 50% at 50% 50%, rgba(183, 120, 255, 0.032) 0%, rgba(183, 120, 255, 0) 100%), #181818;
+  --light-text-color: rgba(255, 255, 255, 0.65);
 }
 
 body {
@@ -50,26 +48,59 @@ button {
   border-radius: 1rem;
 }
 
-
-
 div[role="group"][tabindex] {
   height: 100%;
 }
 
-
-
 @font-face {
-  font-family: "Satoshi";
-  src: url("../assets/webfonts/Satoshi-Regular.woff") format("woff"),
-    url("../assets/webfonts/Satoshi-Regular.woff2") format("woff2");
-  font-weight: normal;
+  font-family: 'Satoshi-Variable';
+  src: url('../assets/webfonts/Satoshi-Variable.ttf') format('truetype'),
+    url('../assets/webfonts/Satoshi-Variable.woff2') format('woff2'),
+    url('../assets/webfonts/Satoshi-Variable.woff') format('woff');
+  font-weight: 300 900;
+  font-display: swap;
+  font-style: normal;
 }
 
 @font-face {
-  font-family: "Satoshi";
-  src: url("../assets/webfonts/Satoshi-Bold.woff") format("woff"),
-    url("../assets/webfonts/Satoshi-Bold.woff2") format("woff2");
-  font-weight: bold;
+  font-family: 'Satoshi';
+  src: url('../assets/webfonts/Satoshi-Medium.otf') format('opentype'),
+    url('../assets/webfonts/Satoshi-Medium.woff2') format('woff2'),
+    url('../assets/webfonts/Satoshi-Medium.woff') format('woff');
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Satoshi';
+  src: url('../assets/webfonts/Satoshi-Bold.otf') format('opentype'),
+    url('../assets/webfonts/Satoshi-Bold.woff2') format('woff2'),
+    url('../assets/webfonts/Satoshi-Bold.woff') format('woff');
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Satoshi';
+  src: url('../assets/webfonts/Satoshi-Variable.ttf') format('truetype'),
+    url('../assets/webfonts/Satoshi-Variable.woff2') format('woff2'),
+    url('../assets/webfonts/Satoshi-Variable.woff') format('woff');
+  font-weight: 800;
+  font-variation-settings: 'wght' 800;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Satoshi';
+  src: url('../assets/webfonts/Satoshi-Black.otf') format('opentype'),
+    url('../assets/webfonts/Satoshi-Black.woff2') format('woff2'),
+    url('../assets/webfonts/Satoshi-Black.woff') format('woff');
+  font-weight: 900;
+  font-display: swap;
+  font-style: normal;
 }
 
 .menu__list .menu__list {
@@ -83,12 +114,10 @@ div[role="group"][tabindex] {
   padding-left: 0;
   border-bottom-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
-
 }
 
 .thin-scrollbar {
   padding-right: 3rem;
-
 }
 
 .theme-doc-sidebar-menu {
@@ -101,13 +130,11 @@ div[role="group"][tabindex] {
   border-top-right-radius: 1rem;
   margin-top: 1rem;
   border-bottom: none !important;
-
 }
 
 .menu__list-item-collapsible a {
   border: none !important;
 }
-
 
 .menu__list-item:not(:first-child) {
   margin-top: 0;
@@ -115,7 +142,6 @@ div[role="group"][tabindex] {
 
 .menu__link {
   padding: 1rem;
-
 }
 
 .menu__list .menu__list {
@@ -123,27 +149,20 @@ div[role="group"][tabindex] {
   padding-left: 0;
 }
 
-
-
 .menu__list-item {
   border-bottom: 1px solid rgba(128, 128, 128, 0.158);
 }
 
-
-
 .clean-btn {
   border-radius: 0 !important;
 }
-
-
-
 
 .navbar__title {
   display: none;
 }
 
 .navbar {
-  background: var(--ens-nav-bg);
+  background: transparent;
   box-shadow: none;
   height: 3.8rem;
 }
@@ -154,12 +173,10 @@ div[role="group"][tabindex] {
 
 .navbar__item {
   color: #717171;
-
 }
 
 .navbar__link {
   color: #717171;
-
 }
 
 .navbar__logo {
@@ -185,7 +202,6 @@ div[role="group"][tabindex] {
   border: 1px solid rgba(0, 0, 0, 0.06);
   border-radius: 10px;
 }
-
 
 /* ======docs===== */
 .card {
@@ -223,7 +239,6 @@ h6 {
   font-family: Satoshi;
   padding: 0;
   margin: 0;
-
 }
 
 h3 {
@@ -233,21 +248,13 @@ h3 {
   font-size: 20px;
   line-height: 150%;
   text-align: center;
-  letter-spacing: -0.01em;
-  color: rgba(0, 0, 0, 0.65);
-
-
+  letter-spacing: -0.02em;
+  color: var(--light-text-color);
 }
-
-
 
 .footer {
   background: none;
 }
-
-
-
-
 
 a:-webkit-any-link {
   text-decoration: none;
@@ -268,7 +275,6 @@ a:-webkit-any-link {
   box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.02);
   background: var(--ens-card-bg) !important;
   border-radius: 1rem !important;
-
 }
 
 .DocSearch-Button-Keys {
@@ -292,6 +298,4 @@ a:-webkit-any-link {
     transform: scale(.6);
     src: "/./img/ensLogov2.svg";
   }
-
-
 }

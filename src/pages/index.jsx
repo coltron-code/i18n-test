@@ -4,16 +4,12 @@ import Head from "@docusaurus/Head";
 import Layout from "@theme/Layout";
 import Hero from "../components/atomic/organisms/Hero/Hero";
 import Faq from "../components/atomic/organisms/Faq/Faq";
-// import Footer from "../components/atomic/organisms/Footer/Footer";
 
 const StyledContainer = styled("div")`
-  width: 80%;
-  margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 3rem 0;
-  min-height: calc(100vh - var(--navbar-height));
 `;
 
 export default function Home() {
@@ -31,7 +27,6 @@ export default function Home() {
           <Hero />
           <Faq />
         </StyledContainer>
-        {/* <Footer /> */}
       </Layout>
     </>
   );
