@@ -5,7 +5,7 @@ export const articles = [
   {
     title: (
       <Translate description="Landing Page Card Title">
-        What can I use an ENS name for?
+        Using your Name
       </Translate>
     ),
 
@@ -34,7 +34,7 @@ export const articles = [
   {
     title: (
       <Translate description="Landing Page Card Title">
-        Setting your Profile Avatar
+        Setting your Avatar
       </Translate>
     ),
     description: (
@@ -49,16 +49,14 @@ export const articles = [
   {
     title: (
       <Translate description="Landing Page Card Title">
-        Setting your Profile Avatar
+        Transferring Names
       </Translate>
     ),
     description: (
       <Translate description="Landing Page Card Subtitle">
-        If you don’t already have an ENS name, you can register an ENS name or
-        import a DNS domain name you already own at app.ens.domains.ç You can
-        set an NFT avatar for either kind of ENS name.
+       You can easily transfer your name by changing the controller record on the manager app.
       </Translate>
     ),
-    url: "docs/getting-started/Setting%20Avatar",
+    url: "docs/ens-tutorials/Name%20Transfer",
   },
 ];

@@ -6,7 +6,7 @@
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Learn Docs",
+  title: "ENS Learn Docs",
   tagline: "Learn about your Web3 Username",
   url: "https://learn.ens.domains",
   baseUrl: "/",
@@ -47,20 +47,20 @@ const config = {
       "classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
-        docs: {
+        /* docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
             "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
-        },
-        blog: {
+        }, */
+       /* blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
-        },
+            "https://www.github.com", 
+        },*/
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
@@ -78,9 +78,9 @@ const config = {
         indexName: "docsearch",
       },
       announcementBar: {
-        id: 'support_us',
+        id: 'under construction',
         content:
-          'These docs are under construction',
+          'These docs are under construction.',
         backgroundColor: '#fafbfc',
         textColor: '#091E42',
       },
@@ -90,16 +90,16 @@ const config = {
           alt: "My Site Logo",
           src: "/./img/ensLogov2.svg",
           target: '_self',
-          href: "/index.html"
+          href: "/index.html",
         },
         items: [
           {
-            to: "/docs/category/getting-started",
+            href: "https://docs.ens.domains/v/governance/",
             position: "right",
             label: "Governance Docs",
           },
           {
-            to: "/docs/category/getting-started",
+            href: "https://docs.ens.domains/",
             position: "right",
             label: "Developer Docs",
           },

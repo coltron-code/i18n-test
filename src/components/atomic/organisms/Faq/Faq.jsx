@@ -38,6 +38,10 @@ const StyledFaqBar = styled("div")`
   justify-content: center;
   align-items: center;
   padding: 1rem 0;
+  font-size: 1.2rem;
+  font-weight: 650;
+  color: rgba(0, 0, 0, 0.6);
+
 `;
 
 function Faq() {

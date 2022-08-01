@@ -25,8 +25,7 @@ const StyledCardTitle = styled("div")`
   font-weight: 600;
   color: var(--ens-card-title);
   overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  text-overflow: wrap;
 `;
 const StyledCardDescription = styled("div")`
   font-size: 16px;
@@ -35,7 +34,7 @@ const StyledCardDescription = styled("div")`
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
-  text-overflow: ellipsis;
+  text-overflow: wrap;
 `;
 const StyledCardImage = styled("img")`
   margin-left: auto;

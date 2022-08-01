@@ -1,3 +1,7 @@
+---
+title: Setting Primary Names
+id: Primary Names
+---
 
 * **Your wallet address ➞ Your ENS name,** or for a practical example: **0xa19A7ae868eDe64C6C5256A64BCD3bf3a9F2d615 ➞ cthulu.eth** _Determined by the Primary (reverse) record set in your wallet._
 
