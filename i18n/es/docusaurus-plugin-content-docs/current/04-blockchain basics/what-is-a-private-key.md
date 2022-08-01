@@ -1,9 +1,9 @@
 ---
-title: '¿Qué es una clave privada?'
-id: '¿Qué es una clave privada?'
+title: 'Que es una clave privada?'
+id: 'Que es una clave privada'
 ---
 
-# ¿Qué es una clave privada?
+# Que es una clave privada?
 
 Una clave privada actúa como una contraseña para obtener acceso a una billetera. Esto no debería darse nunca, ya que quien tenga la clave privada tiene acceso a cualquier cosa de esa billetera. Es importante almacenar su nombre ENS seguramente. Nunca debería ser puesto en línea, o almacenado en un teléfono móvil, o guardado en archivos de texto plano en un ordenador. Tampoco debe prestarse a nadie que represente ningún tipo de ayuda de apoyo.
 

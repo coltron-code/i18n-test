@@ -1,6 +1,6 @@
 ---
 title: Transferir la propiedad de un nombre ENS
-id: Transferir Nombre
+id: Name Transfer
 ---
 
 # Transferir la Propiedad de Un Nombre ENS

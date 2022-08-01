@@ -1,6 +1,6 @@
 ---
 title: Registrando un nombre
-id: Registrando nombres
+id: Registering Names
 ---
 
 # Registrando un Nombre

@@ -1,6 +1,6 @@
 ---
 title: Configurando su Avatar de Perfil
-id: Configurando Avatar
+id: Setting Avatar
 ---
 
 # Configurando tu Avatar de Perfil

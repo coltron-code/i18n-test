@@ -9,5 +9,5 @@ Es importante almacenar su nombre ENS seguramente. Perdiendo su nombre ENS es co
 
 En algunos escenarios, los propietarios del nombre de ENS eligen una combinación de una billetera fría y una billetera caliente. Así por ejemplo, el propietario (Registrante) del nombre se establecería en una billetera fría como Ledger o Trezor mientras que el controlador se ajustaría a una billetera caliente como MetaMask. De esta manera, la propiedad del nombre se mantiene segura en una billetera fría, pero una billetera caliente puede ser usada para actualizar registros como direcciones de pago ETH u otros registros del nombre de ENS además del registrador.
 
-El registro de dirección ETH, que es la resolución _de _ adelante_ del nombre ENS, se puede configurar a una dirección de billetera que sea diferente de los registros de Registrantes y Controladores.</p>
+El registro de dirección ETH, que es la resolución _de _ adelante_ del nombre ENS, se puede configurar a una dirección de billetera que sea diferente de los registros de Registrantes y Controladores.
 

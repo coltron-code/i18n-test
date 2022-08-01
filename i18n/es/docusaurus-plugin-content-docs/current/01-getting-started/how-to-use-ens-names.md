@@ -1,6 +1,6 @@
 ---
 title: '¿Para qué sirve un nombre de ENS?'
-id: Usando su nombre ENS
+id: Using Your ENS Name
 ---
 
 # ¿Para qué sirve un nombre ENS?

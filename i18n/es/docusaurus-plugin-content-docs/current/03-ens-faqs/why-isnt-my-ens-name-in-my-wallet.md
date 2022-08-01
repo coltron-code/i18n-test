@@ -1,6 +1,6 @@
 ---
 title: '¿Por qué no aparece mi nombre ENS en mi billetera?'
-id: '¿Por qué no aparece mi nombre ENS en mi billetera?'
+id: 'Por qué no aparece mi nombre ENS en mi billetera'
 ---
 
 # ¿Por qué no aparece mi nombre ENS en mi billetera?
