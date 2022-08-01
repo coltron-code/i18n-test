@@ -144,6 +144,10 @@ background: var(--ens-card-bg);
 border-radius: 12px 12px 16px 16px;
 }
 
+.menu__link {
+  padding: 1rem;
+}
+
 /* Active Article */
 .menu__link--active:not(.menu__link--sublist) {
   background-color: #ffffff;
