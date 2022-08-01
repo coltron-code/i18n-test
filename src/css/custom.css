@@ -156,7 +156,6 @@ border-radius: 12px 12px 16px 16px;
   background-color: var(--ifm-menu-color-background-active);
   color: var(--ifm-color-primary);
   font-weight: 650;
-
 }
 
 .menu__list-item:not(:first-child) {
@@ -168,8 +167,15 @@ border-radius: 12px 12px 16px 16px;
   margin-bottom: 1rem;
 }
 
+/* Needs !important */
 .menu__link {
-  padding: 1rem;
+  padding: 1rem !important;
+  text-decoration: none;
+}
+
+/* Needs !important */
+.a:-webkit-any-link {
+  text-decoration: none !important;
 }
 
 .menu__link:hover {
