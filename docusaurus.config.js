@@ -84,6 +84,11 @@ const config = {
         backgroundColor: '#fafbfc',
         textColor: '#091E42',
       },
+      colorMode: {
+        defaultMode: 'light',
+        disableSwitch: true,
+        respectPrefersColorScheme: true,
+      },
       navbar: {
         title: "Learn Docs",
         logo: {
