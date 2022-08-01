@@ -233,7 +233,6 @@ border-radius: 12px 12px 16px 16px;
 
 /* ======docs===== */
 .card {
-  height: 200px;
   width: 100%;
   border-radius: 24px;
   transition: all 0.2s;
@@ -332,5 +331,9 @@ min-width: 100% !important;
   .navbar__logo {
     transform: scale(.6);
     src: "/./img/ensLogov2.svg";
+  }
+
+  .docs-wrapper .navbar {
+    top: 1rem;
   }
 }
