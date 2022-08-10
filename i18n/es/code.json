@@ -1,126 +1,126 @@
 {
   "Learn about your web3 identity.": {
-    "message": "Learn about your web3 identity.",
+    "message": "Aprenda más sobre su identidad web3.",
     "description": "Landing page main text"
   },
   "theme.ErrorPageContent.title": {
-    "message": "This page crashed.",
+    "message": "Ha ocurrido un error con la página.",
     "description": "The title of the fallback page when the page crashed"
   },
   "theme.ErrorPageContent.tryAgain": {
-    "message": "Try again",
+    "message": "Inténtelo de nuevo",
     "description": "The label of the button to try again when the page crashed"
   },
   "theme.NotFound.title": {
-    "message": "Page Not Found",
+    "message": "Página no encontrada",
     "description": "The title of the 404 page"
   },
   "theme.NotFound.p1": {
-    "message": "We could not find what you were looking for.",
+    "message": "No podemos encontrar lo que estás buscando.",
     "description": "The first paragraph of the 404 page"
   },
   "theme.NotFound.p2": {
-    "message": "Please contact the owner of the site that linked you to the original URL and let them know their link is broken.",
+    "message": "Por favor, contacte con el propietario del sitio al que está enlazada la URL original y hágale saber que el enlace está roto.",
     "description": "The 2nd paragraph of the 404 page"
   },
   "theme.AnnouncementBar.closeButtonAriaLabel": {
-    "message": "Close",
+    "message": "Cerrar",
     "description": "The ARIA label for close button of announcement bar"
   },
   "theme.BackToTopButton.buttonAriaLabel": {
-    "message": "Scroll back to top",
+    "message": "Volver hasta arriba",
     "description": "The ARIA label for the back to top button"
   },
   "theme.blog.archive.title": {
-    "message": "Archive",
+    "message": "Archivar",
     "description": "The page & hero title of the blog archive page"
   },
   "theme.blog.archive.description": {
-    "message": "Archive",
+    "message": "Archivar",
     "description": "The page & hero description of the blog archive page"
   },
   "theme.blog.paginator.navAriaLabel": {
-    "message": "Blog list page navigation",
+    "message": "Navegación por la página de la lista de blogs",
     "description": "The ARIA label for the blog pagination"
   },
   "theme.blog.paginator.newerEntries": {
-    "message": "Newer Entries",
+    "message": "Entradas más recientes",
     "description": "The label used to navigate to the newer blog posts page (previous page)"
   },
   "theme.blog.paginator.olderEntries": {
-    "message": "Older Entries",
+    "message": "Viejas entradas",
     "description": "The label used to navigate to the older blog posts page (next page)"
   },
   "theme.blog.post.readingTime.plurals": {
-    "message": "One min read|{readingTime} min read",
+    "message": "Lectura de un minuto | Lectura durante {readingTime} minutos",
     "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.blog.post.readMoreLabel": {
-    "message": "Read more about {title}",
+    "message": "Leer más sobre {title}",
     "description": "The ARIA label for the link to full blog posts from excerpts"
   },
   "theme.blog.post.readMore": {
-    "message": "Read More",
+    "message": "Leer más",
     "description": "The label used in blog post item excerpts to link to full blog posts"
   },
   "theme.blog.post.paginator.navAriaLabel": {
-    "message": "Blog post page navigation",
+    "message": "Navegación por la página de publicaciones del blog",
     "description": "The ARIA label for the blog posts pagination"
   },
   "theme.blog.post.paginator.newerPost": {
-    "message": "Newer Post",
+    "message": "Nuevos artículos",
     "description": "The blog post button label to navigate to the newer/previous post"
   },
   "theme.blog.post.paginator.olderPost": {
-    "message": "Older Post",
+    "message": "Viejos artículos",
     "description": "The blog post button label to navigate to the older/next post"
   },
   "theme.blog.post.plurals": {
-    "message": "One post|{count} posts",
+    "message": "Un post|{count} posts",
     "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.blog.tagTitle": {
-    "message": "{nPosts} tagged with \"{tagName}\"",
+    "message": "{nPosts} etiquetados con \"{tagName}\"",
     "description": "The title of the page for a blog tag"
   },
   "theme.tags.tagsPageLink": {
-    "message": "View All Tags",
+    "message": "Ver todas las etiquetas",
     "description": "The label of the link targeting the tag list page"
   },
   "theme.colorToggle.ariaLabel": {
-    "message": "Switch between dark and light mode (currently {mode})",
+    "message": "Alternar entre modo oscuro y claro (actualmente {mode})",
     "description": "The ARIA label for the navbar color mode toggle"
   },
   "theme.colorToggle.ariaLabel.mode.dark": {
-    "message": "dark mode",
+    "message": "Modo oscuro",
     "description": "The name for the dark color mode"
   },
   "theme.colorToggle.ariaLabel.mode.light": {
-    "message": "light mode",
+    "message": "modo claro",
     "description": "The name for the light color mode"
   },
   "theme.docs.breadcrumbs.home": {
-    "message": "Home page",
+    "message": "Página principal",
     "description": "The ARIA label for the home page in the breadcrumbs"
   },
   "theme.docs.breadcrumbs.navAriaLabel": {
-    "message": "Breadcrumbs",
+    "message": "Camino de navegación",
     "description": "The ARIA label for the breadcrumbs"
   },
   "theme.docs.DocCard.categoryDescription": {
-    "message": "{count} items",
+    "message": "{count} artículos",
     "description": "The default description for a category card in the generated index about how many items this category includes"
   },
   "theme.docs.paginator.navAriaLabel": {
-    "message": "Docs pages navigation",
+    "message": "Navegación de páginas de documentos",
     "description": "The ARIA label for the docs pagination"
   },
   "theme.docs.paginator.previous": {
-    "message": "Previous",
+    "message": "Anterior",
     "description": "The label used to navigate to the previous doc"
   },
   "theme.docs.paginator.next": {
-    "message": "Next",
+    "message": "Continuar",
     "description": "The label used to navigate to the next doc"
   },
   "theme.DocSidebarItem.toggleCollapsedCategoryAriaLabel": {
@@ -128,201 +128,201 @@
     "description": "The ARIA label to toggle the collapsible sidebar category"
   },
   "theme.docs.tagDocListPageTitle.nDocsTagged": {
-    "message": "One doc tagged|{count} docs tagged",
+    "message": "Un documento etiquetado|{count} documentos etiquetados",
     "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.docs.tagDocListPageTitle": {
-    "message": "{nDocsTagged} with \"{tagName}\"",
+    "message": "{nDocsTagged} por \"{tagName}\"",
     "description": "The title of the page for a docs tag"
   },
   "theme.docs.versionBadge.label": {
-    "message": "Version: {versionLabel}"
+    "message": "Versión: {versionLabel}"
   },
   "theme.docs.versions.unreleasedVersionLabel": {
-    "message": "This is unreleased documentation for {siteTitle} {versionLabel} version.",
+    "message": "Está es documentación sin liberar para {siteTitle} {versionLabel} versión.",
     "description": "The label used to tell the user that he's browsing an unreleased doc version"
   },
   "theme.docs.versions.unmaintainedVersionLabel": {
-    "message": "This is documentation for {siteTitle} {versionLabel}, which is no longer actively maintained.",
+    "message": "Está es documentación para {siteTitle} {versionLabel}, que ya no se mantiene activamente.",
     "description": "The label used to tell the user that he's browsing an unmaintained doc version"
   },
   "theme.docs.versions.latestVersionSuggestionLabel": {
-    "message": "For up-to-date documentation, see the {latestVersionLink} ({versionLabel}).",
+    "message": "Para obtener la última documentación actualizada, consulte {latestVersionLink} ({versionLabel}).",
     "description": "The label used to tell the user to check the latest version"
   },
   "theme.docs.versions.latestVersionLinkLabel": {
-    "message": "latest version",
+    "message": "ultima versión",
     "description": "The label used for the latest version suggestion link label"
   },
   "theme.common.editThisPage": {
-    "message": "Edit this page",
+    "message": "Editar esta página",
     "description": "The link label to edit the current page"
   },
   "theme.common.headingLinkTitle": {
-    "message": "Direct link to heading",
+    "message": "Enlace directo al encabezado",
     "description": "Title for link to heading"
   },
   "theme.lastUpdated.atDate": {
-    "message": " on {date}",
+    "message": " el {date}",
     "description": "The words used to describe on which date a page has been last updated"
   },
   "theme.lastUpdated.byUser": {
-    "message": " by {user}",
+    "message": " por {user}",
     "description": "The words used to describe by who the page has been last updated"
   },
   "theme.lastUpdated.lastUpdatedAtBy": {
-    "message": "Last updated{atDate}{byUser}",
+    "message": "Última actualización{atDate}{byUser}",
     "description": "The sentence used to display when a page has been last updated, and by who"
   },
   "theme.navbar.mobileVersionsDropdown.label": {
-    "message": "Versions",
+    "message": "Versiones",
     "description": "The label for the navbar versions dropdown on mobile view"
   },
   "theme.common.skipToMainContent": {
-    "message": "Skip to main content",
+    "message": "Ir al contenido principal",
     "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
   },
   "theme.TOCCollapsible.toggleButtonLabel": {
-    "message": "On this page",
+    "message": "En esta página",
     "description": "The label used by the button on the collapsible TOC component"
   },
   "theme.tags.tagsListLabel": {
-    "message": "Tags:",
+    "message": "Etiquetas:",
     "description": "The label alongside a tag list"
   },
   "theme.CodeBlock.copied": {
-    "message": "Copied",
+    "message": "Copiado",
     "description": "The copied button label on code blocks"
   },
   "theme.CodeBlock.copyButtonAriaLabel": {
-    "message": "Copy code to clipboard",
+    "message": "Copiar código al portapaples",
     "description": "The ARIA label for copy code blocks button"
   },
   "theme.CodeBlock.copy": {
-    "message": "Copy",
+    "message": "Copiar",
     "description": "The copy button label on code blocks"
   },
   "theme.CodeBlock.wordWrapToggle": {
-    "message": "Toggle word wrap",
+    "message": "Cambiar el formato de las palabras",
     "description": "The title attribute for toggle word wrapping button of code block lines"
   },
   "theme.blog.sidebar.navAriaLabel": {
-    "message": "Blog recent posts navigation",
+    "message": "Navegación de publicaciones recientes",
     "description": "The ARIA label for recent posts in the blog sidebar"
   },
   "theme.navbar.mobileLanguageDropdown.label": {
-    "message": "Languages",
+    "message": "Idiomas",
     "description": "The label for the mobile language switcher dropdown"
   },
   "theme.docs.sidebar.collapseButtonTitle": {
-    "message": "Collapse sidebar",
+    "message": "Ocultar la barra lateral",
     "description": "The title attribute for collapse button of doc sidebar"
   },
   "theme.docs.sidebar.collapseButtonAriaLabel": {
-    "message": "Collapse sidebar",
+    "message": "Ocultar la barra lateral",
     "description": "The title attribute for collapse button of doc sidebar"
   },
   "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
-    "message": "← Back to main menu",
+    "message": "← Volver al menú principal",
     "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
   },
   "theme.docs.sidebar.expandButtonTitle": {
-    "message": "Expand sidebar",
+    "message": "Expandir barra lateral",
     "description": "The ARIA label and title attribute for expand button of doc sidebar"
   },
   "theme.docs.sidebar.expandButtonAriaLabel": {
-    "message": "Expand sidebar",
+    "message": "Expandir barra lateral",
     "description": "The ARIA label and title attribute for expand button of doc sidebar"
   },
   "theme.SearchBar.seeAll": {
     "message": "See all {count} results"
   },
   "theme.SearchBar.label": {
-    "message": "Search",
+    "message": "Buscar",
     "description": "The ARIA label and placeholder for search button"
   },
   "theme.SearchPage.documentsFound.plurals": {
-    "message": "One document found|{count} documents found",
+    "message": "Un documento encontrado|{count} documentos encontrados",
     "description": "Pluralized label for \"{count} documents found\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.SearchPage.existingResultsTitle": {
-    "message": "Search results for \"{query}\"",
+    "message": "Resultados de búsqueda para \"{query}\"",
     "description": "The search page title for non-empty query"
   },
   "theme.SearchPage.emptyResultsTitle": {
-    "message": "Search the documentation",
+    "message": "Buscar en la documentación",
     "description": "The search page title for empty query"
   },
   "theme.SearchPage.inputPlaceholder": {
-    "message": "Type your search here",
+    "message": "Escribe tu búsqueda aquí",
     "description": "The placeholder for search page input"
   },
   "theme.SearchPage.inputLabel": {
-    "message": "Search",
+    "message": "Buscar",
     "description": "The ARIA label for search page input"
   },
   "theme.SearchPage.algoliaLabel": {
-    "message": "Search by Algolia",
+    "message": "Búsqueda por Algolia",
     "description": "The ARIA label for Algolia mention"
   },
   "theme.SearchPage.noResultsText": {
-    "message": "No results were found",
+    "message": "No se han encontrado resultados",
     "description": "The paragraph for empty search result"
   },
   "theme.SearchPage.fetchingNewResults": {
-    "message": "Fetching new results...",
+    "message": "Obteniendo nuevos resultados...",
     "description": "The paragraph for fetching new search results"
   },
   "What can I use an ENS name for?": {
-    "message": "What can I use an ENS name for?",
+    "message": "¿Para qué sirve un nombre ENS?",
     "description": "Landing Page Card Title"
   },
   "An ENS Name is an way to remember you cryptocurrency addresses": {
-    "message": "An ENS Name is an way to remember you cryptocurrency addresses",
+    "message": "Un nombre ENS es una forma de recordar tus direcciones de criptomonedas",
     "description": "Landing Page Card Subtitle"
   },
   "Registering a Name": {
-    "message": "Registering a Name",
+    "message": "Registrando un Nombre",
     "description": "Landing Page Card Title"
   },
   "Go to the ENS Manager App and connect your wallet with the connect-button.": {
-    "message": "Go to the ENS Manager App and connect your wallet with the connect-button.",
+    "message": "Vaya a la aplicación ENS Manager y conecte su cartera con el botón conectar.",
     "description": "Landing Page Card Subtitle"
   },
   "Setting your Profile Avatar": {
-    "message": "Setting your Profile Avatar",
+    "message": "Configurando su Avatar de Perfil",
     "description": "Landing Page Card Title"
   },
   "If you don’t already have an ENS name, you can register an ENS name or import a DNS domain name you already own at app.ens.domains.ç You can set an NFT avatar for either kind of ENS name.": {
-    "message": "If you don’t already have an ENS name, you can register an ENS name or import a DNS domain name you already own at app.ens.domains.ç You can set an NFT avatar for either kind of ENS name.",
+    "message": "Si aún no tiene un nombre ENS, puede registrar un nombre ENS o importar un nombre de dominio DNS que ya posee. También puede configurar un avatar NFT para los nombres de DNS importados.",
     "description": "Landing Page Card Subtitle"
   },
   "Frequently Asked Questions": {
-    "message": "Frequently Asked Questions",
+    "message": "Preguntas frecuentes",
     "description": "FAQ"
   },
   "Learn about your new web3 identity.": {
-    "message": "Learn about your new web3 identity.",
+    "message": "Aprenda más sobre su nueva identidad web 3.",
     "description": "Landing page - hero subtitle"
   },
   "Using your Name": {
-    "message": "Using your Name",
+    "message": "Utilizar su nombre Ens",
     "description": "Landing Page Card Title"
   },
   "An ENS Name is an way to remember you cryptocurrency addresses.": {
-    "message": "An ENS Name is an way to remember you cryptocurrency addresses.",
+    "message": "Un nombre ENS es una forma de recordar tus direcciones de criptomonedas.",
     "description": "Landing Page Card Subtitle"
   },
   "Setting your Avatar": {
-    "message": "Setting your Avatar",
+    "message": "Establezca avatar",
     "description": "Landing Page Card Title"
   },
   "Transferring Names": {
-    "message": "Transferring Names",
+    "message": "Transfiriendo nombres",
     "description": "Landing Page Card Title"
   },
   "You can easily transfer your name by changing the controller record on the manager app.": {
-    "message": "You can easily transfer your name by changing the controller record on the manager app.",
+    "message": "Puedes transferir fácilmente tu nombre cambiando el registro del controlador en la aplicación del administrador.",
     "description": "Landing Page Card Subtitle"
   }
 }
