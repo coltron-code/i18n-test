@@ -1,6 +1,6 @@
 ---
 title: '¿Qué es un nombre primario?'
-id: Nombres primarios explicados
+id: Primary Names Explained
 ---
 
 # ¿Qué es un nombre primario?

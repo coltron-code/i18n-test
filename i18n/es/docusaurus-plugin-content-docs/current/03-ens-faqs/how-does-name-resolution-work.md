@@ -1,6 +1,6 @@
 ---
 title: '¿Cómo funciona la resolución de nombre?'
-id: Resolución de nombre explicada
+id: Name resolution explained
 ---
 
 # ¿Cómo funciona la resolución nombre?

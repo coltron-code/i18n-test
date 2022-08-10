@@ -1,6 +1,6 @@
 ---
 title: Renovaciones explicadas
-id: Renovaciones
+id: Renewals
 ---
 
 # Renovaciones

@@ -1,6 +1,6 @@
 ---
 title: '¿Qué es una subasta de primas?'
-id: subasta premium explicada
+id: premium auction explained
 ---
 
 # ¿Qué es una subasta de primas?

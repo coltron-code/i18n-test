@@ -1,6 +1,6 @@
 ---
 title: '¿Cómo funcionan las transacciones?'
-id: Explicando transacciones
+id: Explaining Transactions
 ---
 
 # ¿Cómo funcionan las transacciones?

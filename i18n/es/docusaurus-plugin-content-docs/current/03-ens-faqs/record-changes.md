@@ -1,6 +1,6 @@
 ---
 title: Cambios de registro explicados
-id: Cambios de registro
+id: Record Changes
 ---
 
 # Cambios de registro

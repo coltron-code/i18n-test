@@ -1,6 +1,6 @@
 ---
 title: Subastas Premium Explicadas
-id: Subastas Premium
+id: Premium Auctions
 draft: True
 ---
 

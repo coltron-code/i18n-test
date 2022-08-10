@@ -1,6 +1,6 @@
 ---
 title: '¿Cómo utilizo un nombre ENS después de comprarlo en un mercado secundario?'
-id: Pasos después de la compra secundaria.
+id: Steps after secondary purchase.
 ---
 
 # ¿Cómo utilizo un nombre ENS después de comprarlo en un mercado secundario?

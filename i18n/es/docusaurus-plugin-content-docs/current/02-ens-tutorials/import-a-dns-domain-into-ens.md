@@ -1,6 +1,6 @@
 ---
 title: Importar un dominio DNS a ENS
-id: Importar DNS
+id: DNS Import
 ---
 
 # Importar un dominio DNS a ENS

@@ -1,6 +1,6 @@
 ---
 title: '¿Cuánto demorara terminar mi transacción?'
-id: Cuánto tiempo duran las transacciones
+id: How long do transactions take
 ---
 
 # ¿Cuánto demorara terminar mi transacción?

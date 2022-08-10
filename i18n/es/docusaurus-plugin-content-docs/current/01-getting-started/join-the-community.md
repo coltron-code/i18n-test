@@ -1,6 +1,6 @@
 ---
 title: Únase a la Comunidad
-id: Comunidad
+id: Community
 ---
 
 # Únase a la Comunidad

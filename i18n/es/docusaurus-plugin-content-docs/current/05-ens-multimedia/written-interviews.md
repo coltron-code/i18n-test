@@ -1,6 +1,6 @@
 ---
 title: Entrevistas escritas
-id: Entrevistas escritas
+id: Written Interviews
 ---
 
 # Entrevistas escritas

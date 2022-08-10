@@ -1,6 +1,6 @@
 ---
 title: '¿Qué son las tasas de gas?'
-id: Cuotas de gas explicadas
+id: Gas Fees Explained
 ---
 
 # ¿Qué son las tasas de gas?

@@ -1,9 +1,9 @@
 ---
-title: 'Cuayanto cuesta registrar un nombre ENS'
-id: 'Cuanto cuesta'
+title: '¿Cuánto cuesta registrar un nombre ENS?'
+id: How much does it cost
 ---
 
-# Cuanto cuesta registrar un nombre ENS?
+# ¿Cuánto cuesta registrar un nombre ENS?
 
 ### Costes de registro de dominios:
 

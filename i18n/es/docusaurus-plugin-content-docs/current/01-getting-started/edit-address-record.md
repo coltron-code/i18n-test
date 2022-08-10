@@ -1,6 +1,6 @@
 ---
 title: Añadir otras direcciones de billetera a su nombre ENS.
-id: Añadir direcciones de Crypto
+id: Add Crpyto Addresses
 ---
 
 # Añadir otras direcciones de billetera a su nombre ENS.

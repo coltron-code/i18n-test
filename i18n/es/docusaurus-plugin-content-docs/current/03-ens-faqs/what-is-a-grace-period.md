@@ -1,6 +1,6 @@
 ---
 title: '¿Qué es un período de gracia?'
-id: Período de gracia
+id: Grace Periods
 ---
 
 # ¿Qué es un período de gracia?

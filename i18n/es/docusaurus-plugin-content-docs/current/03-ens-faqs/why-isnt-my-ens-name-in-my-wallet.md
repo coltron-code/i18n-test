@@ -1,6 +1,6 @@
 ---
 title: '¿Por qué no aparece mi nombre ENS en mi billetera?'
-id: 'Por qué no aparece mi nombre ENS en mi billetera'
+id: Why isn't my ENS Name in my wallet
 ---
 
 # ¿Por qué no aparece mi nombre ENS en mi billetera?
