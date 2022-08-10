@@ -14,8 +14,7 @@ export const articles = [
         An ENS Name is an way to remember you cryptocurrency addresses.
       </Translate>
     ),
-    url: "docs/getting-started/Community",
-    // url: "/docs/getting-started/Using%20Your%20ENS%20Name",
+    url: "docs/getting-started/Using%20Your%20ENS%20Name",
   },
   {
     title: (
