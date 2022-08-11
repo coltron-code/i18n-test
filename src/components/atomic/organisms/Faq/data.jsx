@@ -14,7 +14,7 @@ export const articles = [
         An ENS Name is an way to remember you cryptocurrency addresses.
       </Translate>
     ),
-    url: "/docs/getting-started/Using%20Your%20ENS%20Name",
+    url: "docs/getting-started/Using%20Your%20ENS%20Name",
   },
   {
     title: (
@@ -28,7 +28,7 @@ export const articles = [
         connect-button.
       </Translate>
     ),
-    url: "/docs/getting-started/Registering%20Names",
+    url: "docs/getting-started/Registering%20Names",
   },
   {
     title: (
@@ -43,7 +43,7 @@ export const articles = [
         set an NFT avatar for either kind of ENS name.
       </Translate>
     ),
-    url: "/docs/getting-started/Setting%20Avatar",
+    url: "docs/getting-started/Setting%20Avatar",
   },
   {
     title: (
@@ -56,6 +56,6 @@ export const articles = [
        You can easily transfer your name by changing the controller record on the manager app.
       </Translate>
     ),
-    url: "/docs/ens-tutorials/Name%20Transfer",
+    url: "docs/ens-tutorials/Name%20Transfer",
   },
 ];
