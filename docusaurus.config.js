@@ -8,7 +8,7 @@
 const config = {
   title: "ENS Learn Docs",
   tagline: "Learn about your Web3 Username",
-  url: "https://learn.ens.domains",
+  url: "https://www.learndocs.xyz",
   baseUrl: "/",
   onBrokenLinks: "ignore",
   onBrokenMarkdownLinks: "ignore",
