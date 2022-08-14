@@ -39,7 +39,7 @@ export const articles = [
     description: (
       <Translate description="Landing Page Card Subtitle">
         If you don’t already have an ENS name, you can register an ENS name or
-        import a DNS domain name you already own at app.ens.domains.ç You can
+        import a DNS domain name you already own at app.ens.domains. You can
         set an NFT avatar for either kind of ENS name.
       </Translate>
     ),

@@ -15,8 +15,6 @@ If you don’t already have an ENS name, you can register an ENS name or import 
 
 A primary name is a record of which ENS name you own that represents your wallet. 
 
-If you don’t have a primary name set, you can follow <!-- **Primary Name Guide Link ** --> as a guide.
-
 ### Are you willing to spend ETH on gas fees?
 
 You're probably aware of what gas fees on the Ethereum network are by now if not, you can <!-- [read here](/references/ethereum/what-are-gas-fees.md) -->, and since this transaction will be **on-chain**, it means that you **will have to spend ETH**. If you're ok with that, perfect! You can continue following the steps
@@ -46,16 +44,15 @@ In this example, you would put all of this information like this:
 ```
 eip155:1/erc721:0xb7F7F6C52F2e2fdb1963Eab30438024864c313F6/2430
 ```
-
 **Warning: The token standard cannot contain a hyphen, and must be all lowercase. So even though OpenSea may show it as "ERC-721", enter it as "erc721".**
 
-As mentioned at the start of the article, this will be much easier in the future. For now though, everything needs to be set and corrected manually, so be aware of the previous common mistakes, as well as others such as:
+Setting your profile avatar requires a manual entry to your text records. to avoid mistakes, follow these directions carefully:
 
 * Setting the token standard to "erc721", even though it is actually "erc1155"
 * Using a cryptokitty as the NFT, which is **currently not supported**
 * Using any other NFT that doesn't use either NFT standard entirely. If you're unsure about this, you can always [ask in the discord](https://chat.ens.domains).
 
-Click `Save` once your correctly formatted NFT has been entered into the text field. You will be prompted to approve a transaction in your wallet.. You will be prompted to approve a transaction in your wallet. Once that transaction shows that it is confirmed on Etherscan, your avatar is set!
+Click `Save` once your correctly formatted NFT has been entered into the text field. You will be prompted to approve a transaction in your wallet. Once that transaction shows that it is confirmed on Etherscan, your avatar is set!
 
 ### Try it out!
 
