@@ -13,14 +13,14 @@ const config = {
   onBrokenLinks: "ignore",
   onBrokenMarkdownLinks: "ignore",
   favicon: "./img/favicon.ico",
-  scripts: [
+  /* scripts: [
     {
       src: "https://plausible.io/js/script.js",
       defer: true,
       "data-domain": "yourdomain.com",
     },
   ],
-
+*/
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "ens-dao", // Usually your GitHub org/user name.
