@@ -9,7 +9,7 @@ const config = {
   title: "ENS Learn Docs",
   tagline: "Learn about your Web3 Username",
   url: "https://learn.ens.domains",
-  baseUrl: "/build/index.html/",
+  baseUrl: "/",
   onBrokenLinks: "ignore",
   onBrokenMarkdownLinks: "ignore",
   favicon: "./img/favicon.ico",
