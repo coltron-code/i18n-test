@@ -49,13 +49,13 @@ eip155:1/erc721:0xb7F7F6C52F2e2fdb1963Eab30438024864c313F6/2430
 
 **Advertencia: El estándar de token no puede contener un guión, y debe estar en minúsculas. Así que aunque OpenSea pueda mostrarlo como "ERC-721", introdúzcalo como "erc721".**
 
-As mentioned at the start of the article, this will be much easier in the future. Por ahora, sin embargo, todo tiene que ser establecido y corregido manualmente, así que tenga en cuenta los errores comunes anteriores, así como otros como:
+Como se mencionó al principio del artículo, esto será mucho más fácil en el futuro. Por ahora, sin embargo, todo tiene que ser establecido y corregido manualmente, así que tenga en cuenta los errores comunes anteriores, así como otros como:
 
 * Establecer el estándar de token a "erc721", aunque en realidad es "erc1155"
 * Usando un criptokitty como NFT, el cual **no es actualmente compatible**
 * Usando cualquier otro NFT que no use ni el estándar NFT por completo. Si no estás seguro de esto, siempre puedes [preguntar en Discord](https://chat.ens.domains).
 
-Haga clic en `Save` una vez que el NFT formateado correctamente haya sido introducido en el campo de texto. Se le pedirá que apruebe una transacción en su billetera. You will be prompted to approve a transaction in your wallet. Una vez que esa transacción muestre que se confirma en Etherscan, ¡tu avatar está establecido!
+Haga clic en `Save` una vez que el NFT formateado correctamente haya sido introducido en el campo de texto. Se le pedirá que apruebe una transacción en su billetera. Se le pedirá que apruebe una transacción en su billetera. Una vez que esa transacción muestre que se confirma en Etherscan, ¡tu avatar está establecido!
 
 ### ¡Pruébalo!
 

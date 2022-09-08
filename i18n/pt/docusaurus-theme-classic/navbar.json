@@ -1,0 +1,26 @@
+{
+  "title": {
+    "message": "Learn Docs",
+    "description": "The title in the navbar"
+  },
+  "item.label.Docs": {
+    "message": "Docs",
+    "description": "Navbar item with label Docs"
+  },
+  "item.label.Governance": {
+    "message": "Governance",
+    "description": "Navbar item with label Governance"
+  },
+  "item.label.Developers": {
+    "message": "Developers",
+    "description": "Navbar item with label Developers"
+  },
+  "item.label.Governance Docs": {
+    "message": "Governance Docs",
+    "description": "Navbar item with label Governance Docs"
+  },
+  "item.label.Developer Docs": {
+    "message": "Developer Docs",
+    "description": "Navbar item with label Developer Docs"
+  }
+}

@@ -1,33 +1,33 @@
 ---
-title: Why are there 3 steps for registration?
+title: '¿Por qué hay 3 pasos para registrar un nombre ENS?'
 id: Why are there 3 steps
 ---
 
-# Why are there 3 steps for registration?
+# ¿Por qué hay 3 pasos para registrar un nombre ENS?
 
-There are three steps involved in registering an ENS name that is intended to solve the problem of front-running.
+Hay tres pasos involucrados en el registro de un nombre ENS por la razón de frenar intentos de utilizar información privilegiada.
 
-### Step 1: Request to Register
+### Paso 1: Solicitud de Registro
 
-The commit in Step 1 hashes a secret key generated and stored in your browser's local storage and hashes it with your wallet address and ENS name so that you can later(within 7 days) request to register it without revealing it publicly.
+Cuando empiezas la transacción, la ejecución genera una clave secreta que luego se almacena en su navegador local y se codifica con su dirección de billetera y nombre ENS. Puedes registrar su nombre ENS dentro de siete días después de este primer paso.
 
 
-**Note:** Completing Step 1 does not _reserve or hold_ the ENS name. The name will not be registered until Step 3 completes.
+**Nota:** Completar el paso 1 no _reserva o mantiene_ el nombre ENS. El nombre no se registrará hasta que se cumpla el paso 3.
 
 ![Step 1. Request to register.](./img/registration-1.png "Step 1. Request to register.")
 
-### Step 2: Wait for 1 minute
+### Paso 2: Espere 1 minuto
 
-A 1 minute waiting period begins to prevent the front-running of the ENS name registration.
+Un periodo de esperar comienza al empezar del Paso 2; por la razón de frenar intentos de utilizar la información privada.
 
 ![Step 2. Wait for one minute.](./img/registration-1.png "Step 2. Wait for one minute.")
 
-### Step 3: Register
+### Paso 3: Registrar
 
-The registration transaction is performed and the ENS name is registered; the ERC-721 NFT for the ENS name is minted and transferred into the registrant's wallet.
+Cuando la transacción termina, se actualiza el nombre ENS y se registra el ERC-721 NFT conectado el nombre ENS.
 
 
 ![Step 3. Register.](./img/registration-1.png "Step 3. Register.")
-### In conclusion
+### Conclusión
 
-If a miner wanted to try and front-run this process, they would have to send their own hashed secret, wait 1 minute and then register the name. Since they can't hold back your transaction for one minute, they will fail to do so, and the miner can't use the secret compared to the earlier hash.
+Si un minero quería intentar utilizar información privilegiada, tendrían que enviar su propio secreto cifrado, esperar 1 minuto y luego registrar el nombre ENS. Ya que no pueden retener tu transacción por un minuto, no podrán hacerlo, y el minero no puede usar el secreto comparado con el hash anterior.
