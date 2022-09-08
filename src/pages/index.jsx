@@ -21,12 +21,16 @@ export default function Home() {
           href="https://YOUR_APP_ID-dsn.algolia.net"
           crossOrigin
         />
+        <link rel="stylesheet" 
+          href="https://cdn.jsdelivr.net/npm/@docsearch/css@3" 
+          />
       </Head>
       <Layout>
         <StyledContainer>
           <Hero />
           <Faq />
         </StyledContainer>
+        <script src="https://cdn.jsdelivr.net/npm/@docsearch/js@3"></script>
       </Layout>
     </>
   );
