@@ -1,3 +1,7 @@
+---
+title:  Common Terminology
+id:  Common Blockchain Terminology
+---
 
 # Common Terminology
 

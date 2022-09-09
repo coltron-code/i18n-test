@@ -55,7 +55,7 @@ As mentioned at the start of the article, this will be much easier in the future
 * Usando un criptokitty como NFT, el cual **no es actualmente compatible**
 * Usando cualquier otro NFT que no use ni el estándar NFT por completo. Si no estás seguro de esto, siempre puedes [preguntar en Discord](https://chat.ens.domains).
 
-Haga clic en `Save` una vez que el NFT formateado correctamente haya sido introducido en el campo de texto. Se le pedirá que apruebe una transacción en su billetera. You will be prompted to approve a transaction in your wallet. Una vez que esa transacción muestre que se confirma en Etherscan, ¡tu avatar está establecido!
+Haga clic en `Save` una vez que el NFT formateado correctamente haya sido introducido en el campo de texto. Se le pedirá que apruebe una transacción en su billetera. Una vez que esa transacción muestre que se confirma en Etherscan, ¡tu avatar está establecido!
 
 ### ¡Pruébalo!
 
