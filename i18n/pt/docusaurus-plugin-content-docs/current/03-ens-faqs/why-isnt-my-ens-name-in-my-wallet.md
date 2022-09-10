@@ -5,7 +5,7 @@ id: Why isn't my ENS Name in my wallet
 
 # Por que meu Nome ENS não está na minha carteira?
 
-Por favor, confirme se o seu registro foi bem-sucedido, verificando seu histórico de transações no [Etherscan.io](https://www.etherscan.io). Os registros bem sucedidos serão registrados em duas transações: `Commit` e `Register with Config`. Essas transações representam a Passo 1 e o Passo 3 do processo de registro ENS.
+Por favor, confirme se o seu registro foi bem-sucedido, verificando seu histórico de transações no [Etherscan.io](https://www.etherscan.io). Os registros bem sucedidos serão registrados em duas transações: `Commit` e uar `Register with Config`. Essas transações representam a Passo 1 e o Passo 3 do processo de registro ENS.
 
 ![Compromisso e registro com as transações de configuração](./img/not-in-wallet-1.png "Ethercan mostrando o Compromisso e Registro com as transações de configuração")
 

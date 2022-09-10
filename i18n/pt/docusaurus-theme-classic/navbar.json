@@ -4,23 +4,23 @@
     "description": "The title in the navbar"
   },
   "item.label.Docs": {
-    "message": "Docs",
+    "message": "Documentos",
     "description": "Navbar item with label Docs"
   },
   "item.label.Governance": {
-    "message": "Governance",
+    "message": "Governança",
     "description": "Navbar item with label Governance"
   },
   "item.label.Developers": {
-    "message": "Developers",
+    "message": "Desenvolvedores",
     "description": "Navbar item with label Developers"
   },
   "item.label.Governance Docs": {
-    "message": "Governance Docs",
+    "message": "Documentação de governança",
     "description": "Navbar item with label Governance Docs"
   },
   "item.label.Developer Docs": {
-    "message": "Developer Docs",
+    "message": "Documentação do Desenvolvedor",
     "description": "Navbar item with label Developer Docs"
   }
 }

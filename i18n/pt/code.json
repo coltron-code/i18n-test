@@ -382,7 +382,7 @@
     "description": "The title for error screen of search modal"
   },
   "theme.SearchModal.errorScreen.helpText": {
-    "message": "You might want to check your network connection.",
+    "message": "Considere verificar a sua conexão á rede.",
     "description": "The help text for error screen of search modal"
   },
   "theme.SearchModal.footer.selectText": {
