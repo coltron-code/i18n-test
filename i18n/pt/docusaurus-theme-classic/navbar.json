@@ -1,0 +1,26 @@
+{
+  "title": {
+    "message": "Learn Docs",
+    "description": "The title in the navbar"
+  },
+  "item.label.Docs": {
+    "message": "Documentos",
+    "description": "Navbar item with label Docs"
+  },
+  "item.label.Governance": {
+    "message": "Governança",
+    "description": "Navbar item with label Governance"
+  },
+  "item.label.Developers": {
+    "message": "Desenvolvedores",
+    "description": "Navbar item with label Developers"
+  },
+  "item.label.Governance Docs": {
+    "message": "Documentação de governança",
+    "description": "Navbar item with label Governance Docs"
+  },
+  "item.label.Developer Docs": {
+    "message": "Documentação do Desenvolvedor",
+    "description": "Navbar item with label Developer Docs"
+  }
+}

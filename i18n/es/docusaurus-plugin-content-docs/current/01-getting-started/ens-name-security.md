@@ -3,7 +3,7 @@ title: Keeping Your ENS Name Secure
 id: ENS Name Security
 ---
 
-# Seguridad Su Nombre ENS
+# Asegurando su nombre ENS
 
 Es importante almacenar su nombre ENS seguramente. Perdiendo su nombre ENS es como perder su identidad en la Web3. Siempre debes hacer todo lo posible por asegurar tu nombre de ENS. En primer lugar, nunca comparte su frase de semilla o su claves privadas a nadie por ninguna razón. Algunos usuarios de ENS prefieren almacenar su nombre en una billetera fría. Esto se significa que el registro del nombre ENS se establece en la cartera fría. Esta billetera sería el **dueño** del nombre de ENS. La billetera del registrante tiene el derecho a transferir el nombre de propiedad a otra billetera. Nombres ENS son [ERC721](https://ethereum.org/en/developers/docs/standards/tokens/erc-721/) NFT compatibles en Ethereum.
 

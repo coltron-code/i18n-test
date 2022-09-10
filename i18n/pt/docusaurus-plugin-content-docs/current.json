@@ -1,0 +1,86 @@
+{
+  "version.label": {
+    "message": "Avançar",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Getting Started": {
+    "message": "Primeiros passos",
+    "description": "The label for category Getting Started in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Getting Started.link.generated-index.description": {
+    "message": "Comece aqui a aprender sobre seu nome ENS.",
+    "description": "The generated-index page description for category Getting Started in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.ENS Tutorials": {
+    "message": "Tutoriais ENS",
+    "description": "The label for category ENS Tutorials in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.ENS Tutorials.link.generated-index.description": {
+    "message": "Tutoriais e guias para usar seu nome ENS.",
+    "description": "The generated-index page description for category ENS Tutorials in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.ENS Faqs": {
+    "message": "Perguntas frequentes",
+    "description": "The label for category ENS Faqs in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.ENS Faqs.link.generated-index.description": {
+    "message": "Perguntas Frequentes sobre nomes ENS.",
+    "description": "The generated-index page description for category ENS Faqs in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Blockchain Basics": {
+    "message": "Fundamentos da Blockchain",
+    "description": "The label for category Blockchain Basics in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Blockchain Basics.link.generated-index.description": {
+    "message": "Aprenda sobre tópicos comuns na blockchain",
+    "description": "The generated-index page description for category Blockchain Basics in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.ENS Multimedia": {
+    "message": "ENS Multimídia",
+    "description": "The label for category ENS Multimedia in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.ENS Multimedia.link.generated-index.description": {
+    "message": "Podcasts e artigos sobre ENS",
+    "description": "The generated-index page description for category ENS Multimedia in sidebar tutorialSidebar"
+  },
+  "sidebar.defaultSidebar.category.Getting Started": {
+    "message": "Primeiros passos",
+    "description": "The label for category Getting Started in sidebar defaultSidebar"
+  },
+  "sidebar.defaultSidebar.category.Getting Started.link.generated-index.description": {
+    "message": "Comece aqui a aprender sobre seu nome ENS.",
+    "description": "The generated-index page description for category Getting Started in sidebar defaultSidebar"
+  },
+  "sidebar.defaultSidebar.category.ENS Tutorials": {
+    "message": "Tutoriais ENS",
+    "description": "The label for category ENS Tutorials in sidebar defaultSidebar"
+  },
+  "sidebar.defaultSidebar.category.ENS Tutorials.link.generated-index.description": {
+    "message": "Tutoriais e guias para usar seu nome ENS.",
+    "description": "The generated-index page description for category ENS Tutorials in sidebar defaultSidebar"
+  },
+  "sidebar.defaultSidebar.category.ENS Faqs": {
+    "message": "Perguntas frequentes",
+    "description": "The label for category ENS Faqs in sidebar defaultSidebar"
+  },
+  "sidebar.defaultSidebar.category.ENS Faqs.link.generated-index.description": {
+    "message": "Perguntas Frequentes sobre nomes ENS.",
+    "description": "The generated-index page description for category ENS Faqs in sidebar defaultSidebar"
+  },
+  "sidebar.defaultSidebar.category.Blockchain Basics": {
+    "message": "Fundamentos da Blockchain",
+    "description": "The label for category Blockchain Basics in sidebar defaultSidebar"
+  },
+  "sidebar.defaultSidebar.category.Blockchain Basics.link.generated-index.description": {
+    "message": "Aprenda sobre tópicos comuns na blockchain",
+    "description": "The generated-index page description for category Blockchain Basics in sidebar defaultSidebar"
+  },
+  "sidebar.defaultSidebar.category.ENS Multimedia": {
+    "message": "ENS Multimídia",
+    "description": "The label for category ENS Multimedia in sidebar defaultSidebar"
+  },
+  "sidebar.defaultSidebar.category.ENS Multimedia.link.generated-index.description": {
+    "message": "Podcasts e artigos sobre ENS",
+    "description": "The generated-index page description for category ENS Multimedia in sidebar defaultSidebar"
+  }
+}

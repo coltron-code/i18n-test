@@ -7,7 +7,7 @@ id: DNS Import
 
 ### Introducción
 
-DNSSEC (The Domain Name System Security Extensions) establishes a chain of trust from the root key which signed by ICANN (.) and down through each key. Dado que DNSSEC está habilitado y una dirección ETH es puesta en el subdominio del dominio que usted posee (por ejemplo: `_ens.yourdomain. ld`), El gestor ENS permite a cualquiere individuo enviar el hash de la cadena a el `DNSSEC Oracle` contrato inteligente.
+La Sistema de Nombres de Domino y Extensiones de Seguridad (DNSSEC) establece una cadena de confianza a partir de la clave raíz firmado por ICANN(.) y abajo a través de cada clave. Dado que DNSSEC está habilitado y una dirección ETH es puesta en el subdominio del dominio que usted posee (por ejemplo: `_ens.yourdomain. ld`), El gestor ENS permite a cualquiere individuo enviar el hash de la cadena a el `DNSSEC Oracle` contrato inteligente.
 
 ### Paso 1
 
@@ -16,7 +16,7 @@ Al empezar utilizar el gestor ENS, se muestra así:
 ![Opening the manager app.](./img/dns-1.png "Opening the manager app.")
 
 
-If your DNS provider already supports DNSSEC-signed domains, all you do is to enable the option on the DNS manager. If they don’t, you’ll need to migrate to someone who does.
+Si su proveedor DNS ya soporta dominios firmados por DNSSEC, solo tienes que habilitar la opción en el administrador DNS. Si su proveedor DNS no soporta esta función, tienes que elegir un proveedor que si soporta.
 
 Recomendamos [EasyDNS](https://www.easydns.com) o [Google Cloud DNS](https://cloudplatform.googleblog.com/2017/11/DNSSEC-now-available-in-Cloud-DNS.html). La guía de configuración de EasyDNS para DNSSEC es [aquí](https://fusion.easydns.com/Knowledgebase/Article/View/18/7/dnssec), mientras que la de Google está [aquí](https://cloud.google.com/dns/dnssec-config). Cualquiera que sea el proveedor que necesite, asegúrese de seleccionar firmas RSA y SHA256 hashing para no incurrir en las altas tasas de gas de intentar vincular su nombre de ENS con claves ECDSA.
 

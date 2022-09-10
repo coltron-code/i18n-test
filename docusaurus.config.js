@@ -8,7 +8,7 @@
 const config = {
   title: "ENS Learn Docs",
   tagline: "Learn about your Web3 Username",
-  url: "https://learn.ens.domains",
+  url: "https://www.learndocs.xyz",
   baseUrl: "/",
   onBrokenLinks: "ignore",
   onBrokenMarkdownLinks: "ignore",
@@ -31,7 +31,7 @@ const config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: "en",
-    locales: ["en", "es"],
+    locales: ["en", "es", "pt"],
     localeConfigs: {
       en: {
         htmlLang: "en-GB",
