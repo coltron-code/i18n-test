@@ -73,8 +73,8 @@ const config = {
     ({
       // Mock Algolia Keys: Insert Real ENS Credentials once approved by Algolia Docsearch
       algolia: {
-        appId: "KT45RNSXPT",
-        apiKey: "4b11072c841385683e6ed6e5579bbbcb",
+        appId: "LY14B8NFKW",
+        apiKey: "d309216e5b9159d75db8540889317477",
        // appId: "R2IYF7ETH7",
       // apiKey: "599cec31baffa4868cae4e79f180729b",
         indexName: "docsearch",
