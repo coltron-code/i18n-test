@@ -75,7 +75,6 @@ const config = {
       algolia: {
         appId: "LY14B8NFKW",
         apiKey: "d309216e5b9159d75db8540889317477",
-      // apiKey: "599cec31baffa4868cae4e79f180729b",
         indexName: "ens-learndocs",
       },
       announcementBar: {

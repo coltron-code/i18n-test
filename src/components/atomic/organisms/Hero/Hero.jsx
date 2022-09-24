@@ -64,9 +64,9 @@ function Hero() {
       </h3>
       <SearchWrapper>
         <DocSearch
-          appId="R2IYF7ETH7"
-          apiKey="599cec31baffa4868cae4e79f180729b"
-          indexName="docsearch"
+          appId="LY14B8NFKW"
+          apiKey="d309216e5b9159d75db8540889317477"
+          indexName="ens-learndocs"
         />
       </SearchWrapper>
     </StyledHeroContainer>

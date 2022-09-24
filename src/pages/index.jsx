@@ -18,7 +18,7 @@ export default function Home() {
       <Head>
         <link
           rel="preconnect"
-          href="https://YOUR_APP_ID-dsn.algolia.net"
+          href="https://LY14B8NFKW-dsn.algolia.net"
           crossOrigin
         />
         <link rel="stylesheet" 
